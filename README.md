@@ -24,10 +24,10 @@ Teniendo en cuenta la diversidad de los datos con los que se cuenta, se proponen
 # Mockup
 ![Mockup](docs/mockup.png)
 
-## References
+## Referencias
 - La Silla Vacia: *Así es el país que voto NO*. [Available here](http://lasillavacia.com/hagame-el-cruce/asi-es-el-pais-que-voto-no-58201).
 
-## Contributors
+## Autor
 <!-- Contributors table START -->
 | [![Meili Vanegas](https://avatars.githubusercontent.com/mvanegas10?s=100)<br /><sub>Meili Vanegas</sub>](https://github.com/mvanegas10)<br /> |
 | :---: |

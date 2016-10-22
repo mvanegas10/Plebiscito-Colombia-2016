@@ -1,12 +1,12 @@
-var margin1 = {top: 100, right: 10, bottom: 100, left: 100},
+var margin1 = {top: 50, right: 7, bottom: 90, left: 100},
     width1 = 650 - margin1.left - margin1.right,
-    height1 = 245 - margin1.top - margin1.bottom;
+    height1 = 185 - margin1.top - margin1.bottom;
 
-var margin2 = {top: 20, right: 10, bottom: 50, left: 140},
-    width2 = 580 - margin2.left - margin2.right,
+var margin2 = {top: 20, right: 10, bottom: 50, left: 110},
+    width2 = 550 - margin2.left - margin2.right,
     height2 = 500 - margin2.top - margin2.bottom;
 
-var x1 = d3.scaleLinear().range([0, width1 - 50]);
+var x1 = d3.scaleLinear().range([0, width1 - 90]);
 var y1 = d3.scaleLinear().range([0, height1]);
 var z1 = d3.scaleSequential(d3.interpolateRdBu);
 
@@ -225,6 +225,8 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 		}		
 	});
 	scatterplot = data;
+	createScatterplot("Porcentaje No", "Porcentaje de Oscar Ivan Zuluaga (2da vuelta)", x2, y2, z2);
+	
 });
 
 

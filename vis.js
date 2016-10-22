@@ -57,7 +57,9 @@ function createMatrix(data, svg, x, y, z) {
 		.attr("class", "bars")
 		.attr("x", function (d) {return x(fnAccX(d));})
 	  	.attr("y", function (d) {return y(fnAccY(d));})
-	  	.style("fill", function (d) {return z(d.pearson);})
+	  	.style("fill", function (d) {
+			var x = (d.pearson * (1/2)) + 0.5;
+	  		return z(x);})
 	  	.attr("height", h)
 		.attr("width", h)
 		.on("click", function(d){
@@ -182,7 +184,6 @@ d3.csv("/docs/results.csv", function(err, data) {
 	var var2 = {};
 
 	data.forEach(function (item) {
-		console.log(item)
 		var1[item.Variable1] = true;
 		var2[item.Variable2] = true;		
 		item.pendiente =+ item.pendiente;
@@ -244,6 +245,7 @@ $.getJSON("/docs/colombia.json",function(colombia){
 	        	d.properties.indicators = {};
 	        	for (key in e) {
 	        		if (key !== "Departamento") d.properties.indicators[key] = + e[key];
+	        		else d.properties.indicators[key] = e[key];
 	        	}
        		}
       	})
@@ -252,27 +254,31 @@ $.getJSON("/docs/colombia.json",function(colombia){
 	var map = L.map('map', { zoomControl:false }).setView([4, -74], 5.8);
 	    map.dragging.disable();
 	    map.scrollWheelZoom.disable();
-			var layer = L.geoJson(colombia, {
-				clickable: true,
-				style: function(feature) {
-					console.log(feature);
-	        return {
-	          stroke: true,
-	          color: "#0d174e",
-	          weight: 1,
-	          fill: true,
-	          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito"),
-	          fillOpacity: 1
-	        };
-	      },
-	      onEachFeature: function (feature, layer) {
-	    		layer.on({
-	        	click: function(e) {
-				console.log(feature.properties.indicators);
-	            // selectedCountry(e.target.feature.properties.indicators);
-	          }
-	    		});
-				},
+		var layer = L.geoJson(colombia, {
+			clickable: true,
+			style: function(feature) {
+		        return {
+		          stroke: true,
+		          color: "#0d174e",
+		          weight: 1,
+		          fill: true,
+		          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito"),
+		          fillOpacity: 1
+		        };
+		    },
+			onEachFeature: function (feature, layer) {
+				layer.on({
+					click: function(e) { console.log(e);},
+					mouseover: function (e) { 
+						var indicators = e.target.feature.properties.indicators;
+						var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";
+						var porcentaje = (ganador === "Sí")? indicators["Resultado plebiscito"]: -indicators["Resultado plebiscito"];
+						this.bindPopup(indicators.Departamento + '<br>' + ganador + ": " + porcentaje);
+						this.openPopup();
+					},
+					mouseout: function (e) { this.closePopup();},
+				});    	
+			}
 	    });
 	    layer.addTo(map);
 	    var legend = L.control({
@@ -289,16 +295,17 @@ $.getJSON("/docs/colombia.json",function(colombia){
 	      }
 	      return div;
 	    };
-	    legend.addTo(map);
-});
+    	legend.addTo(map);
+	}
+);
 
 function setColor (init, fin, indicators, key, value) {
 	if (value !== undefined) {
-		var x = (value * (init + 0.001)) / fin;
-		return z2(x);
+		var x = (value * (1/2)) + 0.5;
+		return d3.scaleSequential(d3.interpolateRdBu)(x);
 	}  
 	else if (indicators !== undefined) {
-		var x = (indicators[key] * (init + 0.001)) / fin;
-		return z2(x);
+		var x = (indicators[key] * (1/2)) + 0.5;
+		return d3.scaleSequential(d3.interpolateRdBu)(x);
 	}  
 }

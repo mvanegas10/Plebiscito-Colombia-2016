@@ -22,6 +22,7 @@ var svg1 = d3.select("#chart1").append("svg")
 
 var comparadores = [];    
 var variables = [];
+var correlation = [];
 var scatterplot = [];
 
 function createMatrix(data, svg, x, y, z) {
@@ -92,18 +93,18 @@ function createScatterplot(attrX, attrY, x, y, z) {
 	svg.append("g")
 	  .attr("class", "x axis")
 	  .attr("transform", "translate(0," + height2 + ")")
-	  .call(xAxis)
+	  .call(xAxis);
 
 	svg.append("text")
 	  .attr("class", "label")
 	  .attr("x", width2)
 	  .attr("y", height2 + 30)
 	  .style("text-anchor", "end")
-	  .text(attrX)
+	  .text(attrX);
 
 	svg.append("g")
 	  .attr("class", "y axis")
-	  .call(yAxis)
+	  .call(yAxis);
 
 	svg.append("text")
 	  .attr("class", "label")
@@ -111,7 +112,7 @@ function createScatterplot(attrX, attrY, x, y, z) {
 	  .attr("x", 10)
 	  .attr("y", 15)
 	  .style("text-anchor", "end")
-	  .text(attrY)
+	  .text(attrY);
 
 	var dots = svg.selectAll(".dot")
 	  .data(scatterplot);
@@ -128,12 +129,27 @@ function createScatterplot(attrX, attrY, x, y, z) {
       .transition()
       .duration(1000)	  
 	  .attr("cx", function(d) {	return x(d[attrX]); })
-	  .attr("cy", function(d) { return y(d[attrY]); })
-	  .append("svg:title")
-   		.text(function(d) { return d.Municipio; });	  	  
+	  .attr("cy", function(d) { return y(d[attrY]); });
+
+	var corrData = correlation.filter(function (d) {
+		if (d.Variable1 === attrX && d.Variable2 === attrY) return d;});
+	var pendiente = corrData[0].pendiente;
+	var intercepto = corrData[0].intercepto;
+
+	var line = d3.line()
+	    .x(function(d) { return x(d); })
+	    .y(function(d) { 
+	    	console.log((pendiente*d) + intercepto)
+	    	return y((pendiente*d) + intercepto); });
+
+	svg.append("path")
+	  .datum([0,0.5,1])
+	  .attr("class", "line")
+	  .attr("d", line);
+
 }
 
-d3.csv("/docs/results.csv", function(err, correlation) {
+d3.csv("/docs/results.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;
@@ -141,7 +157,7 @@ d3.csv("/docs/results.csv", function(err, correlation) {
 	var var1 = {};
 	var var2 = {};
 
-	correlation.forEach(function (item) {
+	data.forEach(function (item) {
 		var1[item.Variable1] = true;
 		var2[item.Variable2] = true;		
 		item.pendiente =+ item.pendiente;
@@ -152,7 +168,7 @@ d3.csv("/docs/results.csv", function(err, correlation) {
 	comparadores = Object.keys(var1);
 	variables = Object.keys(var2);
 
-	correlation.forEach(function (item) {
+	data.forEach(function (item) {
 		for (var i = 0; i < comparadores.length; i++) {
 			if (comparadores[i] === item.Variable1) {
 				item.posY = i;				
@@ -165,6 +181,7 @@ d3.csv("/docs/results.csv", function(err, correlation) {
 		}
 	});
 
+	correlation = data;
 	createMatrix(correlation, svg1, x1, y1, z1);
 });
 

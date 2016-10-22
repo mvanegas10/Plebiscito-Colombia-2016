@@ -6,7 +6,7 @@ var margin2 = {top: 20, right: 10, bottom: 50, left: 110},
     width2 = 550 - margin2.left - margin2.right,
     height2 = 500 - margin2.top - margin2.bottom;
 
-var x1 = d3.scaleLinear().range([0, width1 - 90]);
+var x1 = d3.scaleLinear().range([0, width1 - 100]);
 var y1 = d3.scaleLinear().range([0, height1]);
 var z1 = d3.scaleSequential(d3.interpolateRdBu);
 
@@ -226,7 +226,48 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 	});
 	scatterplot = data;
 	createScatterplot("Porcentaje No", "Porcentaje de Oscar Ivan Zuluaga (2da vuelta)", x2, y2, z2);
-	
+
 });
 
 
+$.getJSON("colombia.json",function(colombia){
+	var map = L.map('map', { zoomControl:false }).setView([4, -72], 5.8);
+	    map.dragging.disable();
+	    map.scrollWheelZoom.disable();
+			var layer = L.geoJson(colombia, {
+				clickable: true,
+				style: function(feature) {
+	        return {
+	          stroke: true,
+	          color: "#0d174e",
+	          weight: 1,
+	          fill: true,
+	          fillColor: "#000",
+	          fillOpacity: 1
+	        };
+	      },
+	      onEachFeature: function (feature, layer) {
+	    		layer.on({
+	        	click: function(e) {
+				console.log(feature);
+	            // selectedCountry(e.target.feature.properties.indicators);
+	          }
+	    		});
+				},
+	    });
+	    layer.addTo(map);
+	    var legend = L.control({
+	    	position: 'bottomleft'
+	    });
+	    legend.onAdd = function() {
+	    	var div = L.DomUtil.create('div', 'legend'),
+	      	values = [10,20,30,40,50,60,70,80,90];
+	      div.innerHTML += 'EPI SCORE<br>';
+	      for (var i = 0; i < values.length; i++) {
+	      	div.innerHTML +=
+	        	'<i style="background:' + "#000" + '"></i> '+ values[i] + (values[i + 1] ? ' &ndash; ' + values[i + 1] +'<br>' : '+');
+	      }
+	      return div;
+	    };
+	    legend.addTo(map);
+});

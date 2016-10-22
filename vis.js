@@ -1,4 +1,4 @@
-var margin1 = {top: 100, right: 10, bottom: 100, left: 200},
+var margin1 = {top: 100, right: 10, bottom: 100, left: 100},
     width1 = 650 - margin1.left - margin1.right,
     height1 = 245 - margin1.top - margin1.bottom;
 
@@ -15,10 +15,10 @@ var y2 = d3.scaleLinear().range([height2, 0]);
 var z2 = d3.scaleSequential(d3.interpolatePuBuGn);
 
 var svg1 = d3.select("#chart1").append("svg")
-    .attr("width", width1 + margin1.left + margin1.right)
-    .attr("height", height1 + margin1.top + margin1.bottom)
-  	.append("g")
-    .attr("transform", "translate(" + margin1.left + "," + margin1.top + ")");
+	.attr("width", width1 + margin1.left + margin1.right)
+	.attr("height", height1 + margin1.top + margin1.bottom)
+		.append("g")
+	.attr("transform", "translate(" + margin1.left + "," + margin1.top + ")");
 
 var comparadores = [];    
 var variables = [];
@@ -26,6 +26,7 @@ var correlation = [];
 var scatterplot = [];
 
 function createMatrix(data, svg, x, y, z) {
+
 	var fnAccX = function(d) { return d.posX; };
     var fnAccY = function(d) { return d.posY; };
 
@@ -51,13 +52,9 @@ function createMatrix(data, svg, x, y, z) {
       .attr('y', function (d) {return y(fnAccY(d));})
       .text(function (d) { return d.Variable2;});
 
-	var rects = svg.selectAll(".bars")
-	  .data(data);
-
-	var rectsEnter = rects.enter()
-		.append("rect");
-
-	rects.merge(rectsEnter)
+	svg.selectAll(".bars")
+	  	.data(data)
+		.enter().append("rect")
 		.attr("class", "bars")
 		.attr("x", function (d) {return x(fnAccX(d));})
 	  	.attr("y", function (d) {return y(fnAccY(d));})
@@ -65,12 +62,30 @@ function createMatrix(data, svg, x, y, z) {
 	  	.attr("height", h)
 		.attr("width", h)
 		.on("click", function(d){
+			console.log(d3.mouse(this)[1]);
+			posY = (d3.mouse(this)[1] <= 20)? 12: (d3.mouse(this)[1] <= 38)? 35: 58;
+			var labelsData = [{"text": d.Variable1, "posX": -10, "posY": posY, "anchor": "end"},
+			{"text": d.Variable2, "posX": d3.mouse(this)[0], "posY": height1 + 30, "anchor": "middle"}];
+			updateLabels(svg, labelsData);
 			createScatterplot(d.Variable1, d.Variable2, x2, y2, z2);
-		})
-		.append("svg:title")
-   			.text(function(d) { 
-   				// console.log(d.Variable1)
-   				return d.Variable1; });	    
+		});
+}
+
+function updateLabels(svg, labelsData) {
+	var labels = svg.selectAll(".label")
+		.data(labelsData);
+		
+	var labelsEnter = labels.enter()
+		.append("text")
+		.attr("class", "label");
+
+	labels.exit().remove();
+
+	labels.merge(labelsEnter)									
+		.attr("x", function (d) {return d.posX;})
+		.attr("y", function (d) {return d.posY;})
+		.style("text-anchor", function (d) {return d.anchor;})
+		.text(function (d) { return d.text;});		
 }
 
 function createScatterplot(attrX, attrY, x, y, z) {
@@ -136,17 +151,21 @@ function createScatterplot(attrX, attrY, x, y, z) {
 	var pendiente = corrData[0].pendiente;
 	var intercepto = corrData[0].intercepto;
 
+	var line_0 = d3.line()
+	    .x(0)
+	    .y(height2);
+
 	var line = d3.line()
 	    .x(function(d) { return x(d); })
-	    .y(function(d) { 
-	    	console.log((pendiente*d) + intercepto)
-	    	return y((pendiente*d) + intercepto); });
+	    .y(function(d) { return y((pendiente*d) + intercepto); });
 
 	svg.append("path")
-	  .datum([0,0.5,1])
+	  .datum([0,1])
 	  .attr("class", "line")
+	  .attr("d",line_0)
+      .transition()
+      .duration(1000)	  
 	  .attr("d", line);
-
 }
 
 d3.csv("/docs/results.csv", function(err, data) {

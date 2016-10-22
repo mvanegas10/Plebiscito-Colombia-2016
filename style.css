@@ -4,8 +4,8 @@ body {
 
 .line {
   fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
+  stroke: rgb(105, 168, 207);
+  stroke-width: 2px;
 }
 
 .bars:hover{

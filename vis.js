@@ -2,11 +2,11 @@ var margin1 = {top: 100, right: 10, bottom: 100, left: 100},
     width1 = 650 - margin1.left - margin1.right,
     height1 = 245 - margin1.top - margin1.bottom;
 
-var margin2 = {top: 20, right: 10, bottom: 50, left: 60},
-    width2 = 500 - margin2.left - margin2.right,
+var margin2 = {top: 20, right: 10, bottom: 50, left: 140},
+    width2 = 580 - margin2.left - margin2.right,
     height2 = 500 - margin2.top - margin2.bottom;
 
-var x1 = d3.scaleLinear().range([0, width1]);
+var x1 = d3.scaleLinear().range([0, width1 - 50]);
 var y1 = d3.scaleLinear().range([0, height1]);
 var z1 = d3.scaleSequential(d3.interpolateRdBu);
 
@@ -62,13 +62,19 @@ function createMatrix(data, svg, x, y, z) {
 	  	.attr("height", h)
 		.attr("width", h)
 		.on("click", function(d){
-			console.log(d3.mouse(this)[1]);
-			posY = (d3.mouse(this)[1] <= 20)? 12: (d3.mouse(this)[1] <= 38)? 35: 58;
-			var labelsData = [{"text": d.Variable1, "posX": -10, "posY": posY, "anchor": "end"},
-			{"text": d.Variable2, "posX": d3.mouse(this)[0], "posY": height1 + 30, "anchor": "middle"}];
-			updateLabels(svg, labelsData);
+			updateLabels(svg, [{"text": d.Variable2, "posX": d3.mouse(this)[0]}]);
 			createScatterplot(d.Variable1, d.Variable2, x2, y2, z2);
 		});
+
+	svg.selectAll(".p")
+		.data([{"text":"Abstención", "posY":13},{"text":"Porcentaje Si", "posY":36},{"text":"Porcentaje No", "posY":59}])
+		.enter()
+		.append("text")
+		.attr("class", "p")								
+		.attr("x", -10)
+		.attr("y", function (d) {return d.posY;})
+		.style("text-anchor", "end")
+		.text(function (d) { return d.text;});			
 }
 
 function updateLabels(svg, labelsData) {
@@ -83,8 +89,8 @@ function updateLabels(svg, labelsData) {
 
 	labels.merge(labelsEnter)									
 		.attr("x", function (d) {return d.posX;})
-		.attr("y", function (d) {return d.posY;})
-		.style("text-anchor", function (d) {return d.anchor;})
+		.attr("y", height1 + 30)
+		.style("text-anchor", "middle")
 		.text(function (d) { return d.text;});		
 }
 

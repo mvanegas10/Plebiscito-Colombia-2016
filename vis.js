@@ -1,30 +1,24 @@
-var margin1 = {top: 100, right: 10, bottom: 30, left: 200},
+var margin1 = {top: 100, right: 10, bottom: 100, left: 200},
     width1 = 650 - margin1.left - margin1.right,
-    height1 = 175 - margin1.top - margin1.bottom;
+    height1 = 245 - margin1.top - margin1.bottom;
 
-var margin2 = {top: 20, right: 10, bottom: 20, left: 10},
-    width2 = 600 - margin2.left - margin2.right,
-    height2 = 600 - margin2.top - margin2.bottom;
+var margin2 = {top: 20, right: 10, bottom: 50, left: 60},
+    width2 = 500 - margin2.left - margin2.right,
+    height2 = 500 - margin2.top - margin2.bottom;
 
 var x1 = d3.scaleLinear().range([0, width1]);
 var y1 = d3.scaleLinear().range([0, height1]);
-var z1 = d3.scaleOrdinal()
-	.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+var z1 = d3.scaleSequential(d3.interpolateRdBu);
 
 var x2 = d3.scaleLinear().range([0, width2]);
 var y2 = d3.scaleLinear().range([height2, 0]);
+var z2 = d3.scaleSequential(d3.interpolatePuBuGn);
 
 var svg1 = d3.select("#chart1").append("svg")
     .attr("width", width1 + margin1.left + margin1.right)
     .attr("height", height1 + margin1.top + margin1.bottom)
   	.append("g")
     .attr("transform", "translate(" + margin1.left + "," + margin1.top + ")");
-
-var svg2 = d3.select("#chart2").append("svg")
-    .attr("width", width2 + margin2.left + margin2.right)
-    .attr("height", height2 + margin2.top + margin2.bottom)
-  	.append("g")
-    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");  
 
 var comparadores = [];    
 var variables = [];
@@ -39,54 +33,85 @@ function createMatrix(data, svg, x, y, z) {
 
 	var h = 20;
 
+	const hover = svg.append('g')
+	  .data(data)
+      .attr('class', 'focus')
+      .style('display', 'none');   
+
+    hover.append('text')
+      .attr('x', function (d) {
+      	console.log(d)
+      	return x(fnAccX(d));})
+      .attr('y', -6)
+      .text(function (d) { return d.Variable1;});
+
+    hover.append('text')
+      .attr('x', -50)
+      .attr('y', function (d) {return y(fnAccY(d));})
+      .text(function (d) { return d.Variable2;});
+
 	var rects = svg.selectAll(".bars")
-	  	.data(data)
-		.enter().append("rect")
-			.attr("class", "bars")
-			.attr("x", function (d) {return x(fnAccX(d));})
-		  	.attr("y", function (d) {return y(fnAccY(d));})
-		  	.style("fill", function (d) {return z(d.pearson);})
-		  	.attr("height", h)
-			.attr("width", h)
-			.on("mouseover", function(){console.log("h");})	
-			.on("click", function(d){
-				createScatterplot(d.Variable1, d.Variable2, svg2, x2, y2);
-			});	     
+	  .data(data);
+
+	var rectsEnter = rects.enter()
+		.append("rect");
+
+	rects.merge(rectsEnter)
+		.attr("class", "bars")
+		.attr("x", function (d) {return x(fnAccX(d));})
+	  	.attr("y", function (d) {return y(fnAccY(d));})
+	  	.style("fill", function (d) {return z(d.pearson);})
+	  	.attr("height", h)
+		.attr("width", h)
+		.on("click", function(d){
+			createScatterplot(d.Variable1, d.Variable2, x2, y2, z2);
+		})
+		.append("svg:title")
+   			.text(function(d) { 
+   				// console.log(d.Variable1)
+   				return d.Variable1; });	    
 }
 
-function createScatterplot(attrX, attrY, svg, x, y) {
+function createScatterplot(attrX, attrY, x, y, z) {
 
-	var xAxis = d3.axisTop(x);
-	var yAxis = d3.axisRight(y); 
+	d3.select("#chart2").html("");
+  	d3.select("#chart2").selectAll("*").remove();
 
-	var fnAccX = function(d) { return d.attrX; };
-    var fnAccY = function(d) { return d.attrY; };
+  	var svg = d3.select("#chart2").append("svg")
+    .attr("width", width2 + margin2.left + margin2.right)
+    .attr("height", height2 + margin2.top + margin2.bottom)
+  	.append("g")
+    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");  
+
+	var xAxis = d3.axisBottom(x);
+	var yAxis = d3.axisLeft(y); 
 
 	x.domain([0, d3.max(scatterplot, function(d) { return d[attrX]; })]);
-	console.log(d3.max(scatterplot, function(d) { return d[attrX]; }));
   	y.domain([0, d3.max(scatterplot, function(d) { return d[attrY]; })]);
 
 	svg.append("g")
 	  .attr("class", "x axis")
 	  .attr("transform", "translate(0," + height2 + ")")
 	  .call(xAxis)
-	.append("text")
+
+	svg.append("text")
 	  .attr("class", "label")
 	  .attr("x", width2)
-	  .attr("y", -6)
+	  .attr("y", height2 + 30)
 	  .style("text-anchor", "end")
-	  .text("Sepal Width (cm)");
+	  .text(attrX)
 
 	svg.append("g")
 	  .attr("class", "y axis")
 	  .call(yAxis)
-	.append("text")
+
+	svg.append("text")
 	  .attr("class", "label")
 	  .attr("transform", "rotate(-90)")
-	  .attr("y", 6)
-	  .attr("dy", ".71em")
+	  .attr("x", 10)
+	  .attr("y", 15)
 	  .style("text-anchor", "end")
-	  .text("Sepal Length (cm)")
+	  .text(attrY)
 
 	var dots = svg.selectAll(".dot")
 	  .data(scatterplot);
@@ -94,12 +119,18 @@ function createScatterplot(attrX, attrY, svg, x, y) {
 	var dotsEnter = dots.enter()
 	  .append("circle");
 
-	dots.merge(dotsEnter)
+	dots.merge(dotsEnter)	  
 	  .attr("class", "dot")
 	  .attr("r", 3.5)
+	  .attr("cx", 0)
+	  .attr("cy", height2)	  
+	  .style("fill", z(1))
+      .transition()
+      .duration(1000)	  
 	  .attr("cx", function(d) {	return x(d[attrX]); })
 	  .attr("cy", function(d) { return y(d[attrY]); })
-	  .style("fill", function(d) { return "#000000"; });
+	  .append("svg:title")
+   		.text(function(d) { return d.Municipio; });	  	  
 }
 
 d3.csv("/docs/results.csv", function(err, correlation) {
@@ -147,8 +178,9 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 
 	data.forEach(function (item) {
 		for (var key in item) {
-			item[key] = + item[key];
-		}
+			if (key !== "Municipio" && key !== "Departamento") item[key] = + item[key];
+			else item[key] = item[key];
+		}		
 	});
 	scatterplot = data;
 });

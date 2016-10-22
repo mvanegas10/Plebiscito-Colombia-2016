@@ -24,6 +24,7 @@ var comparadores = [];
 var variables = [];
 var correlation = [];
 var scatterplot = [];
+var departamentos = [];
 
 function createMatrix(data, svg, x, y, z) {
 
@@ -41,9 +42,7 @@ function createMatrix(data, svg, x, y, z) {
       .style('display', 'none');   
 
     hover.append('text')
-      .attr('x', function (d) {
-      	console.log(d)
-      	return x(fnAccX(d));})
+      .attr('x', function (d) { return x(fnAccX(d));})
       .attr('y', -6)
       .text(function (d) { return d.Variable1;});
 
@@ -183,6 +182,7 @@ d3.csv("/docs/results.csv", function(err, data) {
 	var var2 = {};
 
 	data.forEach(function (item) {
+		console.log(item)
 		var1[item.Variable1] = true;
 		var2[item.Variable2] = true;		
 		item.pendiente =+ item.pendiente;
@@ -229,27 +229,46 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 
 });
 
+d3.csv("/docs/departamentos.csv", function(err, data) {
+	if(err) {
+		console.err(err);    
+	return;
+	}
+	departamentos = data;
+});
 
-$.getJSON("colombia.json",function(colombia){
-	var map = L.map('map', { zoomControl:false }).setView([4, -72], 5.8);
+$.getJSON("/docs/colombia.json",function(colombia){
+	colombia.features.forEach(function(d){
+	    departamentos.forEach(function (e){
+	        if(e.Departamento.toUpperCase().indexOf(d.properties.NOMBRE_DPT) !== -1){
+	        	d.properties.indicators = {};
+	        	for (key in e) {
+	        		if (key !== "Departamento") d.properties.indicators[key] = + e[key];
+	        	}
+       		}
+      	})
+    });	          
+
+	var map = L.map('map', { zoomControl:false }).setView([4, -74], 5.8);
 	    map.dragging.disable();
 	    map.scrollWheelZoom.disable();
 			var layer = L.geoJson(colombia, {
 				clickable: true,
 				style: function(feature) {
+					console.log(feature);
 	        return {
 	          stroke: true,
 	          color: "#0d174e",
 	          weight: 1,
 	          fill: true,
-	          fillColor: "#000",
+	          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito"),
 	          fillOpacity: 1
 	        };
 	      },
 	      onEachFeature: function (feature, layer) {
 	    		layer.on({
 	        	click: function(e) {
-				console.log(feature);
+				console.log(feature.properties.indicators);
 	            // selectedCountry(e.target.feature.properties.indicators);
 	          }
 	    		});
@@ -257,17 +276,29 @@ $.getJSON("colombia.json",function(colombia){
 	    });
 	    layer.addTo(map);
 	    var legend = L.control({
-	    	position: 'bottomleft'
+	    	position: 'bottomright'
 	    });
 	    legend.onAdd = function() {
 	    	var div = L.DomUtil.create('div', 'legend'),
-	      	values = [10,20,30,40,50,60,70,80,90];
-	      div.innerHTML += 'EPI SCORE<br>';
+	      	values = [1,0.5,0,-0.5,-1];
+	      	labels = ["Sí","","","","No"];
+	      div.innerHTML += 'Resultado plebiscito<br>';
 	      for (var i = 0; i < values.length; i++) {
 	      	div.innerHTML +=
-	        	'<i style="background:' + "#000" + '"></i> '+ values[i] + (values[i + 1] ? ' &ndash; ' + values[i + 1] +'<br>' : '+');
+	        	'<i style="background:' + setColor(-1,1,undefined,undefined,values[i]) + '"></i> '+ labels[i] + '<br>';
 	      }
 	      return div;
 	    };
 	    legend.addTo(map);
 });
+
+function setColor (init, fin, indicators, key, value) {
+	if (value !== undefined) {
+		var x = (value * (init + 0.001)) / fin;
+		return z2(x);
+	}  
+	else if (indicators !== undefined) {
+		var x = (indicators[key] * (init + 0.001)) / fin;
+		return z2(x);
+	}  
+}

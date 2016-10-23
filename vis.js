@@ -63,12 +63,12 @@ function createMatrix(data, svg, x, y, z) {
 	  	.attr("height", h)
 		.attr("width", h)
 		.on("click", function(d){
-			updateLabels(svg, [{"text": d.Variable2, "posX": d3.mouse(this)[0]}]);
+			updateLabels(svg, [{"text": d.Variable2, "posX": d3.mouse(this)[0], "posY": (height1 + 30)},{"text": (d.pearson).toFixed(2), "posX": d3.mouse(this)[0], "posY": -5}]);
 			createScatterplot(d.Variable1, d.Variable2, x2, y2, z2);
 		});
 
 	svg.selectAll(".p")
-		.data([{"text":"Abstención", "posY":13},{"text":"Porcentaje Si", "posY":36},{"text":"Porcentaje No", "posY":59}])
+		.data([{"text":"Porcentaje No", "posY":13},{"text":"Porcentaje Sí","posY":36},{"text":"Abstención", "posY":59}])
 		.enter()
 		.append("text")
 		.attr("class", "p")								
@@ -90,7 +90,7 @@ function updateLabels(svg, labelsData) {
 
 	labels.merge(labelsEnter)									
 		.attr("x", function (d) {return d.posX;})
-		.attr("y", height1 + 30)
+		.attr("y", function (d) {return d.posY;})
 		.style("text-anchor", "middle")
 		.text(function (d) { return d.text;});		
 }
@@ -226,7 +226,7 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 		}		
 	});
 	scatterplot = data;
-	createScatterplot("Porcentaje No", "Porcentaje de Oscar Ivan Zuluaga (2da vuelta)", x2, y2, z2);
+	createScatterplot("PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
 
 });
 

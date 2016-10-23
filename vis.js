@@ -26,11 +26,14 @@ var correlation = [];
 var scatterplot = [];
 var departamentos = [];
 var departamentos_results = [];
+var info = L.control({
+    	position: 'topleft'
+    });
 
 function createMatrix(departamento, data, svg, x, y, z) {
     if (departamento !== undefined){
     	d3.select("#selection").style("padding-left","9cm").text(departamento);
-    	d3.select("#button").style("visibility","visible").text("Deshacer selección");
+    	d3.select("#button").style("visibility","visible").attr("text-anchor", "middle").text("Deshacer selección");
     }
     else {
     	d3.select("#selection").style("padding-left","2cm").text("Seleccione un departamento");
@@ -341,63 +344,63 @@ $.getJSON("/docs/colombia.json",function(colombia){
        		}
       	})
     });	          
-
+	
 	var map = L.map('map', { zoomControl:false }).setView([4, -73.5], 5.6);
-	    map.dragging.disable();
-	    map.scrollWheelZoom.disable();
-		var layer = L.geoJson(colombia, {
-			clickable: true,
-			style: function(feature) {
-		        return {
-		          stroke: true,
-		          color: "#0d174e",
-		          weight: 1,
-		          fill: true,
-		          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito", undefined,true),
-		          fillOpacity: 1
-		        };
-		    },
-			onEachFeature: function (feature, layer) {
-				layer.on({
-					click: function(e) { 
-						var depto = e.target.feature.properties.indicators.Departamento;
-						var dataMatrix = departamentos_results.filter(function (d) {
-							if (d.Departamento === depto) return d;
-						});
-						createMatrix(depto, dataMatrix, svg1, x1, y1, z1);
-						updateLabels(svg1,[]);
-						var newData = scatterplot.filter(function (e) {
-							if (e.Departamento === depto) return e;
-						});
-						createScatterplot(newData, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
-						console.log(e);},
-					// mouseover: function (e) { 
-					// 	var indicators = e.target.feature.properties.indicators;
-					// 	var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";
-					// 	var porcentaje = (ganador === "Sí")? indicators["Resultado plebiscito"]: -indicators["Resultado plebiscito"];
-					// 	this.bindPopup(indicators.Departamento + '<br>' + ganador + ": " + porcentaje);
-					// 	this.openPopup();
-					// },
-					// mouseout: function (e) { this.closePopup();},
-				});    	
-			}
-	    });
-	    layer.addTo(map);
-	    var legend = L.control({
-	    	position: 'bottomright'
-	    });
-	    legend.onAdd = function() {
-	    	var div = L.DomUtil.create('div', 'legend'),
-	      	values = [1,0.5,0,-0.5,-1];
-	      	labels = ["Sí","","Empate","","No"];
-	      div.innerHTML += 'Resultado plebiscito<br>';
-	      for (var i = 0; i < values.length; i++) {
-	      	div.innerHTML +=
-	        	'<i style="background:' + setColor(-1,1,undefined,undefined,values[i], false) + '"></i> '+ labels[i] + '<br>';
-	      }
-	      return div;
-	    };
-    	legend.addTo(map);
+    map.dragging.disable();
+    map.scrollWheelZoom.disable();
+	info.addTo(map);
+	var layer = L.geoJson(colombia, {
+		clickable: true,
+		style: function(feature) {
+	        return {
+	          stroke: true,
+	          color: "#0d174e",
+	          weight: 1,
+	          fill: true,
+	          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito", undefined,true),
+	          fillOpacity: 1
+	        };
+	    },
+		onEachFeature: function (feature, layer) {
+			layer.on({
+				click: function(e) { 
+					var depto = e.target.feature.properties.indicators.Departamento;
+					var dataMatrix = departamentos_results.filter(function (d) {
+						if (d.Departamento === depto) return d;
+					});
+					createMatrix(depto, dataMatrix, svg1, x1, y1, z1);
+					updateLabels(svg1,[]);
+					var newData = scatterplot.filter(function (e) {
+						if (e.Departamento === depto) return e;
+					});
+					createScatterplot(newData, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
+					console.log(e);},
+				mouseover: function (e) { 
+					var indicators = e.target.feature.properties.indicators;
+					var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";
+					var porcentaje = (ganador === "Sí")? (indicators["Resultado plebiscito"]).toFixed(2): -(indicators["Resultado plebiscito"]).toFixed(2);
+					info.update({"Departamento": indicators.Departamento, "Resultado": ganador, "Porcentaje": porcentaje});
+				},
+				mouseout: function (e) { info.update();},
+			});    	
+		}
+    });
+    layer.addTo(map);
+    var legend = L.control({
+    	position: 'bottomright'
+    });
+    legend.onAdd = function() {
+    	var div = L.DomUtil.create('div', 'legend'),
+      	values = [1,0.5,0,-0.5,-1];
+      	labels = ["Sí","","Empate","","No"];
+      div.innerHTML += 'Resultado plebiscito<br>';
+      for (var i = 0; i < values.length; i++) {
+      	div.innerHTML +=
+        	'<i style="background:' + setColor(-1,1,undefined,undefined,values[i], false) + '"></i> '+ labels[i] + '<br>';
+      }
+      return div;
+    };
+	legend.addTo(map);
 	}
 );
 
@@ -421,3 +424,18 @@ function returnToColombia (){
 	updateLabels(svg1,[]);
 	createScatterplot(scatterplot, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
 }
+
+info.onAdd = function(map) {
+    this._div = L.DomUtil.create('div', 'info'); // --> info refers to the CSS style to apply to the new object
+    this.update();
+    return this._div;
+};
+
+info.update = function(props) {
+    var infoString = '<h4> Datos </h4>';
+    for (var item in props) {
+        infoString += '<b>' + item + '</b> ' + props[item] + '</b> <br />';
+    }
+
+    this._div.innerHTML = infoString;
+};

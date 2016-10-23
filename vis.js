@@ -254,7 +254,7 @@ $.getJSON("/docs/colombia.json",function(colombia){
       	})
     });	          
 
-	var map = L.map('map', { zoomControl:false }).setView([4, -74], 5.8);
+	var map = L.map('map', { zoomControl:false }).setView([4, -73.5], 5.8);
 	    map.dragging.disable();
 	    map.scrollWheelZoom.disable();
 		var layer = L.geoJson(colombia, {

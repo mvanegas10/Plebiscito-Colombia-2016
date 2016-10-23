@@ -27,7 +27,7 @@ var scatterplot = [];
 var departamentos = [];
 var departamentos_results = [];
 
-function createMatrix(data, svg, x, y, z) {
+function createMatrix(departamento, data, svg, x, y, z) {
 
 	var fnAccX = function(d) { return d.posX; };
     var fnAccY = function(d) { return d.posY; };
@@ -69,7 +69,13 @@ function createMatrix(data, svg, x, y, z) {
 		.attr("width", h)
 		.on("click", function(d){
 			updateLabels(svg, [{"text": d.Variable2, "posX": d3.mouse(this)[0], "posY": (height1 + 30)},{"text": (d.pearson).toFixed(2), "posX": d3.mouse(this)[0], "posY": -5}]);
-			createScatterplot(d.Variable1, d.Variable2, x2, y2, z2);
+			if (departamento !== undefined) {
+				var newData = scatterplot.filter(function (e) {
+					if (e.Departamento === departamento) return e;
+				});
+				createScatterplot(newData, d.Variable1, d.Variable2, x2, y2, z2);
+			}
+			else createScatterplot(scatterplot, d.Variable1, d.Variable2, x2, y2, z2);
 		});
 
 	svg.selectAll(".p")
@@ -100,7 +106,7 @@ function updateLabels(svg, labelsData) {
 		.text(function (d) { return d.text;});		
 }
 
-function createScatterplot(attrX, attrY, x, y, z) {
+function createScatterplot(data, attrX, attrY, x, y, z) {
 
 	d3.select("#chart2").html("");
   	d3.select("#chart2").selectAll("*").remove();
@@ -114,8 +120,8 @@ function createScatterplot(attrX, attrY, x, y, z) {
 	var xAxis = d3.axisBottom(x);
 	var yAxis = d3.axisLeft(y); 
 
-	x.domain([0, d3.max(scatterplot, function(d) { return d[attrX]; })]);
-  	y.domain([0, d3.max(scatterplot, function(d) { return d[attrY]; })]);
+	x.domain([0, d3.max(data, function(d) { return d[attrX]; })]);
+  	y.domain([0, d3.max(data, function(d) { return d[attrY]; })]);
 
 	svg.append("g")
 	  .attr("class", "x axis")
@@ -142,7 +148,7 @@ function createScatterplot(attrX, attrY, x, y, z) {
 	  .text(attrY);
 
 	var dots = svg.selectAll(".dot")
-	  .data(scatterplot);
+	  .data(data);
 
 	var dotsEnter = dots.enter()
 	  .append("circle");
@@ -216,7 +222,7 @@ d3.csv("/docs/results.csv", function(err, data) {
 	});
 
 	correlation = data;
-	createMatrix(correlation, svg1, x1, y1, z1);
+	createMatrix(undefined, correlation, svg1, x1, y1, z1);
 });
 
 d3.csv("/docs/plebiscito.csv", function(err, data) {
@@ -234,7 +240,7 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 		}		
 	});
 	scatterplot = data;
-	createScatterplot("PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
+	createScatterplot(scatterplot, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
 
 });
 
@@ -306,7 +312,7 @@ $.getJSON("/docs/colombia.json",function(colombia){
 						var dataMatrix = departamentos_results.filter(function (d) {
 							if (d.Departamento === depto) return d;
 						});
-						createMatrix(dataMatrix, svg1, x1, y1, z1);
+						createMatrix(depto, dataMatrix, svg1, x1, y1, z1);
 						console.log(e);},
 					mouseover: function (e) { 
 						var indicators = e.target.feature.properties.indicators;

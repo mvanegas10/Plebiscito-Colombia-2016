@@ -180,12 +180,15 @@ d3.csv("/docs/results.csv", function(err, data) {
 		console.err(err);    
 	return;
 	}
+
 	var var1 = {};
 	var var2 = {};
 
-	data.forEach(function (item) {
+	data.forEach(function (item) {		
+		item.Variable1 = item.Variable1.trim();		
+		item.Variable2 = item.Variable2.trim();	
 		var1[item.Variable1] = true;
-		var2[item.Variable2] = true;		
+		var2[item.Variable2] = true;			
 		item.pendiente =+ item.pendiente;
 		item.intercepto =+ item.intercepto;
 		item.pearson =+ item.pearson;
@@ -222,7 +225,7 @@ d3.csv("/docs/plebiscito.csv", function(err, data) {
 	data.forEach(function (item) {
 		for (var key in item) {
 			if (key !== "Municipio" && key !== "Departamento") item[key] = + item[key];
-			else item[key] = item[key];
+			else item[key] = item[key].trim();
 		}		
 	});
 	scatterplot = data;

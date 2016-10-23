@@ -24,6 +24,12 @@ body {
   stroke: #000;
 }
 
+button {
+  border-radius: 4px;
+  background-color: #e7e7e7;
+  color: black;
+}
+
 i {
   width: 18px;
   height: 18px;

@@ -28,8 +28,14 @@ var departamentos = [];
 var departamentos_results = [];
 
 function createMatrix(departamento, data, svg, x, y, z) {
-    if (departamento !== undefined)	d3.select("#selection").text(departamento);
-    else d3.select("#selection").text("Seleccione un departamento");
+    if (departamento !== undefined){
+    	d3.select("#selection").style("padding-left","9cm").text(departamento);
+    	d3.select("#button").style("visibility","visible").text("Deshacer selección");
+    }
+    else {
+    	d3.select("#selection").style("padding-left","2cm").text("Seleccione un departamento");
+    	d3.select("#button").style("visibility","hidden");
+    }
 
 	var fnAccX = function(d) { return d.posX; };
     var fnAccY = function(d) { return d.posY; };
@@ -359,15 +365,20 @@ $.getJSON("/docs/colombia.json",function(colombia){
 							if (d.Departamento === depto) return d;
 						});
 						createMatrix(depto, dataMatrix, svg1, x1, y1, z1);
+						updateLabels(svg1,[]);
+						var newData = scatterplot.filter(function (e) {
+							if (e.Departamento === depto) return e;
+						});
+						createScatterplot(newData, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
 						console.log(e);},
-					mouseover: function (e) { 
-						var indicators = e.target.feature.properties.indicators;
-						var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";
-						var porcentaje = (ganador === "Sí")? indicators["Resultado plebiscito"]: -indicators["Resultado plebiscito"];
-						this.bindPopup(indicators.Departamento + '<br>' + ganador + ": " + porcentaje);
-						this.openPopup();
-					},
-					mouseout: function (e) { this.closePopup();},
+					// mouseover: function (e) { 
+					// 	var indicators = e.target.feature.properties.indicators;
+					// 	var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";
+					// 	var porcentaje = (ganador === "Sí")? indicators["Resultado plebiscito"]: -indicators["Resultado plebiscito"];
+					// 	this.bindPopup(indicators.Departamento + '<br>' + ganador + ": " + porcentaje);
+					// 	this.openPopup();
+					// },
+					// mouseout: function (e) { this.closePopup();},
 				});    	
 			}
 	    });
@@ -403,4 +414,10 @@ function setColor (init, fin, indicators, key, value, map) {
 		var x = (indicators[key] * (1/2)) + 0.5;
 		return d3.scaleSequential(d3.interpolatePuOr)(x);
 	} 
+}
+
+function returnToColombia (){
+	createMatrix(undefined, correlation, svg1, x1, y1, z1);
+	updateLabels(svg1,[]);
+	createScatterplot(scatterplot, "PorcentajeNo", "PorcentajeOscarIvanZuluagaSegundaVuelta", x2, y2, z2);
 }

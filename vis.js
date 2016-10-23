@@ -280,7 +280,7 @@ d3.csv("/docs/results.csv", function(err, data) {
 	createMatrix(undefined, correlation, svg1, x1, y1, z1);
 });
 
-d3.csv("/docs/plebiscito.csv", function(err, data) {
+d3.csv("/docs/Plebiscito.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;

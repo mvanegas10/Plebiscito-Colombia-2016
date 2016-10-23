@@ -8,7 +8,7 @@ var margin2 = {top: 20, right: 10, bottom: 50, left: 110},
 
 var x1 = d3.scaleLinear().range([0, width1 - 100]);
 var y1 = d3.scaleLinear().range([0, height1]);
-var z1 = d3.scaleSequential(d3.interpolateRdBu);
+var z1 = d3.scaleSequential(d3.interpolatePuOr);
 
 var x2 = d3.scaleLinear().range([0, width2]);
 var y2 = d3.scaleLinear().range([height2, 0]);
@@ -28,6 +28,8 @@ var departamentos = [];
 var departamentos_results = [];
 
 function createMatrix(departamento, data, svg, x, y, z) {
+    if (departamento !== undefined)	d3.select("#selection").text(departamento);
+    else d3.select("#selection").text("Seleccione un departamento");
 
 	var fnAccX = function(d) { return d.posX; };
     var fnAccY = function(d) { return d.posY; };
@@ -86,7 +88,52 @@ function createMatrix(departamento, data, svg, x, y, z) {
 		.attr("x", -10)
 		.attr("y", function (d) {return d.posY;})
 		.style("text-anchor", "end")
-		.text(function (d) { return d.text;});			
+		.text(function (d) { return d.text;});
+
+	svg.append("text")
+	  .attr("x", width1 - 25)
+	  .attr("y", -42)
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", "middle")
+	  .style("font", "10px sans-serif")
+	  .text("Coeficiente de");
+	svg.append("text")
+	  .attr("x", width1 - 25)
+	  .attr("y", -32)
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", "middle")
+	  .style("font", "10px sans-serif")
+	  .text("correlación");
+	svg.append("text")
+	  .attr("x", width1 - 25)
+	  .attr("y", -22)
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", "middle")
+	  .style("font", "10px sans-serif")
+	  .text("de Pearson");	  	  
+
+	var legend = svg.selectAll(".legend")
+		.data([1,0.5,0,-0.5,-1])
+		.enter().append("g")
+			.attr("class", "legend")
+			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
+			.style("font", "10px sans-serif");
+
+	legend.append("rect")
+	  .attr("x", width1 - 18)
+	  .attr("y", -15)
+	  .attr("width", 18)
+	  .attr("height", 18)
+	  .attr("fill", function(d) { 
+		var x = (d * (1/2)) + 0.5;
+	  		return z(x);});
+
+	legend.append("text")
+	  .attr("x", width1 - 24)
+	  .attr("y", -5)
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", "end")
+	  .text(function(d) { return d; });				
 }
 
 function updateLabels(svg, labelsData) {
@@ -107,7 +154,6 @@ function updateLabels(svg, labelsData) {
 }
 
 function createScatterplot(data, attrX, attrY, x, y, z) {
-
 	d3.select("#chart2").html("");
   	d3.select("#chart2").selectAll("*").remove();
 
@@ -290,7 +336,7 @@ $.getJSON("/docs/colombia.json",function(colombia){
       	})
     });	          
 
-	var map = L.map('map', { zoomControl:false }).setView([4, -73.5], 5.8);
+	var map = L.map('map', { zoomControl:false }).setView([4, -73.5], 5.6);
 	    map.dragging.disable();
 	    map.scrollWheelZoom.disable();
 		var layer = L.geoJson(colombia, {
@@ -301,7 +347,7 @@ $.getJSON("/docs/colombia.json",function(colombia){
 		          color: "#0d174e",
 		          weight: 1,
 		          fill: true,
-		          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito"),
+		          fillColor: setColor(-1,1,feature.properties.indicators,"Resultado plebiscito", undefined,true),
 		          fillOpacity: 1
 		        };
 		    },
@@ -332,11 +378,11 @@ $.getJSON("/docs/colombia.json",function(colombia){
 	    legend.onAdd = function() {
 	    	var div = L.DomUtil.create('div', 'legend'),
 	      	values = [1,0.5,0,-0.5,-1];
-	      	labels = ["Sí","","","","No"];
+	      	labels = ["Sí","","Empate","","No"];
 	      div.innerHTML += 'Resultado plebiscito<br>';
 	      for (var i = 0; i < values.length; i++) {
 	      	div.innerHTML +=
-	        	'<i style="background:' + setColor(-1,1,undefined,undefined,values[i]) + '"></i> '+ labels[i] + '<br>';
+	        	'<i style="background:' + setColor(-1,1,undefined,undefined,values[i], false) + '"></i> '+ labels[i] + '<br>';
 	      }
 	      return div;
 	    };
@@ -344,13 +390,17 @@ $.getJSON("/docs/colombia.json",function(colombia){
 	}
 );
 
-function setColor (init, fin, indicators, key, value) {
+function setColor (init, fin, indicators, key, value, map) {
 	if (value !== undefined) {
 		var x = (value * (1/2)) + 0.5;
 		return d3.scaleSequential(d3.interpolateRdBu)(x);
 	}  
-	else if (indicators !== undefined) {
+	else if (indicators !== undefined && map) {
 		var x = (indicators[key] * (1/2)) + 0.5;
 		return d3.scaleSequential(d3.interpolateRdBu)(x);
-	}  
+	}
+	else if (indicators !== undefined && !map) {
+		var x = (indicators[key] * (1/2)) + 0.5;
+		return d3.scaleSequential(d3.interpolatePuOr)(x);
+	} 
 }

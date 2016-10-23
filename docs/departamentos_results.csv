@@ -1,0 +1,1981 @@
+Departamento,Variable1,Variable2,pendiente,intercepto,pearson
+ Tolima,PorcentajeSi,Desplazamiento,9.58E-06,0.411893788,0.075245533
+ Bolivar,PorcentajeNo,VinculacionNinosAdolescentes,0.046021475,0.32749201,0.103605887
+ Arauca,Abstencion,IndiceRuralidad2014,-0.062015732,0.688629213,-0.457120998
+ Quindio,Abstencion,Desplazamiento,4.67E-05,0.594556972,0.241335009
+ Bogota  D.C.,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.5608,0
+ La  Guajira,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.02015588,0.732188569,0.013902195
+ Putumayo,PorcentajeSi,IndiceRuralidad2014,0.429011904,0.430263023,0.659104285
+ Amazonas,Abstencion,HectareasDeCoca,0.000188253,0.73592472,0.107481868
+ Guainia,PorcentajeSi,ActosTerroristas,-0.075565832,0.662079525,-0.068120128
+ Magdalena,PorcentajeSi,VotosParaSenado2014,-2.87E-06,0.728949484,-0.399860449
+ La  Guajira,PorcentajeNo,MinasAntipersonal,-0.096132675,0.386716439,-0.308592905
+ Vichada,PorcentajeSi,ParticipacionSegundaVuelta,-1.601997817,1.064977205,-0.929630208
+ Atlantico,PorcentajeNo,CensoElectoral2016,1.55E-07,0.295289917,0.421487216
+ Vichada,PorcentajeSi,Amenaza,0.043773446,0.133194502,0.894626833
+ Guaviare,PorcentajeSi,HectareasDeCoca,-2.11E-06,0.663783851,-0.007892736
+ Arauca,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.062292692,0.638471596,0.502691732
+ Caldas,PorcentajeNo,Amenaza,-0.000856512,0.62604798,-0.270881885
+ Atlantico,PorcentajeSi,HectareasDeAmapola,0,0.692691304,0
+ Quindio,Abstencion,HectareasDeCoca,0,0.599116667,0
+ Valle  del  Cauca,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.7069972,0.625862041,-0.65804574
+ Caldas,Abstencion,ActosTerroristas,8.54E-05,0.63509318,0.010991469
+ Vaupes,Abstencion,CensoElectoral2016,-3.09E-07,0.766226093,-0.035235641
+ Sucre,PorcentajeNo,Amenaza,0.001963541,0.322089603,0.285661039
+ Risaralda,Abstencion,ActosTerroristas,0.002158212,0.617696663,0.49558453
+ Amazonas,Abstencion,VotosParaSenado2014,1.76E-07,0.737594831,0.013514698
+ Norte  de  Santander,PorcentajeSi,Amenaza,0.025047782,0.283672499,0.667685204
+ Atlantico,Abstencion,ParticipacionPrimeraVuelta,-0.579863919,0.932626221,-0.667496433
+ Casanare,Abstencion,HectareasDeCoca,0,0.507410526,0
+ Santander,Abstencion,ActosTerroristas,0.002704143,0.604182486,0.061449913
+ Sucre,Abstencion,TotalPrimeraVuelta,-1.98E-07,0.65795528,-0.050214964
+ Casanare,PorcentajeSi,CensoElectoral2016,-2.56E-06,0.413096339,-0.267469476
+ Caldas,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.196838446,0.476236909,-0.388697761
+ Cesar,PorcentajeNo,VotosParaSenado2014,8.57E-07,0.454164606,0.142183739
+ Guainia,PorcentajeSi,VinculacionNinosAdolescentes,0.301565769,0.503811618,0.665349775
+ Cesar,PorcentajeSi,AbandonoODespojoDeTierras,0.00074143,0.536104179,0.029192064
+ Risaralda,Abstencion,Homicidio,0.001091101,0.589427436,0.547367075
+ Boyaca,PorcentajeNo,Desplazamiento,0.000258627,0.491100939,0.198602678
+ Bolivar,PorcentajeSi,ActosTerroristas,0.003255474,0.65815427,0.159239982
+ Cauca,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.294366636,0.577858239,0.346770784
+ Choco,Abstencion,CensoElectoral2016,-2.66E-07,0.678848622,-0.072349024
+ Guainia,Abstencion,CensoElectoral2016,-4.73E-06,0.833955452,-0.207280297
+ Arauca,Abstencion,ParticipacionPrimeraVuelta,-0.148141018,0.715332489,-0.221991131
+ Bolivar,PorcentajeNo,TotalPrimeraVuelta,1.03E-06,0.325862792,0.193231768
+ Caldas,Abstencion,Amenaza,0.0001518,0.633314771,0.058612337
+ Magdalena,PorcentajeNo,HectareasDeAmapola,0,0.304466667,0
+ Arauca,PorcentajeSi,AfectadoPorElConflictoPares2,-0.11069,0.71481,-0.483002067
+ Narino,Abstencion,VotosParaSenado2014,1.29E-07,0.61986613,0.025576504
+ Atlantico,Abstencion,TotalPrimeraVuelta,-6.57E-08,0.765780739,-0.064649609
+ Cauca,PorcentajeNo,ParticipacionPrimeraVuelta,0.380536206,0.134162261,0.306512164
+ Guainia,PorcentajeSi,AbandonoODespojoDeTierras,0,0.649233333,0
+ Arauca,Abstencion,Homicidio,0.000401143,0.633295908,0.544707092
+ Huila,PorcentajeNo,TotalSegundaVuelta,-3.23E-07,0.630049066,-0.067392406
+ Choco,PorcentajeSi,AbandonoODespojoDeTierras,0,0.82164,0
+ Boyaca,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.062461856,0.576467822,0.125377283
+ Bolivar,PorcentajeSi,ParticipacionSegundaVuelta,0.337513071,0.516875163,0.156676863
+ Vichada,Abstencion,AfectadoPorElConflictoPares2,0.051522222,0.5738,0.781690727
+ Vichada,Abstencion,VinculacionNinosAdolescentes,0.163492781,0.615744517,0.906793484
+ Putumayo,PorcentajeSi,Homicidio,0.000986667,0.590292597,0.338069982
+ Arauca,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.800915208,0.131935688,0.946780643
+ La  Guajira,PorcentajeSi,Amenaza,0.007591427,0.588597645,0.497654452
+ Putumayo,PorcentajeNo,ParticipacionPrimeraVuelta,0.575882661,0.153582592,0.35705049
+ Cordoba,Abstencion,Homicidio,-0.000274825,0.687174398,-0.080302409
+ Tolima,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.041142019,0.613015103,0.170433659
+ Guaviare,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-1.015447839,0.907907301,-0.980436799
+ Caldas,Abstencion,HectareasDeCoca,0,0.635314815,0
+ Quindio,Abstencion,Secuestro,0.006684724,0.597166955,0.109501875
+ Risaralda,PorcentajeNo,ParticipacionPrimeraVuelta,1.310734914,-0.011331393,0.658766388
+ Huila,PorcentajeNo,Amenaza,-0.002216083,0.658637395,-0.30931589
+ Vaupes,Abstencion,MinasAntipersonal,-0.017280264,0.78018383,-0.390189668
+ Guaviare,PorcentajeSi,MinasAntipersonal,0.124890034,0.396158127,0.781507308
+ Santander,Abstencion,Homicidio,0.000141012,0.604245612,0.043894295
+ Cesar,Abstencion,IndiceRuralidad2014,0.101179764,0.632471503,0.381121575
+ Cundinamarca,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.117748338,0.519767031,0.198441547
+ Amazonas,PorcentajeSi,ParticipacionSegundaVuelta,-0.691955339,1.014758746,-0.591749076
+ Narino,PorcentajeNo,AbandonoODespojoDeTierras,0.005888336,0.316875612,0.138106617
+ Risaralda,PorcentajeSi,Secuestro,0.065619697,0.383173246,0.66008128
+ Antioquia,PorcentajeSi,VotosParaSenado2014,-2.24E-07,0.423156538,-0.06887349
+ Sucre,PorcentajeNo,VinculacionNinosAdolescentes,-0.011469259,0.347135041,-0.033513323
+ Guaviare,Abstencion,CensoElectoral2016,-4.20E-06,0.726495676,-0.766898852
+ Magdalena,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.653509947,0.882116958,-0.611292879
+ Arauca,PorcentajeNo,ActosTerroristas,-0.00286824,0.513686673,-0.072232598
+ Putumayo,Abstencion,AfectadoPorElConflictoPares2,0.029683333,0.61,0.739761122
+ Atlantico,PorcentajeNo,Secuestro,0.015819778,0.306490194,0.016135024
+ Guaviare,Abstencion,ParticipacionSegundaVuelta,-0.85193545,0.992621745,-0.836776039
+ Sucre,Abstencion,HectareasDeAmapola,0,0.656092308,0
+ Guaviare,PorcentajeNo,TotalSegundaVuelta,2.37E-05,0.211276787,0.87565536
+ Magdalena,Abstencion,ActosTerroristas,0.009217718,0.754805172,0.068734159
+ Cordoba,Abstencion,AfectadoPorElConflictoPares2,-0.012364198,0.686992593,-0.226152793
+ Guaviare,Abstencion,MinasAntipersonal,0.072501093,0.513522682,0.870101571
+ Boyaca,PorcentajeSi,ParticipacionPrimeraVuelta,-0.641682133,0.777900273,-0.374021563
+ Caqueta,PorcentajeSi,ActosTerroristas,-0.00794241,0.548237687,-0.172426922
+ Choco,PorcentajeSi,TotalPrimeraVuelta,-5.36E-06,0.83659403,-0.216627959
+ Casanare,Abstencion,AfectadoPorElConflictoPares2,-0.001746667,0.508973333,-0.025494844
+ Amazonas,Abstencion,HectareasDeAmapola,0,0.737827273,0
+ Amazonas,PorcentajeSi,CensoElectoral2016,-1.03E-05,0.848148964,-0.893327309
+ Risaralda,PorcentajeSi,TotalPrimeraVuelta,1.01E-07,0.430826943,0.05941024
+ Narino,PorcentajeSi,Homicidio,0.003545755,0.601816551,0.471079875
+ Vaupes,PorcentajeSi,CensoElectoral2016,-8.70E-06,0.884178944,-0.700349784
+ Amazonas,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.679790575,1.067641585,-0.718845851
+ Risaralda,Abstencion,TotalPrimeraVuelta,-4.83E-07,0.638515197,-0.533514351
+ Cundinamarca,PorcentajeSi,Secuestro,0.018131136,0.427516805,0.118881761
+ Huila,Abstencion,ParticipacionSegundaVuelta,-0.122163073,0.674746654,-0.191246031
+ Santander,PorcentajeSi,ParticipacionPrimeraVuelta,-0.961841762,0.883270937,-0.349284553
+ Valle  del  Cauca,PorcentajeNo,ParticipacionSegundaVuelta,-0.037419877,0.547284847,-0.012840622
+ Valle  del  Cauca,PorcentajeSi,ParticipacionPrimeraVuelta,-0.851175807,0.790650852,-0.287391404
+ Putumayo,Abstencion,VinculacionNinosAdolescentes,0.039194512,0.615101349,0.687750161
+ Amazonas,Abstencion,VinculacionNinosAdolescentes,-0.027759543,0.747164573,-0.347797939
+ Meta,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.763803337,0.202191,0.559480922
+ Vaupes,PorcentajeNo,VotosParaSenado2014,4.16E-05,0.118750342,0.706104136
+ Vaupes,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.582507306,0.065941494,0.779072404
+ Bolivar,Abstencion,HectareasDeAmapola,0,0.723280435,0
+ Caqueta,PorcentajeSi,Amenaza,0.000296792,0.469803025,0.066800517
+"Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,Secuestro,30.64,0.1815,1
+ Caqueta,PorcentajeSi,TotalPrimeraVuelta,-2.20E-06,0.506574474,-0.174471486
+ Tolima,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.364885819,0.423648684,0.580139979
+ Arauca,Abstencion,CensoElectoral2016,-6.19E-07,0.680435086,-0.59333312
+ Risaralda,PorcentajeNo,AfectadoPorElConflictoPares2,-0.170766667,0.591116667,-0.764515638
+ Norte  de  Santander,PorcentajeSi,TotalPrimeraVuelta,-6.56E-07,0.425740833,-0.104705905
+ Cesar,PorcentajeSi,ActosTerroristas,0.003396212,0.529031958,0.152185071
+ Huila,Abstencion,VinculacionNinosAdolescentes,0.016301779,0.608822996,0.138210582
+ Magdalena,PorcentajeSi,Homicidio,-8.41E-06,0.695729351,-0.001022436
+ Quindio,PorcentajeSi,Homicidio,-0.000210452,0.38220783,-0.122686959
+ Bolivar,PorcentajeNo,Secuestro,0.019753589,0.306392418,0.30991577
+ Magdalena,PorcentajeNo,Desplazamiento,-8.95E-05,0.350042903,-0.311321233
+ Cesar,Abstencion,VotosParaSenado2014,2.29E-08,0.672072265,0.006719116
+ Vaupes,PorcentajeNo,HectareasDeCoca,0.000978057,0.140812701,0.166090511
+ Boyaca,PorcentajeNo,ParticipacionSegundaVuelta,0.347825133,0.32014419,0.162465873
+ Risaralda,PorcentajeSi,VinculacionNinosAdolescentes,0.177720081,0.388975494,0.819561842
+ Huila,PorcentajeNo,AfectadoPorElConflictoPares2,-0.036964256,0.64281157,-0.250684793
+ Antioquia,PorcentajeSi,TotalPrimeraVuelta,-1.46E-07,0.423043465,-0.072667683
+ Norte  de  Santander,PorcentajeSi,MinasAntipersonal,0.06438349,0.334937937,0.822680312
+ Vichada,Abstencion,HectareasDeAmapola,0,0.689725,0
+ Vaupes,PorcentajeNo,AfectadoPorElConflictoPares2,0.040511111,0.085366667,0.900509597
+ Narino,Abstencion,AfectadoPorElConflictoPares2,0.020263635,0.596950428,0.359976672
+ Magdalena,PorcentajeSi,ParticipacionSegundaVuelta,1.00309001,0.217801685,0.423398492
+ Casanare,PorcentajeSi,HectareasDeAmapola,0,0.377610526,0
+ Norte  de  Santander,PorcentajeSi,HectareasDeCoca,0.000135487,0.380268018,0.565162338
+ Valle  del  Cauca,PorcentajeNo,HectareasDeCoca,-0.000390531,0.537227578,-0.443269886
+ Cundinamarca,Abstencion,AbandonoODespojoDeTierras,0.015090036,0.589167826,0.10051779
+ Santander,PorcentajeNo,HectareasDeAmapola,0,0.52184023,0
+ Cundinamarca,PorcentajeSi,MinasAntipersonal,0.059503205,0.425576871,0.275823387
+ Cesar,PorcentajeNo,ParticipacionSegundaVuelta,0.696389506,0.12060742,0.299436492
+ Antioquia,Abstencion,ActosTerroristas,0.001552093,0.689127776,0.105382221
+ Choco,Abstencion,HectareasDeCoca,0.000109227,0.670792765,0.172061699
+ Tolima,Abstencion,ActosTerroristas,0.001005455,0.635352142,0.125601601
+ Cesar,PorcentajeNo,Secuestro,0.001959177,0.456324122,0.072875451
+ Huila,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.028913988,0.596815723,0.104433161
+ Bogota  D.C.,Abstencion,Homicidio,0.230856668,0.405011699,0
+ Quindio,PorcentajeSi,Amenaza,-0.000392663,0.38210965,-0.120776483
+ Caldas,Abstencion,Desplazamiento,-1.47E-05,0.638442324,-0.114359442
+ Meta,PorcentajeNo,HectareasDeCoca,-0.000129023,0.579312257,-0.365804691
+ Antioquia,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.581573244,0.751575358,-0.732849929
+ Meta,PorcentajeSi,AbandonoODespojoDeTierras,-0.005928324,0.451683254,-0.151736498
+ Narino,PorcentajeNo,MinasAntipersonal,-0.025479694,0.335178863,-0.243189432
+ Sucre,PorcentajeNo,AbandonoODespojoDeTierras,-0.000982709,0.349087912,-0.100199696
+ Cordoba,Abstencion,VinculacionNinosAdolescentes,-0.01470427,0.683827391,-0.023303679
+ Bolivar,PorcentajeSi,TotalSegundaVuelta,-7.06E-07,0.673821608,-0.188072349
+ Caldas,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.196838446,0.523763091,0.388697761
+ Bolivar,PorcentajeNo,HectareasDeCoca,0.000655214,0.319504386,0.350950196
+ Arauca,Abstencion,Desplazamiento,2.57E-05,0.649717392,0.3846819
+ Meta,Abstencion,ActosTerroristas,0.001962341,0.563304829,0.212162459
+ Putumayo,PorcentajeSi,VotosParaSenado2014,-1.59E-06,0.65805986,-0.047919723
+ La  Guajira,Abstencion,HectareasDeCoca,0,0.736873333,0
+ Cauca,PorcentajeSi,IndiceRuralidad2014,0.092199145,0.655843737,0.204979496
+ Boyaca,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.318236228,0.383198025,0.520852101
+ Vichada,PorcentajeNo,VinculacionNinosAdolescentes,-0.292738963,0.650614381,-0.827492556
+ Santander,PorcentajeSi,Amenaza,-0.002572231,0.494069169,-0.188504972
+ Cundinamarca,Abstencion,VotosParaSenado2014,-3.37E-06,0.605224112,-0.353788835
+ Vichada,Abstencion,ActosTerroristas,-0.005886361,0.700997381,-0.066436955
+ Vaupes,Abstencion,AbandonoODespojoDeTierras,0,0.76515,0
+ Guainia,Abstencion,ParticipacionPrimeraVuelta,-0.905479792,1.018496589,-0.804622389
+ Bolivar,Abstencion,Amenaza,-0.001399418,0.738617449,-0.184125113
+ La  Guajira,PorcentajeSi,TotalSegundaVuelta,-1.92E-06,0.64871981,-0.258814647
+ Vichada,PorcentajeSi,HectareasDeCoca,0.000504826,0.395633333,0.888881962
+ Antioquia,PorcentajeSi,Desplazamiento,5.92E-05,0.389229,0.318995482
+ Bogota  D.C.,PorcentajeNo,Desplazamiento,0.204761783,0.140247797,0
+ Guaviare,Abstencion,HectareasDeAmapola,0,0.667225,0
+ Magdalena,Abstencion,AbandonoODespojoDeTierras,0.001680701,0.759817403,0.046340873
+ Magdalena,PorcentajeNo,VinculacionNinosAdolescentes,1.035816527,0.281333431,0.430376814
+ Magdalena,PorcentajeNo,HectareasDeCoca,-0.008060316,0.306296358,-0.058192107
+ Arauca,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.742661382,0.823303746,-0.891608617
+ Caqueta,PorcentajeNo,ActosTerroristas,0.00794241,0.451762313,0.172426922
+ Caldas,PorcentajeNo,VotosParaSenado2014,-8.87E-07,0.624017492,-0.296233348
+ Narino,Abstencion,ParticipacionSegundaVuelta,-0.605386843,0.932754874,-0.699424869
+ Cundinamarca,PorcentajeSi,TotalSegundaVuelta,-4.36E-08,0.434396265,-0.006315584
+ Risaralda,PorcentajeSi,AfectadoPorElConflictoPares2,0.170766667,0.408883333,0.764515638
+ Sucre,Abstencion,ActosTerroristas,0.000192882,0.654860386,0.100422182
+ Valle  del  Cauca,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.7069972,0.374137959,0.65804574
+ Atlantico,Abstencion,HectareasDeCoca,0,0.764604348,0
+ Choco,PorcentajeNo,ParticipacionSegundaVuelta,0.229412812,0.103944601,0.213155639
+ Cauca,Abstencion,CensoElectoral2016,-1.68E-07,0.622492233,-0.083725938
+ Casanare,Abstencion,IndiceRuralidad2014,0.008526221,0.503825295,0.026188212
+ Bolivar,PorcentajeNo,Desplazamiento,5.12E-06,0.331651004,0.023547838
+ Santander,PorcentajeSi,TotalSegundaVuelta,-3.81E-07,0.481688773,-0.090315945
+ Quindio,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.622208333,0
+ Bogota  D.C.,Abstencion,TotalSegundaVuelta,2.11E-07,8.26E-14,0
+ Narino,Abstencion,Secuestro,-0.002038676,0.625163804,-0.16979159
+ Antioquia,PorcentajeSi,MinasAntipersonal,0.011813321,0.407282048,0.245671245
+ Meta,PorcentajeNo,IndiceRuralidad2014,-0.505820482,0.808140249,-0.729264941
+ Risaralda,Abstencion,ParticipacionSegundaVuelta,-0.59683996,0.932420654,-0.394420084
+ Casanare,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.207328298,0.390745802,0.458735507
+ Caldas,Abstencion,VotosParaSenado2014,-1.36E-06,0.649477046,-0.553456059
+ Caqueta,PorcentajeNo,IndiceRuralidad2014,-0.440171501,0.753189978,-0.586054537
+ Choco,PorcentajeSi,CensoElectoral2016,-1.36E-06,0.835079287,-0.177743869
+ Choco,PorcentajeNo,VinculacionNinosAdolescentes,0.028096756,0.161464484,0.193304027
+ Vichada,PorcentajeSi,Secuestro,0.204866044,0.299007056,0.909217696
+ Antioquia,PorcentajeNo,CensoElectoral2016,5.99E-08,0.576907564,0.064737301
+ Caqueta,Abstencion,CensoElectoral2016,-5.09E-07,0.724852618,-0.294268686
+ Quindio,Abstencion,TotalPrimeraVuelta,-2.54E-07,0.603394679,-0.289507406
+ Quindio,Abstencion,TotalSegundaVuelta,-2.42E-07,0.603552378,-0.291376399
+ Magdalena,Abstencion,MinasAntipersonal,1.049991981,0.743843464,0.483765905
+ Vaupes,PorcentajeSi,AbandonoODespojoDeTierras,0,0.853866667,0
+ Guaviare,Abstencion,Homicidio,0.004180929,0.459056544,0.570319488
+ Santander,PorcentajeNo,VinculacionNinosAdolescentes,0.03831318,0.51701365,0.083610751
+ Valle  del  Cauca,PorcentajeSi,Secuestro,-0.054006736,0.491279422,-0.245010996
+ Vichada,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.868502262,0.954293518,-0.945709621
+ Putumayo,PorcentajeSi,ParticipacionPrimeraVuelta,-0.575882661,0.846417408,-0.35705049
+ Putumayo,PorcentajeNo,ParticipacionSegundaVuelta,0.236403382,0.242269083,0.150514545
+ Tolima,PorcentajeNo,HectareasDeCoca,0,0.583748936,0
+ Huila,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.010918781,0.603295408,0.031941
+ Tolima,PorcentajeSi,TotalPrimeraVuelta,-1.95E-07,0.418028632,-0.056439273
+ Narino,PorcentajeSi,IndiceRuralidad2014,0.004778576,0.67605214,0.005505683
+ Amazonas,PorcentajeNo,CensoElectoral2016,1.03E-05,0.151851036,0.893327309
+ Caqueta,PorcentajeNo,Secuestro,0.009788353,0.463902343,0.252132613
+"Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,ParticipacionSegundaVuelta,-1.325980392,1.113434069,-1
+ La  Guajira,Abstencion,Homicidio,-0.003378403,0.807844573,-0.524494825
+ Magdalena,PorcentajeNo,VotosParaSenado2014,2.87E-06,0.271050516,0.399860449
+ Caldas,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.326462578,0.39690723,0.54245384
+ Bogota  D.C.,Abstencion,HectareasDeCoca,0,0.5366,0
+ Cesar,Abstencion,TotalPrimeraVuelta,-6.20E-08,0.672918566,-0.01840936
+ Guaviare,Abstencion,IndiceRuralidad2014,0.341391209,0.496128261,0.751963945
+ Antioquia,PorcentajeSi,AbandonoODespojoDeTierras,0.003948303,0.419430364,0.074391025
+ Arauca,PorcentajeSi,TotalSegundaVuelta,-3.46E-06,0.547058994,-0.213514461
+ Arauca,PorcentajeSi,HectareasDeCoca,0.032968038,0.42856536,0.71213726
+ Vichada,Abstencion,VotosParaSenado2014,3.82E-05,0.567688262,0.603018974
+ Casanare,PorcentajeSi,Amenaza,0.00784171,0.220132477,0.535145689
+ Cauca,PorcentajeSi,MinasAntipersonal,0.000645204,0.724280308,0.006072188
+ Cesar,Abstencion,Homicidio,-0.00018593,0.681441086,-0.077525979
+ Norte  de  Santander,PorcentajeNo,ActosTerroristas,-0.02434695,0.680908133,-0.777867906
+ Sucre,Abstencion,CensoElectoral2016,5.61E-09,0.655949559,0.004127495
+ Cundinamarca,PorcentajeSi,CensoElectoral2016,1.53E-08,0.433827651,0.004483488
+ Guaviare,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.41549917,0.808806342,-0.984253334
+ Norte  de  Santander,PorcentajeSi,ActosTerroristas,0.024346784,0.319095052,0.777856686
+ Cordoba,PorcentajeNo,Secuestro,0.024561044,0.327397862,0.099829843
+ La  Guajira,PorcentajeSi,Secuestro,0.010799868,0.613504433,0.320278328
+ Vaupes,Abstencion,Desplazamiento,-9.03E-05,0.780108872,-0.31120688
+ Vaupes,Abstencion,TotalPrimeraVuelta,-1.79E-06,0.766711906,-0.056744909
+ Boyaca,PorcentajeNo,VinculacionNinosAdolescentes,0.021806959,0.49825693,0.12250625
+ Bogota  D.C.,PorcentajeNo,ParticipacionPrimeraVuelta,0.172028535,0.356093015,0
+ Narino,PorcentajeSi,ActosTerroristas,0.00305329,0.659584741,0.282457678
+ Meta,PorcentajeNo,ParticipacionSegundaVuelta,1.147894099,-0.031336815,0.588296756
+ Boyaca,PorcentajeSi,Amenaza,-0.001907286,0.50539542,-0.143301249
+ Bolivar,Abstencion,Homicidio,-0.001777554,0.750758715,-0.322608948
+ Meta,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.147698307,0.662711266,-0.302775542
+ Antioquia,PorcentajeSi,TotalSegundaVuelta,-1.35E-07,0.42304327,-0.068195601
+ Caqueta,PorcentajeNo,AfectadoPorElConflictoPares2,-0.08352,0.6314925,-0.653484661
+ Narino,PorcentajeNo,IndiceRuralidad2014,-0.004778576,0.32394786,-0.005505683
+ Bolivar,PorcentajeNo,HectareasDeAmapola,0,0.334365217,0
+ Valle  del  Cauca,Abstencion,TotalPrimeraVuelta,-4.70E-08,0.650466306,-0.117665273
+ Quindio,PorcentajeSi,TotalPrimeraVuelta,3.95E-07,0.37112795,0.26380188
+ Atlantico,PorcentajeSi,AbandonoODespojoDeTierras,0,0.692691304,0
+ Cesar,Abstencion,VinculacionNinosAdolescentes,0.114953861,0.659479149,0.263021781
+ Bogota  D.C.,PorcentajeSi,TotalPrimeraVuelta,2.23E-07,8.87E-14,0
+ Sucre,PorcentajeSi,Desplazamiento,2.19E-05,0.641008088,0.204888207
+ Cesar,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.598842709,0.291528123,0.430525444
+ Valle  del  Cauca,Abstencion,ParticipacionPrimeraVuelta,-0.731464044,0.925396567,-0.622902854
+ Caqueta,PorcentajeNo,ParticipacionSegundaVuelta,1.325998665,0.031380665,0.730849497
+ La  Guajira,Abstencion,ActosTerroristas,-0.021971785,0.767077214,-0.313417946
+ Santander,PorcentajeNo,CensoElectoral2016,1.78E-07,0.518494289,0.087998912
+ Norte  de  Santander,PorcentajeNo,TotalPrimeraVuelta,6.56E-07,0.57426187,0.104703393
+ Choco,PorcentajeSi,IndiceRuralidad2014,0.279851541,0.648477195,0.57772551
+ Huila,Abstencion,Homicidio,0.000511094,0.602576566,0.161178247
+ Santander,PorcentajeNo,MinasAntipersonal,0.075610416,0.506587784,0.287427358
+ Magdalena,Abstencion,CensoElectoral2016,-5.02E-08,0.762514188,-0.042197936
+ Cesar,PorcentajeNo,HectareasDeAmapola,-0.02558183,0.467986039,-0.169402048
+ Amazonas,Abstencion,ActosTerroristas,0.01396325,0.73400642,0.158132534
+ Narino,PorcentajeNo,Secuestro,-0.003747917,0.328827663,-0.150290878
+ Cordoba,PorcentajeSi,Homicidio,-0.001605368,0.689576001,-0.254359267
+ La  Guajira,PorcentajeNo,ParticipacionSegundaVuelta,-0.323591547,0.508145386,-0.550266127
+ Santander,PorcentajeSi,Desplazamiento,-0.000218875,0.504582293,-0.243479249
+ Putumayo,PorcentajeNo,MinasAntipersonal,-0.016957088,0.370422768,-0.183933694
+ Cesar,Abstencion,Desplazamiento,2.15E-05,0.66104101,0.134347561
+ Narino,Abstencion,Amenaza,-0.000352195,0.625007304,-0.094671446
+ Putumayo,PorcentajeNo,VinculacionNinosAdolescentes,-0.000389979,0.34998895,-0.003691622
+ Bolivar,PorcentajeSi,Homicidio,-0.000829684,0.67846044,-0.093354191
+ Casanare,PorcentajeNo,IndiceRuralidad2014,0.018413454,0.614646713,0.016663422
+ La  Guajira,PorcentajeNo,AfectadoPorElConflictoPares2,0.058106897,0.338009195,0.653875083
+ Amazonas,Abstencion,Secuestro,-0.038537247,0.756114948,-0.782264484
+ Vichada,Abstencion,CensoElectoral2016,1.20E-05,0.548239226,0.960281737
+ Cordoba,PorcentajeSi,ParticipacionPrimeraVuelta,-0.26329795,0.763406801,-0.147780446
+ Tolima,PorcentajeSi,Homicidio,0.000322746,0.405749181,0.141920158
+ Vichada,Abstencion,ParticipacionPrimeraVuelta,-0.885508408,0.967686089,-0.915183115
+ Cundinamarca,PorcentajeNo,ActosTerroristas,-0.000538867,0.56634234,-0.008273841
+ Cundinamarca,Abstencion,IndiceRuralidad2014,0.149816122,0.497543868,0.502414193
+"Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,VinculacionNinosAdolescentes,0,0.7529,0
+ Antioquia,Abstencion,VinculacionNinosAdolescentes,0.017709178,0.688462316,0.121380795
+ Meta,Abstencion,HectareasDeCoca,2.97E-05,0.567797302,0.197568343
+ Tolima,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.028008137,0.62604071,0.107655885
+ Boyaca,PorcentajeNo,Homicidio,0.001708113,0.487619675,0.21588299
+ Caqueta,Abstencion,Amenaza,-0.000302963,0.740389463,-0.213853167
+ Sucre,PorcentajeSi,HectareasDeAmapola,0,0.654069231,0
+ Narino,PorcentajeNo,VotosParaSenado2014,1.23E-06,0.312741577,0.116720161
+ Meta,PorcentajeNo,CensoElectoral2016,4.50E-07,0.546616095,0.181094065
+ Casanare,PorcentajeNo,ParticipacionPrimeraVuelta,0.892633296,0.177797018,0.263336356
+ Caqueta,PorcentajeSi,ParticipacionPrimeraVuelta,-1.360980502,0.902864214,-0.782394205
+ Cesar,PorcentajeNo,Desplazamiento,-0.000116292,0.523932643,-0.411704531
+ Antioquia,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.581937209,0.642478655,-0.582323617
+ Caldas,PorcentajeSi,TotalSegundaVuelta,5.91E-07,0.376711951,0.297539562
+ Bogota  D.C.,PorcentajeSi,ParticipacionSegundaVuelta,0.221477674,0.452364531,0
+ Huila,PorcentajeSi,ParticipacionPrimeraVuelta,-0.885973228,0.743248779,-0.601108915
+ Meta,PorcentajeSi,Amenaza,0.007204379,0.322331138,0.520995429
+ Vaupes,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.356921344,0.847206217,-0.641988183
+ Putumayo,PorcentajeSi,AfectadoPorElConflictoPares2,0.029630159,0.609342857,0.398366648
+ Sucre,PorcentajeSi,ParticipacionSegundaVuelta,-0.026430183,0.668528066,-0.0121576
+ Bogota  D.C.,PorcentajeSi,IndiceRuralidad2014,0.001177675,0.560797527,0
+ Valle  del  Cauca,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.39401128,0.642677828,-0.770864179
+ Magdalena,Abstencion,AfectadoPorElConflictoPares2,0,0.760993333,0
+ Bogota  D.C.,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.115586716,0.535867945,0
+ Boyaca,Abstencion,HectareasDeCoca,-0.000216711,0.615733909,-0.001660981
+ Boyaca,PorcentajeSi,Secuestro,-0.009016836,0.501695432,-0.094582141
+ La  Guajira,PorcentajeNo,IndiceRuralidad2014,0.042153502,0.353422583,0.111206889
+ Huila,PorcentajeSi,VinculacionNinosAdolescentes,0.128360397,0.351455782,0.46911875
+ Atlantico,PorcentajeSi,Homicidio,-0.002674285,0.703989577,-0.078091661
+ Boyaca,PorcentajeNo,Secuestro,0.009016836,0.498304568,0.094582141
+ Meta,PorcentajeNo,MinasAntipersonal,-0.027323516,0.63488562,-0.678407594
+ Sucre,PorcentajeNo,Secuestro,-0.017475867,0.364986186,-0.191326968
+ Boyaca,PorcentajeNo,MinasAntipersonal,0.009968326,0.499890986,0.142363552
+ Tolima,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.423492939,0.676826269,-0.725668384
+ Risaralda,Abstencion,AfectadoPorElConflictoPares2,0.057525,0.618625,0.485759693
+ Bogota  D.C.,Abstencion,Secuestro,0.016083525,0.536117494,0
+ Magdalena,Abstencion,Homicidio,0.001640888,0.722757919,0.373822642
+ Choco,PorcentajeNo,TotalSegundaVuelta,4.27E-06,0.164724999,0.200402044
+ Bolivar,Abstencion,TotalSegundaVuelta,4.11E-07,0.718519599,0.176410851
+ Atlantico,PorcentajeSi,ParticipacionSegundaVuelta,0.619389366,0.39941044,0.524025176
+ Caqueta,PorcentajeSi,AbandonoODespojoDeTierras,0,0.4937875,0
+ Cordoba,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.571453217,0.806683174,-0.498534916
+ Caqueta,PorcentajeSi,MinasAntipersonal,0.036101105,0.426977893,0.586081845
+ Huila,PorcentajeNo,Homicidio,-0.002493859,0.670764098,-0.339017918
+ Atlantico,Abstencion,Secuestro,-0.164033888,0.773091319,-0.285497843
+ Valle  del  Cauca,Abstencion,Secuestro,0.018528882,0.641566043,0.212011635
+ Norte  de  Santander,Abstencion,TotalSegundaVuelta,-3.71E-07,0.638118915,-0.185675365
+ Cesar,Abstencion,Amenaza,-9.37E-05,0.674084565,-0.032751499
+ Caldas,PorcentajeSi,AbandonoODespojoDeTierras,0.051632653,0.3843,0.080664885
+ Guainia,Abstencion,Desplazamiento,5.85E-06,0.81978226,0.007089976
+ Norte  de  Santander,Abstencion,AfectadoPorElConflictoPares2,0.031122505,0.613475372,0.460784091
+ Valle  del  Cauca,PorcentajeNo,ActosTerroristas,-0.006503904,0.538932493,-0.102872546
+ Casanare,PorcentajeSi,AfectadoPorElConflictoPares2,0.027190333,0.353282333,0.116932837
+ Casanare,PorcentajeSi,Homicidio,0.005727151,0.130625627,0.38461086
+ Guaviare,PorcentajeNo,CensoElectoral2016,8.77E-06,0.21528567,0.835143831
+ Guaviare,PorcentajeNo,Secuestro,-0.029197041,0.524257232,-0.874475514
+ Cauca,Abstencion,TotalPrimeraVuelta,-6.81E-07,0.624341463,-0.144675713
+ Tolima,Abstencion,MinasAntipersonal,0.002280639,0.635949188,0.24541791
+ Huila,Abstencion,ActosTerroristas,0.005164967,0.605758628,0.157804411
+ Amazonas,Abstencion,AfectadoPorElConflictoPares2,0,0.737827273,0
+ Norte  de  Santander,PorcentajeSi,AbandonoODespojoDeTierras,0.039537283,0.412324285,0.148394457
+ Boyaca,Abstencion,MinasAntipersonal,-0.000754622,0.615892968,-0.017738099
+ Amazonas,Abstencion,MinasAntipersonal,0.065720227,0.733107366,0.295392496
+ Quindio,PorcentajeNo,HectareasDeCoca,0,0.622208333,0
+ Cauca,PorcentajeNo,MinasAntipersonal,-0.000645204,0.275719692,-0.006072188
+ Norte  de  Santander,Abstencion,AbandonoODespojoDeTierras,0.011590477,0.631656383,0.113983385
+ Boyaca,Abstencion,ParticipacionPrimeraVuelta,-0.747074451,0.941792206,-0.71670651
+ Atlantico,PorcentajeNo,VotosParaSenado2014,4.48E-07,0.29299863,0.430718648
+ Cauca,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.930633891,0.854119919,-0.711206545
+ Magdalena,PorcentajeSi,TotalPrimeraVuelta,-2.59E-06,0.718900495,-0.349078051
+ Narino,Abstencion,ParticipacionPrimeraVuelta,-0.66213943,0.868132172,-0.787766131
+ Vichada,Abstencion,MinasAntipersonal,1.354911147,0.571170275,0.984270869
+ Vaupes,PorcentajeSi,Secuestro,-0.015321172,0.878763572,-0.37069306
+ Antioquia,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.581573244,0.248424642,0.732849929
+ Quindio,PorcentajeNo,TotalPrimeraVuelta,-3.95E-07,0.62887205,-0.26380188
+ Casanare,PorcentajeSi,VotosParaSenado2014,-7.64E-06,0.414532101,-0.272610425
+ Vichada,PorcentajeNo,TotalPrimeraVuelta,-1.36E-05,0.558839568,-0.108644832
+ Norte  de  Santander,PorcentajeNo,HectareasDeCoca,-0.000135489,0.619734805,-0.56517131
+ Santander,PorcentajeNo,TotalPrimeraVuelta,4.23E-07,0.51848257,0.090082222
+ Antioquia,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.045521762,0.720311271,-0.087732438
+ Boyaca,PorcentajeSi,Desplazamiento,-0.000258627,0.508899061,-0.198602678
+ Atlantico,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.588300779,0.792101347,-0.526510203
+ Cordoba,Abstencion,AbandonoODespojoDeTierras,0.001489063,0.681230412,0.15995224
+ Cauca,PorcentajeNo,AfectadoPorElConflictoPares2,-0.030695652,0.321314907,-0.266712834
+ Putumayo,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.892212658,0.802635616,-0.725058927
+ Vichada,Abstencion,AbandonoODespojoDeTierras,0,0.689725,0
+ Choco,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.009096678,0.679212175,-0.028323902
+ Antioquia,PorcentajeNo,ParticipacionSegundaVuelta,0.454168227,0.385180107,0.275417027
+ Putumayo,PorcentajeNo,VotosParaSenado2014,1.59E-06,0.34194014,0.047919723
+ Cordoba,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.19527874,0.624426321,0.367654552
+ Vichada,PorcentajeNo,CensoElectoral2016,-1.63E-05,0.709798228,-0.662925093
+ Arauca,Abstencion,ParticipacionSegundaVuelta,-0.253280043,0.78327698,-0.266045792
+ Guainia,PorcentajeNo,ActosTerroristas,0.383871962,0.174397322,0.54964852
+ Amazonas,PorcentajeSi,ActosTerroristas,0.035962397,0.796186653,0.154876231
+ Cauca,PorcentajeSi,ParticipacionPrimeraVuelta,-0.380536206,0.865837739,-0.306512164
+ Huila,PorcentajeNo,VotosParaSenado2014,-5.59E-07,0.630742894,-0.081346224
+ Bogota  D.C.,PorcentajeSi,CensoElectoral2016,1.01E-07,1.82E-14,0
+ Caldas,Abstencion,AbandonoODespojoDeTierras,0.045321821,0.634492308,0.086444877
+ Cordoba,Abstencion,IndiceRuralidad2014,0.036563966,0.6619418,0.142101524
+ Meta,PorcentajeNo,TotalSegundaVuelta,1.05E-06,0.54538939,0.197943539
+ Norte  de  Santander,PorcentajeNo,AbandonoODespojoDeTierras,-0.039538134,0.587678365,-0.148398776
+ Santander,Abstencion,HectareasDeAmapola,0,0.606618391,0
+ Vaupes,PorcentajeSi,ParticipacionSegundaVuelta,-0.394351336,0.950200126,-0.503731871
+ Norte  de  Santander,Abstencion,Amenaza,0.006106472,0.600636925,0.426503161
+ Cordoba,PorcentajeNo,Homicidio,0.001605368,0.310423999,0.254359267
+ Choco,PorcentajeSi,Amenaza,0.000440408,0.805625429,0.169054949
+ Cundinamarca,PorcentajeSi,TotalPrimeraVuelta,-2.83E-08,0.434261508,-0.004006755
+ Choco,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.84413998,0.022019648,0.547713543
+ Cordoba,Abstencion,TotalSegundaVuelta,-5.73E-08,0.684412866,-0.028535751
+ Casanare,PorcentajeNo,ParticipacionSegundaVuelta,1.137831576,-0.015814269,0.293806351
+ Caqueta,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,1.040073075,-0.09569079,0.862520643
+ Risaralda,PorcentajeSi,HectareasDeAmapola,0,0.433278571,0
+ Quindio,PorcentajeNo,MinasAntipersonal,0.013206336,0.619545056,0.164088324
+ Cordoba,Abstencion,VotosParaSenado2014,-6.73E-08,0.684557221,-0.030521492
+ Caqueta,PorcentajeNo,HectareasDeCoca,-0.00024022,0.622005422,-0.78594116
+ La  Guajira,Abstencion,ParticipacionPrimeraVuelta,-0.945683361,1.026214614,-0.970669772
+ Arauca,Abstencion,Secuestro,0.006632625,0.646432438,0.381506851
+ Boyaca,Abstencion,Secuestro,-0.010593441,0.620263447,-0.182891188
+ Guaviare,PorcentajeNo,VotosParaSenado2014,2.66E-05,0.209667296,0.904225282
+ Narino,Abstencion,Homicidio,0.000173135,0.616909321,0.047774609
+ Cesar,Abstencion,ParticipacionPrimeraVuelta,-0.837110465,0.979591161,-0.735170128
+ Valle  del  Cauca,PorcentajeNo,AbandonoODespojoDeTierras,0.004615744,0.525723597,0.194722218
+"Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,IndiceRuralidad2014,-1.019633943,0.753616606,-1
+ Bolivar,PorcentajeSi,TotalPrimeraVuelta,-1.03E-06,0.674137208,-0.193231768
+ Santander,PorcentajeSi,HectareasDeCoca,-0.021641782,0.483299071,-0.160064275
+ Tolima,PorcentajeNo,ParticipacionPrimeraVuelta,0.68287551,0.313583043,0.324540536
+ Cauca,Abstencion,Homicidio,0.000332844,0.60719458,0.130208711
+ Risaralda,PorcentajeSi,CensoElectoral2016,5.11E-08,0.430502538,0.066154218
+ Boyaca,PorcentajeSi,HectareasDeCoca,-0.028537384,0.499617262,-0.132891609
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,CensoElectoral2016,2.72E-06,0.687892293,1
+ Guainia,Abstencion,MinasAntipersonal,0,0.820588889,0
+ Atlantico,PorcentajeNo,Amenaza,-0.000893423,0.308167159,-0.012901587
+ Choco,PorcentajeNo,AbandonoODespojoDeTierras,0,0.17836,0
+ Caqueta,PorcentajeNo,MinasAntipersonal,-0.036101105,0.573022107,-0.586081845
+ Meta,Abstencion,TotalPrimeraVuelta,-4.51E-07,0.577612987,-0.189995422
+ Guaviare,PorcentajeSi,Desplazamiento,0.000491112,0.281627785,0.5710081
+ Bogota  D.C.,PorcentajeNo,VinculacionNinosAdolescentes,0.004391561,0.439156084,0
+ Sucre,Abstencion,VinculacionNinosAdolescentes,0.026254261,0.65333561,0.148944428
+ Putumayo,PorcentajeNo,TotalPrimeraVuelta,-1.39E-06,0.356588431,-0.044248262
+ Tolima,PorcentajeSi,MinasAntipersonal,0.001538965,0.414644646,0.068501584
+ Norte  de  Santander,Abstencion,ParticipacionSegundaVuelta,-0.756799105,0.990948233,-0.84137573
+ Norte  de  Santander,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.008444166,0.636759424,-0.018840411
+ Cundinamarca,PorcentajeNo,ParticipacionPrimeraVuelta,0.424764541,0.372127521,0.39504116
+ Magdalena,Abstencion,Amenaza,3.38E-05,0.760400269,0.008055128
+ Choco,PorcentajeSi,Homicidio,-0.001416308,0.854691904,-0.35775058
+ Norte  de  Santander,Abstencion,IndiceRuralidad2014,0.015889076,0.624225537,0.057409401
+ Tolima,PorcentajeNo,Amenaza,-0.000165423,0.589244264,-0.097660797
+ Meta,PorcentajeSi,ActosTerroristas,0.003960245,0.423518526,0.182260458
+ Magdalena,Abstencion,Secuestro,0.074224113,0.724326622,0.443978632
+ Sucre,PorcentajeNo,ParticipacionPrimeraVuelta,-0.334424901,0.481712424,-0.152905545
+ Cundinamarca,Abstencion,HectareasDeAmapola,0,0.589792241,0
+ Vichada,PorcentajeSi,AfectadoPorElConflictoPares2,0.0118,0.4553,0.091242281
+ Huila,PorcentajeNo,IndiceRuralidad2014,0.148565511,0.54395598,0.331866775
+ La  Guajira,Abstencion,IndiceRuralidad2014,0.270736544,0.611948272,0.552381207
+ Norte  de  Santander,Abstencion,CensoElectoral2016,-1.43E-07,0.637714586,-0.165668259
+ Huila,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.592375688,0.822694863,-0.746993837
+ Valle  del  Cauca,Abstencion,VotosParaSenado2014,-6.89E-08,0.650656618,-0.120861099
+ Vaupes,PorcentajeNo,VinculacionNinosAdolescentes,0.014125597,0.135798105,0.247033302
+ Atlantico,PorcentajeNo,ActosTerroristas,-0.07195997,0.312721337,-0.13905009
+ Valle  del  Cauca,PorcentajeSi,Amenaza,-0.001353916,0.483942234,-0.206198381
+ Tolima,Abstencion,VotosParaSenado2014,-9.01E-07,0.644981087,-0.439254741
+ Huila,PorcentajeNo,Desplazamiento,-0.000190865,0.657675219,-0.353762023
+ Cordoba,PorcentajeSi,HectareasDeCoca,5.76E-05,0.664229338,0.101241475
+ Cordoba,PorcentajeNo,ActosTerroristas,-0.004472582,0.339859224,-0.224200464
+ Sucre,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.654069231,0
+ Casanare,Abstencion,AbandonoODespojoDeTierras,0,0.507410526,0
+ Narino,PorcentajeNo,Amenaza,-0.002848006,0.355471662,-0.368596368
+ Guaviare,PorcentajeNo,ParticipacionPrimeraVuelta,1.778018739,-0.223712381,0.848490844
+ Choco,PorcentajeSi,HectareasDeCoca,-0.000144688,0.828820359,-0.109799286
+ Arauca,PorcentajeNo,Secuestro,0.045248867,0.36535314,0.387207135
+ Antioquia,Abstencion,Desplazamiento,4.36E-06,0.69209562,0.035933386
+ Casanare,Abstencion,Desplazamiento,-0.000139141,0.544600645,-0.515545176
+ Risaralda,PorcentajeSi,ParticipacionPrimeraVuelta,-1.310734914,1.011331393,-0.658766388
+ Antioquia,PorcentajeNo,Secuestro,0.000413004,0.577419374,0.037336458
+ Bolivar,Abstencion,ParticipacionPrimeraVuelta,-0.823790097,0.985671907,-0.615123603
+ Cesar,PorcentajeSi,Secuestro,-0.001959177,0.543675878,-0.072875451
+ Cauca,PorcentajeSi,VinculacionNinosAdolescentes,0.017149968,0.717452085,0.094840547
+ Caqueta,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.169349458,0.813910898,-0.440440373
+ Atlantico,PorcentajeSi,ParticipacionPrimeraVuelta,0.833373341,0.45121232,0.56216324
+ Vichada,PorcentajeSi,ParticipacionPrimeraVuelta,-1.742406848,1.028791509,-0.917780094
+ Atlantico,PorcentajeSi,TotalSegundaVuelta,-4.44E-07,0.706068078,-0.424672508
+ Risaralda,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.563654584,0.367972796,0.606527979
+ Meta,PorcentajeSi,TotalSegundaVuelta,-1.05E-06,0.45461061,-0.197943539
+ Guaviare,Abstencion,VotosParaSenado2014,-1.32E-05,0.731193951,-0.857246819
+ Narino,Abstencion,AbandonoODespojoDeTierras,0.000871659,0.620143235,0.042461357
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,IndiceRuralidad2014,1.019633943,0.246383394,1
+ Magdalena,Abstencion,ParticipacionSegundaVuelta,-0.555768408,1.025683596,-0.43970478
+ Santander,PorcentajeSi,IndiceRuralidad2014,0.115135216,0.403933685,0.224793483
+ Bogota  D.C.,Abstencion,Desplazamiento,0.250171159,0.171350109,0
+ Antioquia,Abstencion,AbandonoODespojoDeTierras,-0.002091837,0.695217972,-0.060279337
+ Cundinamarca,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.400948308,0.323454934,0.558420139
+ Putumayo,Abstencion,TotalSegundaVuelta,4.18E-06,0.62307411,0.316485687
+ Guaviare,PorcentajeSi,ActosTerroristas,0.034016431,0.458612274,0.88329561
+ Santander,PorcentajeSi,VotosParaSenado2014,-6.00E-07,0.482064378,-0.093108315
+ Narino,Abstencion,Desplazamiento,4.47E-05,0.610678769,0.183339375
+ Guainia,Abstencion,VinculacionNinosAdolescentes,-0.012966804,0.82684177,-0.057110234
+ Guaviare,Abstencion,TotalPrimeraVuelta,-1.31E-05,0.727165251,-0.809929021
+ Vaupes,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.34012605,0.811974019,-0.64469218
+ Guainia,PorcentajeSi,HectareasDeAmapola,0,0.649233333,0
+ Santander,Abstencion,Desplazamiento,3.04E-05,0.602944547,0.071893692
+ Casanare,PorcentajeNo,CensoElectoral2016,2.56E-06,0.586903661,0.267469476
+ Magdalena,PorcentajeSi,ActosTerroristas,0.065118891,0.651816851,0.259058757
+ Risaralda,PorcentajeSi,Desplazamiento,0.000257234,0.386817851,0.79306952
+ La  Guajira,PorcentajeNo,VinculacionNinosAdolescentes,0.19268646,0.364652044,0.162177033
+ Guaviare,Abstencion,VinculacionNinosAdolescentes,0.083162333,0.513790496,0.825168811
+ Cesar,PorcentajeSi,MinasAntipersonal,0.075706259,0.527882684,0.098853237
+ Atlantico,Abstencion,ActosTerroristas,0.016847449,0.763337127,0.055553891
+ Atlantico,PorcentajeNo,IndiceRuralidad2014,-0.03892537,0.314397006,-0.08312617
+ Vaupes,PorcentajeNo,CensoElectoral2016,8.70E-06,0.115821056,0.700349784
+ Casanare,PorcentajeNo,AfectadoPorElConflictoPares2,-0.027190333,0.646717667,-0.116932837
+ Guainia,PorcentajeSi,Homicidio,0.011478236,0.640114513,0.042176297
+ Bogota  D.C.,Abstencion,ParticipacionSegundaVuelta,0.211920328,0.432843807,0
+ Casanare,PorcentajeSi,MinasAntipersonal,0.036386641,0.309107887,0.810564883
+ Magdalena,Abstencion,HectareasDeAmapola,0,0.760993333,0
+ Choco,PorcentajeNo,Secuestro,0.001579756,0.174978268,0.04651058
+ Norte  de  Santander,PorcentajeSi,HectareasDeAmapola,0,0.4193125,0
+ Magdalena,PorcentajeSi,CensoElectoral2016,-8.44E-07,0.721114787,-0.378678585
+ La  Guajira,Abstencion,CensoElectoral2016,1.73E-06,0.671805201,0.663963321
+ Valle  del  Cauca,PorcentajeNo,Desplazamiento,-2.27E-05,0.533691877,-0.03765149
+ Antioquia,PorcentajeNo,ActosTerroristas,-0.003092023,0.589643704,-0.137265684
+ Cordoba,PorcentajeSi,MinasAntipersonal,0.026001658,0.662435052,0.173093271
+ Guaviare,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,1.015447839,0.092092699,0.980436799
+ Quindio,Abstencion,HectareasDeAmapola,0,0.599116667,0
+ Magdalena,PorcentajeSi,Secuestro,-0.045028669,0.717777496,-0.143697175
+ Huila,PorcentajeNo,HectareasDeAmapola,-0.031066132,0.634803466,-0.366066017
+ Caldas,PorcentajeSi,HectareasDeAmapola,0,0.385237037,0
+ Caldas,PorcentajeSi,IndiceRuralidad2014,0.023864837,0.373497217,0.085544629
+ Boyaca,PorcentajeSi,VinculacionNinosAdolescentes,-0.021806959,0.50174307,-0.12250625
+ Tolima,Abstencion,Amenaza,0.000177302,0.632439852,0.253054992
+ Caqueta,Abstencion,AbandonoODespojoDeTierras,0,0.71590625,0
+ Valle  del  Cauca,Abstencion,AbandonoODespojoDeTierras,0.000120347,0.649012569,0.012805117
+ Narino,PorcentajeNo,HectareasDeAmapola,0.001428478,0.31356698,0.171515263
+ Vichada,PorcentajeNo,TotalSegundaVuelta,-1.59E-05,0.573574402,-0.147677581
+ Caldas,PorcentajeNo,ParticipacionSegundaVuelta,-0.172457159,0.702747412,-0.091305597
+ Quindio,PorcentajeNo,Secuestro,0.023009232,0.615497307,0.220487444
+ Valle  del  Cauca,PorcentajeNo,ParticipacionPrimeraVuelta,0.851175807,0.209349148,0.287391404
+ Bogota  D.C.,PorcentajeSi,Desplazamiento,0.26145357,0.179077788,0
+ Bolivar,PorcentajeNo,ParticipacionSegundaVuelta,-0.337513071,0.483124837,-0.156676863
+ Vaupes,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.634289333,0.000310216,0.805018497
+ Putumayo,PorcentajeNo,AfectadoPorElConflictoPares2,-0.029630159,0.390657143,-0.398366648
+ Arauca,PorcentajeNo,ParticipacionSegundaVuelta,-1.559588126,1.220198789,-0.243716043
+ Boyaca,Abstencion,IndiceRuralidad2014,0.124606205,0.53140194,0.372168458
+ Cundinamarca,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.128735356,0.511936206,0.233073274
+ Quindio,PorcentajeNo,AbandonoODespojoDeTierras,0,0.622208333,0
+ Valle  del  Cauca,PorcentajeNo,Amenaza,0.001353916,0.516057766,0.206198381
+ Quindio,Abstencion,VinculacionNinosAdolescentes,-0.006542105,0.599700004,-0.045861579
+ Guainia,PorcentajeNo,IndiceRuralidad2014,-0.419486216,0.629386216,-0.486854962
+ Putumayo,PorcentajeSi,VinculacionNinosAdolescentes,0.000389979,0.65001105,0.003691622
+ Choco,PorcentajeSi,ActosTerroristas,0.001344547,0.808106241,0.303648599
+ Cordoba,Abstencion,Secuestro,0.004904307,0.682134091,0.036761267
+ Magdalena,PorcentajeNo,AbandonoODespojoDeTierras,0.007450871,0.299253541,0.109603116
+ Casanare,Abstencion,Secuestro,-0.002871284,0.520480912,-0.517458524
+ Casanare,Abstencion,TotalPrimeraVuelta,3.99E-09,0.507384214,0.000689397
+ Huila,PorcentajeSi,TotalPrimeraVuelta,3.75E-07,0.370016593,0.070353351
+ Valle  del  Cauca,PorcentajeSi,TotalSegundaVuelta,2.05E-07,0.462627952,0.224915
+ Bogota  D.C.,PorcentajeNo,MinasAntipersonal,0,0.4392,0
+ Guainia,PorcentajeNo,ParticipacionPrimeraVuelta,0.211044194,0.19352833,0.149218417
+ Antioquia,Abstencion,CensoElectoral2016,-1.48E-07,0.699790719,-0.244159639
+ Bolivar,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.002688286,0.724318768,-0.004761888
+ Quindio,PorcentajeNo,ParticipacionPrimeraVuelta,-0.319817934,0.770417294,-0.138313735
+ Amazonas,PorcentajeSi,Secuestro,0.005000998,0.803654072,0.038603882
+ Guainia,Abstencion,Amenaza,0.001789176,0.813605138,0.052871814
+ Antioquia,PorcentajeSi,ParticipacionSegundaVuelta,-0.454168227,0.614819893,-0.275417027
+ Narino,Abstencion,MinasAntipersonal,0.004497178,0.618126457,0.089148899
+ Magdalena,PorcentajeNo,ParticipacionSegundaVuelta,-1.00309001,0.782198315,-0.423398492
+ Bogota  D.C.,PorcentajeNo,Homicidio,0.188953129,0.331496717,0
+ Antioquia,PorcentajeSi,VinculacionNinosAdolescentes,0.071381898,0.396865556,0.319896271
+ Atlantico,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.247099047,0.725116846,0.370432524
+ Guainia,PorcentajeSi,ParticipacionPrimeraVuelta,-0.374919209,0.731178175,-0.166892964
+ Cundinamarca,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.400948308,0.676545066,-0.558420139
+ Meta,PorcentajeSi,MinasAntipersonal,0.027323516,0.36511438,0.678407594
+ Valle  del  Cauca,Abstencion,ActosTerroristas,0.000330591,0.648732471,0.013188318
+ Cesar,PorcentajeSi,TotalPrimeraVuelta,-9.55E-07,0.546444577,-0.160809997
+ La  Guajira,Abstencion,TotalSegundaVuelta,2.08E-06,0.71342831,0.217328972
+ Caldas,PorcentajeSi,TotalPrimeraVuelta,6.02E-07,0.377151464,0.301728629
+ Cesar,PorcentajeSi,Amenaza,0.001563527,0.507374766,0.309625327
+ Meta,Abstencion,VotosParaSenado2014,-5.56E-07,0.577456384,-0.183265065
+ Vichada,PorcentajeNo,ActosTerroristas,-0.037846875,0.590626765,-0.217704113
+ Amazonas,PorcentajeNo,Amenaza,-0.003480638,0.222251331,-0.258972661
+ Narino,PorcentajeSi,CensoElectoral2016,-3.32E-07,0.685022008,-0.08873178
+ Bogota  D.C.,Abstencion,ParticipacionPrimeraVuelta,0.210178762,0.43506264,0
+ Cordoba,Abstencion,TotalPrimeraVuelta,-8.92E-08,0.684516042,-0.031978198
+ Meta,PorcentajeSi,VotosParaSenado2014,-1.48E-06,0.455044805,-0.20822955
+ Putumayo,Abstencion,ParticipacionSegundaVuelta,-0.753078704,0.993107797,-0.888781471
+ Vichada,PorcentajeSi,TotalPrimeraVuelta,1.36E-05,0.441160432,0.108644832
+ Cundinamarca,Abstencion,Homicidio,0.001481551,0.571482311,0.371006539
+ Bolivar,PorcentajeNo,TotalSegundaVuelta,7.06E-07,0.326178392,0.188072349
+ Guainia,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.239655556,0
+ Santander,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.037310713,0.626713255,-0.085183687
+ Vichada,PorcentajeNo,AfectadoPorElConflictoPares2,-0.0118,0.5447,-0.091242281
+ Amazonas,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.11590215,0.782431688,-0.322292882
+ Bogota  D.C.,PorcentajeSi,HectareasDeCoca,0,0.5608,0
+ Valle  del  Cauca,Abstencion,Homicidio,0.000554958,0.633819689,0.267674777
+ Cauca,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.613417661,0.146799863,0.708943071
+ Cordoba,PorcentajeSi,TotalSegundaVuelta,-1.90E-06,0.704337548,-0.51359034
+ Cesar,PorcentajeSi,IndiceRuralidad2014,0.081227301,0.505047187,0.173295038
+ Arauca,Abstencion,HectareasDeAmapola,0,0.664814286,0
+ Norte  de  Santander,PorcentajeNo,TotalSegundaVuelta,5.02E-07,0.574724641,0.095772504
+ Tolima,PorcentajeNo,AbandonoODespojoDeTierras,0.00238365,0.58212704,0.08256888
+ Quindio,Abstencion,ActosTerroristas,0.00111824,0.597577223,0.10349078
+ Guainia,Abstencion,ParticipacionSegundaVuelta,-0.722229244,1.010856171,-0.705428238
+ Bolivar,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.581917424,0.109603407,0.639046479
+ Choco,Abstencion,VotosParaSenado2014,-1.68E-06,0.681124123,-0.12378614
+ Cauca,PorcentajeNo,TotalPrimeraVuelta,2.30E-06,0.256508955,0.316961215
+ Norte  de  Santander,PorcentajeSi,CensoElectoral2016,-2.02E-07,0.424971885,-0.089244123
+ Cundinamarca,PorcentajeSi,Amenaza,0.001179623,0.427090955,0.168585105
+ Boyaca,Abstencion,AfectadoPorElConflictoPares2,-0.00565658,0.616226198,-0.035293237
+ Risaralda,PorcentajeNo,Amenaza,-0.003041373,0.615591943,-0.736899812
+ Amazonas,PorcentajeSi,Homicidio,0.00094359,0.802281222,0.050845137
+ Sucre,Abstencion,ParticipacionPrimeraVuelta,-0.737083286,0.955359461,-0.65430995
+ La  Guajira,PorcentajeSi,VinculacionNinosAdolescentes,-0.19268646,0.635347956,-0.162177033
+ Antioquia,PorcentajeNo,TotalPrimeraVuelta,1.46E-07,0.576956535,0.072667683
+ Guainia,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.649233333,0
+ Vaupes,Abstencion,Homicidio,-0.001268437,0.768509245,-0.112970043
+ Caqueta,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.973852531,0.049627827,0.710084844
+ Risaralda,PorcentajeNo,Homicidio,-0.001284476,0.610767961,-0.341631719
+ Risaralda,PorcentajeSi,Amenaza,0.003041373,0.384408057,0.736899812
+ Guaviare,Abstencion,AbandonoODespojoDeTierras,0,0.667225,0
+ Quindio,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.476430023,0.630863354,-0.531257375
+ Putumayo,Abstencion,MinasAntipersonal,0.044483854,0.596555952,0.894421556
+ Quindio,PorcentajeNo,HectareasDeAmapola,0,0.622208333,0
+ Atlantico,Abstencion,AbandonoODespojoDeTierras,0,0.764604348,0
+ Casanare,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-1.366463345,1.370820813,-0.959874616
+ Bogota  D.C.,PorcentajeNo,HectareasDeCoca,0,0.4392,0
+ Guaviare,PorcentajeSi,TotalPrimeraVuelta,-2.70E-05,0.784560311,-0.871065459
+ Quindio,PorcentajeSi,ParticipacionPrimeraVuelta,0.319817934,0.229582706,0.138313735
+ Tolima,Abstencion,Homicidio,0.000265885,0.629678116,0.282653697
+ Tolima,PorcentajeNo,ParticipacionSegundaVuelta,0.514100759,0.335486398,0.24009708
+ Sucre,Abstencion,MinasAntipersonal,-0.004084336,0.656745801,-0.032689714
+ Quindio,PorcentajeSi,HectareasDeCoca,0,0.377791667,0
+ Caqueta,Abstencion,VotosParaSenado2014,-1.61E-06,0.723436372,-0.318447604
+ Norte  de  Santander,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.10616151,0.687564715,-0.287476281
+ Tolima,PorcentajeNo,HectareasDeAmapola,-0.0344596,0.587341533,-0.13075244
+ Tolima,PorcentajeNo,Desplazamiento,-9.58E-06,0.588106212,-0.075245533
+ Risaralda,PorcentajeNo,TotalPrimeraVuelta,-1.01E-07,0.569173057,-0.05941024
+ Santander,PorcentajeSi,ActosTerroristas,-0.010666528,0.487768227,-0.114138509
+ Caldas,Abstencion,TotalSegundaVuelta,-8.88E-07,0.648119764,-0.54562673
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,CensoElectoral2016,7.69E-06,0.150611632,1
+ Valle  del  Cauca,PorcentajeNo,HectareasDeAmapola,0,0.530811905,0
+ Cundinamarca,Abstencion,Desplazamiento,0.000105534,0.578907309,0.310782455
+ Guainia,PorcentajeSi,Desplazamiento,0.000557329,0.572396215,0.338321029
+ Cordoba,Abstencion,Amenaza,-0.000551705,0.689451585,-0.266652588
+ Cesar,PorcentajeNo,TotalPrimeraVuelta,9.55E-07,0.453555423,0.160809997
+ Cundinamarca,Abstencion,Secuestro,0.022320695,0.581735625,0.190247901
+ Caqueta,PorcentajeSi,AfectadoPorElConflictoPares2,0.08352,0.3685075,0.653484661
+ Vichada,PorcentajeSi,ActosTerroristas,0.037846875,0.409373235,0.217704113
+ Vaupes,PorcentajeSi,Amenaza,-0.003173447,0.911808515,-0.856576177
+ Arauca,PorcentajeNo,AbandonoODespojoDeTierras,0,0.490757143,0
+ Huila,Abstencion,Desplazamiento,4.05E-05,0.605042234,0.173955127
+ Caldas,PorcentajeSi,Secuestro,0.001970946,0.383420847,0.030157441
+ Arauca,PorcentajeSi,VotosParaSenado2014,-5.89E-06,0.554912647,-0.294991238
+ Bolivar,Abstencion,ActosTerroristas,-0.000789462,0.725094482,-0.062287668
+ Atlantico,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.655501056,0.797443223,-0.575852707
+ Caqueta,PorcentajeSi,CensoElectoral2016,-4.29E-07,0.50131981,-0.07900013
+ Boyaca,PorcentajeNo,HectareasDeCoca,0.028537384,0.500382738,0.132891609
+ Huila,Abstencion,VotosParaSenado2014,-1.40E-07,0.612563035,-0.047321113
+ Santander,PorcentajeSi,VinculacionNinosAdolescentes,-0.03831318,0.48298635,-0.083610751
+ Antioquia,Abstencion,AfectadoPorElConflictoPares2,0.021825799,0.685000855,0.240400818
+ Cesar,PorcentajeSi,ParticipacionPrimeraVuelta,-0.715245149,0.799577328,-0.355774023
+ Bogota  D.C.,Abstencion,VotosParaSenado2014,3.97E-07,2.93E-13,0
+ Cundinamarca,PorcentajeNo,Secuestro,-0.018131136,0.572483195,-0.118881761
+ Arauca,PorcentajeNo,ParticipacionPrimeraVuelta,1.91552931,-0.162465717,0.427039331
+ Bogota  D.C.,PorcentajeSi,ActosTerroristas,0.092658179,0.54504811,0
+ Cordoba,PorcentajeNo,MinasAntipersonal,-0.026001658,0.337564948,-0.173093271
+ La  Guajira,PorcentajeSi,IndiceRuralidad2014,-0.042153502,0.646577417,-0.111206889
+ Sucre,Abstencion,HectareasDeCoca,0,0.656092308,0
+ Arauca,PorcentajeSi,VinculacionNinosAdolescentes,-0.020076253,0.528802864,-0.07289726
+ Boyaca,Abstencion,ParticipacionSegundaVuelta,-0.692353132,0.978049546,-0.532267096
+ Norte  de  Santander,Abstencion,MinasAntipersonal,0.014092619,0.615236623,0.47182144
+ Valle  del  Cauca,PorcentajeNo,VotosParaSenado2014,-3.30E-07,0.538053681,-0.229607044
+ Valle  del  Cauca,PorcentajeSi,Homicidio,-0.001527093,0.511359852,-0.29203861
+ Cesar,PorcentajeNo,VinculacionNinosAdolescentes,-0.230646329,0.48871213,-0.298902075
+ Meta,PorcentajeSi,CensoElectoral2016,-4.50E-07,0.453383905,-0.181094065
+ Vaupes,Abstencion,Secuestro,-0.008006721,0.778160922,-0.274544809
+ Cordoba,PorcentajeSi,VotosParaSenado2014,-2.11E-06,0.706865432,-0.519922885
+ Quindio,Abstencion,MinasAntipersonal,0.00511721,0.598084696,0.10868883
+ Putumayo,PorcentajeNo,Homicidio,-0.000986667,0.409707403,-0.338069982
+ Casanare,Abstencion,MinasAntipersonal,-0.003559,0.514110811,-0.269087868
+ Santander,PorcentajeNo,Homicidio,0.002230173,0.484313604,0.32689479
+ Choco,Abstencion,IndiceRuralidad2014,-0.031981923,0.696002681,-0.137051703
+ Sucre,Abstencion,TotalSegundaVuelta,-9.62E-08,0.657319027,-0.033444651
+ Risaralda,PorcentajeSi,TotalSegundaVuelta,1.02E-07,0.430632182,0.062331374
+ Magdalena,PorcentajeNo,Homicidio,8.41E-06,0.304270649,0.001022436
+ Putumayo,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.702908148,0.873931871,-0.91675521
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,-19.27044025,8.814657233,-1
+ Putumayo,PorcentajeSi,TotalSegundaVuelta,2.84E-06,0.631335398,0.115955423
+ Risaralda,Abstencion,VinculacionNinosAdolescentes,0.053190285,0.613583279,0.462656979
+ Magdalena,PorcentajeNo,IndiceRuralidad2014,-0.152210909,0.375045343,-0.259049495
+ Putumayo,Abstencion,IndiceRuralidad2014,0.172011142,0.562849022,0.489859136
+ Arauca,Abstencion,HectareasDeCoca,-0.004993316,0.677033643,-0.725004772
+ Choco,PorcentajeSi,HectareasDeAmapola,0,0.82164,0
+ Santander,PorcentajeNo,Amenaza,0.002572231,0.505930831,0.188504972
+ Boyaca,Abstencion,CensoElectoral2016,-1.08E-06,0.623889692,-0.254628817
+ La  Guajira,PorcentajeSi,TotalPrimeraVuelta,-2.39E-06,0.646442977,-0.236074931
+ Putumayo,PorcentajeSi,Secuestro,0.036398428,0.562341032,0.557632289
+ Sucre,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.572392869,0.158513933,0.635293479
+ Huila,PorcentajeNo,TotalPrimeraVuelta,-3.75E-07,0.629983407,-0.070353351
+ Putumayo,Abstencion,ActosTerroristas,0.006477235,0.610701986,0.592240711
+ Casanare,Abstencion,HectareasDeAmapola,0,0.507410526,0
+ Caldas,Abstencion,VinculacionNinosAdolescentes,-0.011944928,0.637478174,-0.074720684
+ Guainia,PorcentajeNo,VotosParaSenado2014,4.96E-05,0.204478701,0.499879586
+ Cauca,PorcentajeSi,ActosTerroristas,0.001512196,0.705674536,0.285369532
+ Sucre,PorcentajeNo,TotalPrimeraVuelta,2.03E-06,0.326816437,0.265364881
+ Norte  de  Santander,Abstencion,HectareasDeCoca,2.90E-05,0.625344936,0.317068081
+ Putumayo,PorcentajeSi,ActosTerroristas,0.015235008,0.555349655,0.751487027
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,TotalPrimeraVuelta,1.67E-05,0.680611063,1
+ Putumayo,Abstencion,Secuestro,0.028621261,0.581880581,0.812800356
+ Guainia,PorcentajeNo,Secuestro,-0.067943548,0.266832975,-0.229747184
+ Narino,Abstencion,IndiceRuralidad2014,0.012555522,0.611941556,0.030045052
+ La  Guajira,PorcentajeSi,CensoElectoral2016,-1.08E-06,0.667578455,-0.533727385
+ Norte  de  Santander,PorcentajeNo,CensoElectoral2016,2.02E-07,0.575030846,0.089241158
+ Atlantico,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.655501056,0.202556777,0.575852707
+ Casanare,PorcentajeNo,VotosParaSenado2014,7.64E-06,0.585467899,0.272610425
+ Arauca,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.05335277,0.640911483,0.423936708
+ Tolima,Abstencion,AfectadoPorElConflictoPares2,0.006238036,0.636073476,0.108751004
+ Cauca,PorcentajeNo,CensoElectoral2016,9.33E-07,0.254680148,0.301745057
+ Cauca,Abstencion,AfectadoPorElConflictoPares2,0.028573913,0.575924845,0.382713518
+ Guainia,PorcentajeSi,CensoElectoral2016,-6.66E-06,0.668052883,-0.146195662
+ Tolima,PorcentajeSi,HectareasDeAmapola,0.0344596,0.412658467,0.13075244
+ Bogota  D.C.,PorcentajeSi,ParticipacionPrimeraVuelta,0.219657565,0.45468343,0
+ Vichada,PorcentajeNo,ParticipacionSegundaVuelta,1.601997817,-0.064977205,0.929630208
+ Guainia,PorcentajeSi,ParticipacionSegundaVuelta,-0.707750949,0.835686389,-0.3462942
+ La  Guajira,Abstencion,VotosParaSenado2014,3.41E-06,0.696581797,0.361423207
+ Santander,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.509985764,0.332082148,0.506549254
+ Meta,Abstencion,AfectadoPorElConflictoPares2,0.037544536,0.540534021,0.617319961
+ Meta,PorcentajeNo,Desplazamiento,-0.000164168,0.638180301,-0.514933113
+ Caldas,PorcentajeSi,Homicidio,-0.000388588,0.39709703,-0.105618774
+ Magdalena,PorcentajeSi,VinculacionNinosAdolescentes,-1.035816527,0.718666569,-0.430376814
+ Quindio,Abstencion,Homicidio,0.000186879,0.59519516,0.186235537
+ Norte  de  Santander,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.894385021,0.25717305,0.761608937
+ Norte  de  Santander,Abstencion,VotosParaSenado2014,-4.52E-07,0.638078683,-0.183531061
+ Vichada,PorcentajeNo,Secuestro,-0.204866044,0.700992944,-0.909217696
+ Cundinamarca,PorcentajeNo,ParticipacionSegundaVuelta,0.756300274,0.167976849,0.474063144
+ Cundinamarca,PorcentajeSi,Desplazamiento,0.000108003,0.422921626,0.24466828
+ Choco,PorcentajeSi,Desplazamiento,3.61E-05,0.786461359,0.315916734
+ Arauca,PorcentajeNo,CensoElectoral2016,1.41E-06,0.455163022,0.201137186
+ Bolivar,PorcentajeNo,AbandonoODespojoDeTierras,0.00967168,0.331068436,0.110699931
+ Caqueta,PorcentajeSi,HectareasDeAmapola,0,0.4937875,0
+ Bolivar,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.500117397,0.831102972,-0.535017539
+ Atlantico,Abstencion,IndiceRuralidad2014,-0.023028676,0.76879787,-0.083921648
+ Caqueta,PorcentajeNo,AbandonoODespojoDeTierras,0,0.5062125,0
+ Arauca,PorcentajeNo,Amenaza,0.000365039,0.483698325,0.017946937
+ Casanare,PorcentajeSi,ParticipacionPrimeraVuelta,-0.892633296,0.822202982,-0.263336356
+ Caqueta,Abstencion,AfectadoPorElConflictoPares2,0.0073575,0.70487,0.180539755
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,ParticipacionPrimeraVuelta,3.064,-0.044016,1
+ Arauca,Abstencion,AfectadoPorElConflictoPares2,0.015545,0.635945,0.455945099
+ Risaralda,PorcentajeNo,VotosParaSenado2014,-1.37E-07,0.569002632,-0.053090666
+ Cundinamarca,PorcentajeSi,ActosTerroristas,0.000538867,0.43365766,0.008273841
+ La  Guajira,PorcentajeNo,VotosParaSenado2014,2.47E-06,0.343690917,0.338477238
+ Santander,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.509985764,0.667917852,-0.506549254
+ Antioquia,PorcentajeNo,HectareasDeCoca,-0.000361879,0.58603711,-0.25989126
+ Norte  de  Santander,PorcentajeSi,AfectadoPorElConflictoPares2,0.122188429,0.339890021,0.690436319
+ Guainia,PorcentajeNo,CensoElectoral2016,1.48E-05,0.197927331,0.51487742
+ Narino,PorcentajeNo,TotalSegundaVuelta,7.34E-07,0.314650284,0.09777526
+ Cordoba,PorcentajeSi,IndiceRuralidad2014,0.254815697,0.51811669,0.536997628
+ Boyaca,PorcentajeSi,AbandonoODespojoDeTierras,0,0.497828455,0
+ Meta,PorcentajeSi,HectareasDeCoca,0.000129023,0.420687743,0.365804691
+ Meta,PorcentajeSi,Secuestro,0.015105881,0.392377027,0.343688294
+ Guaviare,PorcentajeSi,Secuestro,0.029197041,0.475742768,0.874475514
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,18.33898305,-4.747877966,1
+ Cordoba,PorcentajeNo,HectareasDeCoca,-5.76E-05,0.335770662,-0.101241475
+ Putumayo,PorcentajeNo,HectareasDeAmapola,0.118270833,0.345991667,0.113326471
+ Bogota  D.C.,PorcentajeSi,MinasAntipersonal,0,0.5608,0
+ Huila,PorcentajeSi,MinasAntipersonal,0.036553631,0.358591038,0.38545511
+ Vaupes,Abstencion,VinculacionNinosAdolescentes,-0.011386854,0.773481381,-0.282220462
+ Cesar,Abstencion,Secuestro,-0.002064323,0.67931266,-0.135572325
+ Caldas,PorcentajeNo,HectareasDeAmapola,0,0.614762963,0
+ Caqueta,PorcentajeSi,TotalSegundaVuelta,-1.81E-06,0.50583679,-0.156827932
+ Cauca,PorcentajeNo,Desplazamiento,-0.000115104,0.314512101,-0.342060341
+ La  Guajira,Abstencion,Desplazamiento,-0.00016619,0.778344707,-0.390536689
+ Caqueta,Abstencion,Secuestro,-0.003037791,0.729037101,-0.245400208
+ Vichada,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.868502262,0.045706482,0.945709621
+ Risaralda,Abstencion,Desplazamiento,9.27E-05,0.61010224,0.538987086
+ Vaupes,PorcentajeNo,Amenaza,0.003173447,0.088191485,0.856576177
+ Huila,Abstencion,AbandonoODespojoDeTierras,0,0.611581081,0
+ Caldas,PorcentajeSi,HectareasDeCoca,0,0.385237037,0
+ Choco,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.84413998,0.977980352,-0.547713543
+ Atlantico,PorcentajeSi,IndiceRuralidad2014,0.03892537,0.685602994,0.08312617
+ Caldas,PorcentajeSi,VinculacionNinosAdolescentes,0.050805655,0.376035568,0.260313989
+ Santander,PorcentajeNo,VotosParaSenado2014,6.00E-07,0.517935622,0.093108315
+ Guaviare,Abstencion,ParticipacionPrimeraVuelta,-0.90761261,0.954507081,-0.83067566
+ Vaupes,PorcentajeNo,AbandonoODespojoDeTierras,0,0.146133333,0
+ Quindio,PorcentajeSi,Secuestro,-0.023009232,0.384502693,-0.220487444
+ La  Guajira,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.017776278,0.732205757,0.014102447
+ Vichada,PorcentajeNo,AbandonoODespojoDeTierras,0,0.51815,0
+ Antioquia,Abstencion,TotalPrimeraVuelta,-3.42E-07,0.699421241,-0.261061615
+ Guainia,PorcentajeSi,TotalSegundaVuelta,-2.04E-05,0.666990231,-0.154380516
+ Cesar,Abstencion,TotalSegundaVuelta,-7.22E-09,0.67240351,-0.002868043
+ Vichada,PorcentajeNo,MinasAntipersonal,-1.682746365,0.665390307,-0.623011742
+ Cauca,PorcentajeSi,TotalPrimeraVuelta,-2.30E-06,0.743491045,-0.316961215
+ Santander,PorcentajeNo,ParticipacionPrimeraVuelta,0.961841762,0.116729063,0.349284553
+ Bolivar,PorcentajeSi,AfectadoPorElConflictoPares2,-0.026358559,0.678814062,-0.245455644
+ Meta,Abstencion,TotalSegundaVuelta,-4.12E-07,0.577495943,-0.18223055
+ Antioquia,PorcentajeSi,ParticipacionPrimeraVuelta,-0.597065567,0.634630138,-0.422117155
+ Magdalena,Abstencion,VotosParaSenado2014,-9.47E-08,0.76209624,-0.024737094
+ Guainia,PorcentajeSi,MinasAntipersonal,0,0.649233333,0
+ Risaralda,PorcentajeSi,VotosParaSenado2014,1.37E-07,0.430997368,0.053090666
+ Norte  de  Santander,Abstencion,Homicidio,0.000712775,0.610676316,0.263917713
+ Amazonas,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.091022839,0.757551922,-0.223141895
+ Casanare,Abstencion,CensoElectoral2016,7.75E-08,0.506336456,0.027477214
+ Antioquia,PorcentajeNo,HectareasDeAmapola,0,0.5790816,0
+ Risaralda,PorcentajeSi,ActosTerroristas,0.005860385,0.408443098,0.7134576
+ Sucre,Abstencion,Secuestro,0.00540025,0.650203958,0.114787257
+ Tolima,PorcentajeNo,Secuestro,-0.005764021,0.589018723,-0.091280935
+ Caldas,PorcentajeNo,VinculacionNinosAdolescentes,-0.050805655,0.623964432,-0.260313989
+ Boyaca,Abstencion,ActosTerroristas,-0.004551217,0.618725979,-0.145012668
+ Caqueta,Abstencion,MinasAntipersonal,-0.000164026,0.716209801,-0.008351194
+ Bogota  D.C.,PorcentajeSi,Homicidio,0.24126802,0.423277228,0
+ Valle  del  Cauca,PorcentajeSi,HectareasDeCoca,0.000390531,0.462772422,0.443269886
+ Cesar,Abstencion,HectareasDeCoca,-0.001372799,0.67413492,-0.10516324
+ Guainia,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-1.619341894,0.952626033,-0.753892069
+ Meta,Abstencion,HectareasDeAmapola,0,0.5729,0
+ Huila,Abstencion,TotalPrimeraVuelta,-1.24E-07,0.61262101,-0.053771699
+ Norte  de  Santander,PorcentajeSi,Desplazamiento,0.000302799,0.321446266,0.75241598
+ Norte  de  Santander,PorcentajeNo,AfectadoPorElConflictoPares2,-0.122189809,0.660113376,-0.690449356
+ Amazonas,PorcentajeSi,Desplazamiento,0.000834625,0.764083574,0.280223745
+ Cauca,PorcentajeNo,Secuestro,0.022741208,0.251999592,0.258036589
+ Vichada,PorcentajeNo,VotosParaSenado2014,3.49E-06,0.50698097,0.028127401
+ Vaupes,PorcentajeSi,HectareasDeAmapola,0,0.853866667,0
+ Guaviare,PorcentajeSi,ParticipacionSegundaVuelta,-1.576500589,1.2630694,-0.807377319
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,TotalPrimeraVuelta,-4.72E-05,0.870007304,-1
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,TotalSegundaVuelta,3.63E-05,0.137500379,1
+ Valle  del  Cauca,PorcentajeSi,HectareasDeAmapola,0,0.469188095,0
+ Narino,Abstencion,TotalSegundaVuelta,1.01E-07,0.619872618,0.028059623
+ Cordoba,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.571453217,0.193316826,0.498534916
+ Caqueta,PorcentajeSi,Homicidio,-0.002225708,0.673012646,-0.498182013
+ Amazonas,PorcentajeNo,HectareasDeAmapola,0,0.193972727,0
+ Cundinamarca,Abstencion,AfectadoPorElConflictoPares2,0.041229464,0.588370536,0.112929964
+ La  Guajira,PorcentajeSi,AbandonoODespojoDeTierras,0,0.627126667,0
+ Caldas,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.089890801,0.575328686,0.182354491
+ Casanare,PorcentajeNo,TotalPrimeraVuelta,5.16E-06,0.588336767,0.262867927
+ Amazonas,PorcentajeNo,Desplazamiento,-0.000834625,0.235916426,-0.280223745
+ Magdalena,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.046608386,0.749276451,0.072540791
+ Bolivar,Abstencion,HectareasDeCoca,-0.000319683,0.730531129,-0.27619425
+ Tolima,PorcentajeSi,ActosTerroristas,-0.000210894,0.416875623,-0.010897275
+ Quindio,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.115289908,0.634926673,-0.248270034
+ Tolima,Abstencion,CensoElectoral2016,-2.74E-07,0.644395436,-0.419306146
+ Cesar,PorcentajeSi,HectareasDeAmapola,0.02558183,0.532013961,0.169402048
+ Norte  de  Santander,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.836340982,0.156382857,0.864355151
+ Norte  de  Santander,PorcentajeNo,Secuestro,-0.026531511,0.651078099,-0.621718274
+ Vaupes,PorcentajeSi,TotalSegundaVuelta,-2.86E-05,0.881951551,-0.696651839
+ Bogota  D.C.,PorcentajeSi,Secuestro,0.016808872,0.560295734,0
+ Cauca,PorcentajeSi,HectareasDeAmapola,0.000415167,0.722195063,0.068542432
+ Atlantico,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.588300779,0.207898653,0.526510203
+ Casanare,PorcentajeNo,VinculacionNinosAdolescentes,-0.128183265,0.745040619,-0.604470174
+ Caqueta,PorcentajeNo,Amenaza,-0.000296792,0.530196975,-0.066800517
+ Caldas,Abstencion,HectareasDeAmapola,0,0.635314815,0
+ Antioquia,PorcentajeSi,AfectadoPorElConflictoPares2,0.066063319,0.392379046,0.475768499
+ Caqueta,PorcentajeSi,ParticipacionSegundaVuelta,-1.325998665,0.968619335,-0.730849497
+ Magdalena,Abstencion,HectareasDeCoca,0.019251604,0.756623219,0.260517496
+ Norte  de  Santander,PorcentajeSi,TotalSegundaVuelta,-5.02E-07,0.425278072,-0.09577519
+ Magdalena,PorcentajeNo,ActosTerroristas,-0.065118891,0.348183149,-0.259058757
+ Casanare,PorcentajeNo,Desplazamiento,-0.000514076,0.759793699,-0.56120158
+ Bogota  D.C.,Abstencion,MinasAntipersonal,0,0.5366,0
+ Cundinamarca,Abstencion,TotalSegundaVuelta,-1.98E-06,0.604996516,-0.37254671
+ Cordoba,PorcentajeNo,ParticipacionPrimeraVuelta,0.26329795,0.236593199,0.147780446
+ Cesar,Abstencion,HectareasDeAmapola,0.000473531,0.672215188,0.005536323
+ Bolivar,Abstencion,TotalPrimeraVuelta,5.54E-07,0.718694457,0.16811261
+ Cundinamarca,PorcentajeNo,VinculacionNinosAdolescentes,-0.093740264,0.578787674,-0.286322921
+ Bolivar,PorcentajeNo,Amenaza,-0.001139229,0.346850672,-0.092927419
+ Quindio,PorcentajeSi,Desplazamiento,-1.14E-05,0.378899313,-0.034294879
+ Antioquia,Abstencion,TotalSegundaVuelta,-3.30E-07,0.699626996,-0.255117567
+ Norte  de  Santander,PorcentajeSi,Homicidio,0.003468627,0.307246371,0.490167374
+ Cesar,PorcentajeNo,MinasAntipersonal,-0.075706259,0.472117316,-0.098853237
+ Cordoba,PorcentajeNo,ParticipacionSegundaVuelta,0.149982082,0.254450236,0.091191024
+ Caqueta,PorcentajeNo,ParticipacionPrimeraVuelta,1.360980502,0.097135786,0.782394205
+ Sucre,Abstencion,AfectadoPorElConflictoPares2,0,0.656092308,0
+ Arauca,PorcentajeNo,HectareasDeCoca,-0.032968038,0.57143464,-0.71213726
+ La  Guajira,PorcentajeNo,AbandonoODespojoDeTierras,0,0.372873333,0
+ Boyaca,PorcentajeNo,IndiceRuralidad2014,-0.053703193,0.53851136,-0.097453901
+ Guaviare,PorcentajeNo,VinculacionNinosAdolescentes,-0.139545953,0.596537283,-0.72196019
+ Choco,PorcentajeNo,Desplazamiento,-3.61E-05,0.213538641,-0.315916734
+ Huila,PorcentajeSi,CensoElectoral2016,1.94E-07,0.368997613,0.093266777
+ Bolivar,PorcentajeSi,IndiceRuralidad2014,0.013436763,0.65967108,0.028434089
+ Vaupes,PorcentajeSi,AfectadoPorElConflictoPares2,-0.040511111,0.914633333,-0.900509597
+ Vichada,PorcentajeSi,AbandonoODespojoDeTierras,0,0.48185,0
+ Meta,Abstencion,Desplazamiento,7.17E-05,0.537488225,0.528444241
+ Bolivar,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.023806773,0.731157113,-0.04107989
+ Boyaca,Abstencion,TotalSegundaVuelta,-2.26E-06,0.624335079,-0.269722761
+ Norte  de  Santander,PorcentajeNo,MinasAntipersonal,-0.064384034,0.665065276,-0.822693507
+ Caqueta,Abstencion,HectareasDeCoca,1.69E-05,0.707760495,0.173395193
+ Arauca,Abstencion,TotalSegundaVuelta,-1.42E-06,0.680355442,-0.589813452
+ La  Guajira,PorcentajeSi,Desplazamiento,9.59E-05,0.603201449,0.291323374
+ Casanare,PorcentajeNo,ActosTerroristas,-0.016982208,0.696074381,-0.686536726
+ Cordoba,PorcentajeSi,ParticipacionSegundaVuelta,-0.149982082,0.745549764,-0.091191024
+ Risaralda,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.491015527,0.72831928,-0.77899785
+ Bogota  D.C.,Abstencion,TotalPrimeraVuelta,2.13E-07,8.49E-14,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,IndiceRuralidad2014,-0.360066556,0.900833344,-1
+ Boyaca,Abstencion,Homicidio,-0.000177628,0.617233585,-0.036949944
+ Meta,PorcentajeNo,Amenaza,-0.007204379,0.677668862,-0.520995429
+ Choco,PorcentajeNo,IndiceRuralidad2014,-0.279851541,0.351522805,-0.57772551
+ Guaviare,Abstencion,Secuestro,0.015022141,0.571947072,0.862900621
+ Valle  del  Cauca,PorcentajeNo,Secuestro,0.054006736,0.508720578,0.245010996
+ Meta,PorcentajeNo,TotalPrimeraVuelta,1.12E-06,0.545362402,0.20171579
+ Sucre,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.345930769,0
+ Valle  del  Cauca,PorcentajeNo,MinasAntipersonal,-0.081506118,0.53966114,-0.275047695
+ Boyaca,PorcentajeNo,TotalSegundaVuelta,-7.09E-08,0.502441731,-0.005139696
+ Bolivar,PorcentajeNo,MinasAntipersonal,0.019402233,0.326566363,0.106888694
+ Risaralda,PorcentajeSi,IndiceRuralidad2014,0.088831288,0.390447932,0.299741605
+ Putumayo,Abstencion,Desplazamiento,0.000126137,0.576794023,0.840438001
+ Quindio,PorcentajeSi,IndiceRuralidad2014,0.030868217,0.368064834,0.124881822
+ Cauca,PorcentajeSi,AfectadoPorElConflictoPares2,0.030695652,0.678685093,0.266712834
+ Cundinamarca,Abstencion,HectareasDeCoca,0,0.589792241,0
+ Guainia,Abstencion,Secuestro,-0.025646462,0.830847474,-0.108991785
+ Amazonas,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.494323387,0.913147151,-0.460832721
+ Huila,PorcentajeNo,AbandonoODespojoDeTierras,0,0.626827027,0
+ Amazonas,Abstencion,TotalSegundaVuelta,-1.23E-07,0.738004664,-0.010014244
+ Casanare,PorcentajeNo,AbandonoODespojoDeTierras,0,0.622389474,0
+ Narino,PorcentajeNo,ParticipacionPrimeraVuelta,0.648415556,0.078308811,0.371429044
+ Santander,PorcentajeNo,HectareasDeCoca,0.021641782,0.516700929,0.160064275
+ Cundinamarca,Abstencion,CensoElectoral2016,-9.05E-07,0.603568032,-0.343765993
+ Guaviare,PorcentajeNo,IndiceRuralidad2014,-0.760674233,0.720305909,-0.873621375
+ Guaviare,PorcentajeNo,ParticipacionSegundaVuelta,1.576500589,-0.2630694,0.807377319
+ Narino,PorcentajeSi,Secuestro,0.003747917,0.671172337,0.150290878
+ Putumayo,PorcentajeNo,Amenaza,-0.000797271,0.376170085,-0.20013702
+ Cauca,Abstencion,HectareasDeAmapola,0.001141448,0.611820164,0.290488968
+ Bogota  D.C.,PorcentajeNo,IndiceRuralidad2014,0.000922316,0.439198063,0
+ Magdalena,PorcentajeNo,Secuestro,0.045028669,0.282222504,0.143697175
+ Magdalena,PorcentajeSi,TotalSegundaVuelta,-2.06E-06,0.721853696,-0.367919362
+ Caqueta,Abstencion,Homicidio,0.000369814,0.686127013,0.259597398
+ Norte  de  Santander,Abstencion,VinculacionNinosAdolescentes,0.047346927,0.624602553,0.244985308
+ Cundinamarca,PorcentajeSi,HectareasDeCoca,0,0.434061207,0
+ Atlantico,PorcentajeNo,AbandonoODespojoDeTierras,0,0.307308696,0
+ Atlantico,Abstencion,TotalSegundaVuelta,-3.54E-08,0.765671173,-0.057795761
+ Meta,Abstencion,IndiceRuralidad2014,0.139320655,0.503759483,0.47187621
+ Casanare,PorcentajeNo,Secuestro,-0.006902885,0.653812133,-0.366530174
+ Arauca,PorcentajeNo,TotalPrimeraVuelta,5.34E-06,0.445845455,0.28122049
+ Risaralda,PorcentajeNo,HectareasDeCoca,0,0.566721429,0
+ Cauca,Abstencion,ParticipacionPrimeraVuelta,-0.596673972,0.840042368,-0.740842448
+ Risaralda,PorcentajeNo,Desplazamiento,-0.000257234,0.613182149,-0.79306952
+ Bolivar,Abstencion,IndiceRuralidad2014,-0.09564723,0.765732002,-0.326474861
+ Vaupes,PorcentajeSi,IndiceRuralidad2014,0.3223498,0.57772571,0.862354705
+ Bogota  D.C.,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.09052369,0.41967404,0
+ Bolivar,PorcentajeSi,Secuestro,-0.019753589,0.693607582,-0.30991577
+ Quindio,PorcentajeSi,TotalSegundaVuelta,3.69E-07,0.371020711,0.260186502
+ Magdalena,PorcentajeNo,ParticipacionPrimeraVuelta,-1.161585283,0.690709261,-0.493542875
+ Boyaca,Abstencion,Desplazamiento,-0.000111257,0.620482729,-0.140617924
+ Sucre,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.7630893,0.928106338,-0.741308722
+ Magdalena,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.036363738,0.771375544,-0.06375637
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,TotalSegundaVuelta,1.28E-05,0.683262275,1
+ Meta,PorcentajeNo,Secuestro,-0.015105881,0.607622973,-0.343688294
+ Vaupes,PorcentajeNo,Secuestro,0.015321172,0.121236428,0.37069306
+ Cauca,Abstencion,TotalSegundaVuelta,-5.44E-07,0.624366691,-0.129880653
+ Valle  del  Cauca,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.066495025,0.61986637,0.328118862
+ Amazonas,PorcentajeNo,AbandonoODespojoDeTierras,0,0.193972727,0
+ Cordoba,PorcentajeSi,HectareasDeAmapola,0,0.666846667,0
+ Tolima,PorcentajeNo,VotosParaSenado2014,3.09E-07,0.581469086,0.062278557
+ Casanare,PorcentajeSi,TotalPrimeraVuelta,-5.16E-06,0.411663233,-0.262867927
+ Arauca,PorcentajeNo,VinculacionNinosAdolescentes,0.020076253,0.471197136,0.07289726
+ Putumayo,PorcentajeSi,HectareasDeAmapola,-0.118270833,0.654008333,-0.113326471
+ Amazonas,Abstencion,Desplazamiento,-1.52E-05,0.738593254,-0.013457206
+ Meta,PorcentajeSi,IndiceRuralidad2014,0.505820482,0.191859751,0.729264941
+ Narino,PorcentajeSi,MinasAntipersonal,0.025479694,0.664821137,0.243189432
+ Amazonas,PorcentajeSi,TotalSegundaVuelta,-2.90E-05,0.847918691,-0.899318204
+ Caqueta,Abstencion,Desplazamiento,5.47E-05,0.664959718,0.46946167
+ Tolima,PorcentajeSi,HectareasDeCoca,0,0.416251064,0
+ Choco,Abstencion,ParticipacionSegundaVuelta,-0.053877154,0.693689645,-0.103912984
+ La  Guajira,PorcentajeSi,ParticipacionSegundaVuelta,0.323591547,0.491854614,0.550266127
+ Quindio,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.432692319,0.487810493,0.545074526
+ Bogota  D.C.,PorcentajeSi,VotosParaSenado2014,4.15E-07,3.07E-13,0
+ Norte  de  Santander,PorcentajeNo,ParticipacionSegundaVuelta,0.794123056,0.205828182,0.336954369
+ Quindio,PorcentajeSi,VinculacionNinosAdolescentes,-0.068641784,0.383912226,-0.281490493
+ Boyaca,PorcentajeSi,VotosParaSenado2014,2.08E-07,0.49732982,0.009138021
+ Caldas,Abstencion,ParticipacionSegundaVuelta,-0.718488973,1.001874583,-0.464417001
+ Cauca,PorcentajeNo,VinculacionNinosAdolescentes,-0.017149968,0.282547915,-0.094840547
+ Putumayo,Abstencion,Homicidio,0.001113029,0.583329353,0.706923622
+ Norte  de  Santander,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.894399131,0.742834554,-0.761615172
+ Narino,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.101632388,0.640251899,-0.220973953
+ Huila,PorcentajeNo,ParticipacionPrimeraVuelta,0.885973228,0.256751221,0.601108915
+ Bogota  D.C.,Abstencion,AfectadoPorElConflictoPares2,0,0.5366,0
+ Santander,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.061500168,0.629501684,-0.129724603
+ Norte  de  Santander,PorcentajeNo,Desplazamiento,-0.000302802,0.678557137,-0.75242863
+ Narino,Abstencion,CensoElectoral2016,1.44E-07,0.618259211,0.079685948
+ Quindio,Abstencion,Amenaza,0.000293193,0.595892517,0.154160431
+ Cesar,PorcentajeNo,AfectadoPorElConflictoPares2,0.028286441,0.453920339,0.175695075
+ Bolivar,Abstencion,VotosParaSenado2014,4.55E-07,0.718056409,0.185850969
+ Choco,PorcentajeSi,TotalSegundaVuelta,-4.27E-06,0.835275001,-0.200402044
+ Arauca,PorcentajeSi,TotalPrimeraVuelta,-5.34E-06,0.554154545,-0.28122049
+ Tolima,Abstencion,ParticipacionSegundaVuelta,-0.55187462,0.904833564,-0.623098632
+ Boyaca,PorcentajeSi,AfectadoPorElConflictoPares2,-0.02428091,0.499999919,-0.092045326
+ Sucre,PorcentajeSi,VinculacionNinosAdolescentes,0.011469259,0.652864959,0.033513323
+ Choco,PorcentajeSi,Secuestro,-0.001579756,0.825021732,-0.04651058
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,MinasAntipersonal,0,0.3347,0
+ Cundinamarca,PorcentajeSi,HectareasDeAmapola,0,0.434061207,0
+ Caqueta,PorcentajeSi,IndiceRuralidad2014,0.440171501,0.246810022,0.586054537
+ Tolima,PorcentajeNo,MinasAntipersonal,-0.001538965,0.585355354,-0.068501584
+ Guainia,PorcentajeNo,ParticipacionSegundaVuelta,0.339275833,0.150275222,0.263673428
+ Cordoba,PorcentajeNo,CensoElectoral2016,8.59E-07,0.298892308,0.500709528
+ Putumayo,PorcentajeNo,CensoElectoral2016,-8.22E-07,0.363083822,-0.084026898
+ Cesar,PorcentajeSi,HectareasDeCoca,-0.006557809,0.545755133,-0.284531379
+ Cordoba,Abstencion,Desplazamiento,-1.91E-05,0.687569594,-0.139435327
+ Bolivar,PorcentajeSi,VotosParaSenado2014,-7.38E-07,0.674105053,-0.186820305
+ Bogota  D.C.,PorcentajeSi,HectareasDeAmapola,0,0.5608,0
+ Atlantico,PorcentajeSi,MinasAntipersonal,0,0.692691304,0
+ Sucre,PorcentajeNo,MinasAntipersonal,0.005578982,0.345038132,0.02299865
+ Risaralda,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.102940058,0.564988382,0.308039932
+ Norte  de  Santander,Abstencion,ActosTerroristas,0.003124958,0.620841893,0.261596251
+ Meta,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.005554731,0.575481188,-0.009558516
+ Cundinamarca,Abstencion,ParticipacionPrimeraVuelta,-0.748184133,0.931173182,-0.904533254
+ Atlantico,PorcentajeNo,HectareasDeAmapola,0,0.307308696,0
+ Choco,PorcentajeNo,ActosTerroristas,-0.001344547,0.191893759,-0.303648599
+ Cundinamarca,PorcentajeSi,ParticipacionPrimeraVuelta,-0.424764541,0.627872479,-0.39504116
+ Guainia,PorcentajeNo,HectareasDeCoca,-0.016857367,0.308452344,-0.645231801
+ Risaralda,PorcentajeSi,AbandonoODespojoDeTierras,0,0.433278571,0
+ Atlantico,Abstencion,VinculacionNinosAdolescentes,1.65759434,0.760280189,0.329728266
+ Narino,PorcentajeSi,Desplazamiento,0.000319203,0.607872232,0.630121785
+ Arauca,Abstencion,AbandonoODespojoDeTierras,0,0.664814286,0
+ Cauca,PorcentajeSi,CensoElectoral2016,-9.33E-07,0.745319852,-0.301745057
+ Norte  de  Santander,Abstencion,Secuestro,0.004661413,0.621338271,0.286203754
+ Santander,Abstencion,TotalSegundaVuelta,-5.09E-07,0.611339271,-0.256577066
+ Bogota  D.C.,PorcentajeNo,TotalPrimeraVuelta,1.75E-07,6.95E-14,0
+ Caldas,PorcentajeNo,AfectadoPorElConflictoPares2,-0.034334615,0.616034615,-0.109470268
+ Cauca,PorcentajeNo,ParticipacionSegundaVuelta,0.149251177,0.202506149,0.10327436
+ Antioquia,PorcentajeSi,HectareasDeCoca,0.000361879,0.41396289,0.25989126
+ Bolivar,PorcentajeSi,Desplazamiento,-5.12E-06,0.668348996,-0.023547838
+ Risaralda,PorcentajeNo,ParticipacionSegundaVuelta,1.138668122,-0.016268516,0.398948387
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,ActosTerroristas,-30.64,0.8185,-1
+ Caldas,PorcentajeSi,Amenaza,0.000856512,0.37395202,0.270881885
+ Guainia,Abstencion,HectareasDeAmapola,0,0.820588889,0
+ Vichada,PorcentajeNo,ParticipacionPrimeraVuelta,1.742406848,-0.028791509,0.917780094
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,ActosTerroristas,30.64,0.1815,1
+ Guainia,PorcentajeSi,Amenaza,0.001876934,0.641907036,0.02778478
+ Boyaca,PorcentajeNo,VotosParaSenado2014,-2.08E-07,0.50267018,-0.009138021
+ Choco,Abstencion,Amenaza,0.000431811,0.660511398,0.344073942
+ Cundinamarca,Abstencion,MinasAntipersonal,0.017458826,0.587302854,0.105202904
+ Meta,Abstencion,CensoElectoral2016,-1.67E-07,0.576791134,-0.157640331
+ Santander,Abstencion,Amenaza,0.000402988,0.604125884,0.062717361
+ Narino,Abstencion,VinculacionNinosAdolescentes,0.058961838,0.610295638,0.256842047
+ Arauca,PorcentajeNo,IndiceRuralidad2014,-0.698880228,0.759137134,-0.766391757
+ Vichada,Abstencion,Amenaza,0.023151819,0.50532076,0.928415856
+ Choco,PorcentajeNo,VotosParaSenado2014,5.32E-06,0.162791761,0.189048892
+ Cordoba,PorcentajeNo,Desplazamiento,-1.27E-05,0.335995588,-0.050136962
+ Cesar,PorcentajeNo,ActosTerroristas,-0.003396212,0.470968042,-0.152185071
+ Sucre,PorcentajeSi,TotalSegundaVuelta,-1.52E-06,0.673440196,-0.272013462
+ Casanare,Abstencion,VinculacionNinosAdolescentes,-0.030171559,0.536279945,-0.482904963
+ Antioquia,Abstencion,Amenaza,0.000957322,0.672076426,0.261092316
+ Tolima,Abstencion,HectareasDeCoca,0,0.638329787,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,AfectadoPorElConflictoPares2,0,0.6653,0
+ Caldas,Abstencion,IndiceRuralidad2014,0.136941978,0.567948998,0.599297831
+ Casanare,PorcentajeNo,TotalSegundaVuelta,5.05E-06,0.58606982,0.272002376
+ Quindio,Abstencion,IndiceRuralidad2014,0.03628165,0.587684016,0.250917539
+ Cauca,PorcentajeNo,ActosTerroristas,-0.001512196,0.294325464,-0.285369532
+ Risaralda,Abstencion,TotalSegundaVuelta,-4.61E-07,0.638825064,-0.532318292
+ Sucre,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.572392869,0.841486067,-0.635293479
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,Amenaza,0.772857143,0.6988,1
+ Bogota  D.C.,Abstencion,AbandonoODespojoDeTierras,0,0.5366,0
+ Putumayo,PorcentajeNo,HectareasDeCoca,-2.30E-05,0.385077327,-0.351705607
+ Sucre,PorcentajeNo,TotalSegundaVuelta,1.52E-06,0.326559804,0.272013462
+ Huila,PorcentajeNo,VinculacionNinosAdolescentes,-0.128360397,0.648544218,-0.46911875
+ Quindio,PorcentajeNo,Amenaza,0.000392663,0.61789035,0.120776483
+ Santander,Abstencion,IndiceRuralidad2014,0.079829233,0.555153586,0.330993845
+ Bogota  D.C.,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.4392,0
+ Amazonas,PorcentajeSi,MinasAntipersonal,0.041286168,0.803062175,0.070567769
+ Vaupes,PorcentajeNo,MinasAntipersonal,0.034940885,0.115734764,0.556702565
+ Antioquia,PorcentajeSi,CensoElectoral2016,-5.99E-08,0.423092436,-0.064737301
+ Sucre,PorcentajeNo,Homicidio,-0.000459524,0.358699871,-0.180192229
+ Huila,PorcentajeNo,MinasAntipersonal,-0.036553631,0.641408962,-0.38545511
+ Atlantico,Abstencion,CensoElectoral2016,-9.97E-09,0.765379431,-0.046384454
+ Sucre,PorcentajeNo,ActosTerroristas,8.33E-06,0.345877593,0.002232666
+ Cauca,PorcentajeSi,ParticipacionSegundaVuelta,-0.149251177,0.797493851,-0.10327436
+ Choco,Abstencion,ActosTerroristas,0.000360502,0.672584643,0.169000805
+ Narino,PorcentajeNo,Homicidio,-0.003545755,0.398183449,-0.471079875
+ Risaralda,Abstencion,Amenaza,0.00122579,0.607146166,0.560191323
+ Meta,Abstencion,Homicidio,0.000597337,0.543176532,0.305537211
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,HectareasDeCoca,0,0.7529,0
+ Bogota  D.C.,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.110598844,0.512743829,0
+ Huila,PorcentajeSi,ActosTerroristas,0.026676981,0.343100085,0.351344963
+ Antioquia,Abstencion,MinasAntipersonal,0.002682261,0.691333413,0.085312726
+ Putumayo,PorcentajeSi,CensoElectoral2016,8.22E-07,0.636916178,0.084026898
+ Meta,Abstencion,Secuestro,0.006057779,0.55264613,0.323784269
+ Guainia,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-1.247258095,1.060509761,-0.882080699
+ Putumayo,PorcentajeNo,Desplazamiento,-0.000126579,0.424197012,-0.454982144
+ Huila,PorcentajeSi,TotalSegundaVuelta,3.23E-07,0.369950934,0.067392406
+ Caqueta,Abstencion,ActosTerroristas,-0.001878049,0.728781449,-0.127866659
+ Cordoba,PorcentajeSi,Secuestro,-0.024561044,0.672602138,-0.099829843
+ Casanare,PorcentajeSi,ActosTerroristas,0.016982208,0.303925619,0.686536726
+ Cundinamarca,PorcentajeNo,Homicidio,-0.001052193,0.578942446,-0.20269279
+ Bogota  D.C.,Abstencion,CensoElectoral2016,9.67E-08,1.74E-14,0
+ Cesar,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.0140777,0.677312622,-0.021610296
+ Huila,PorcentajeSi,ParticipacionSegundaVuelta,-0.925913652,0.851925385,-0.624839416
+ La  Guajira,Abstencion,HectareasDeAmapola,0,0.736873333,0
+ Vaupes,PorcentajeSi,Desplazamiento,-0.000201684,0.887263843,-0.490257264
+ Valle  del  Cauca,PorcentajeNo,TotalPrimeraVuelta,-2.14E-07,0.536835891,-0.212732705
+ Bogota  D.C.,PorcentajeNo,TotalSegundaVuelta,1.72E-07,6.76E-14,0
+ Antioquia,Abstencion,Homicidio,0.000230331,0.679930401,0.123875753
+ Vichada,PorcentajeSi,VinculacionNinosAdolescentes,0.292738963,0.349385619,0.827492556
+ La  Guajira,Abstencion,ParticipacionSegundaVuelta,-0.753079331,1.051685596,-0.990399303
+ Cundinamarca,Abstencion,ActosTerroristas,0.009336546,0.582800295,0.186351808
+ Vaupes,Abstencion,ParticipacionPrimeraVuelta,-0.41995618,0.854488678,-0.692663531
+ Putumayo,Abstencion,CensoElectoral2016,2.46E-06,0.610759254,0.467058468
+ Bolivar,PorcentajeSi,Amenaza,0.001139229,0.653149328,0.092927419
+ Atlantico,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.692691304,0
+ Risaralda,Abstencion,VotosParaSenado2014,-7.38E-07,0.639175663,-0.541374182
+ Bogota  D.C.,Abstencion,HectareasDeAmapola,0,0.5366,0
+ Huila,Abstencion,HectareasDeAmapola,0.005337691,0.610210593,0.145908359
+ Santander,Abstencion,MinasAntipersonal,-0.014043337,0.609451271,-0.113370279
+ Quindio,PorcentajeSi,ActosTerroristas,-0.004099439,0.383435227,-0.221939544
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,HectareasDeAmapola,0,0.3347,0
+ Boyaca,PorcentajeNo,AfectadoPorElConflictoPares2,0.02428091,0.500000081,0.092045326
+ Atlantico,PorcentajeSi,Amenaza,0.000893423,0.691832841,0.012901587
+ Santander,Abstencion,AbandonoODespojoDeTierras,0.001294949,0.606233776,0.037432623
+ Caqueta,PorcentajeNo,VinculacionNinosAdolescentes,-0.126168793,0.648073537,-0.514746294
+ Guainia,PorcentajeNo,MinasAntipersonal,0,0.239655556,0
+ Choco,PorcentajeNo,ParticipacionPrimeraVuelta,0.805182211,-0.053784767,0.463615376
+ Caldas,PorcentajeSi,CensoElectoral2016,2.94E-07,0.376768561,0.293070705
+ Cesar,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.718796123,0.207439978,0.624955343
+ Norte  de  Santander,Abstencion,ParticipacionPrimeraVuelta,-0.68967535,0.89351605,-0.850073128
+ Vaupes,PorcentajeNo,TotalPrimeraVuelta,3.07E-05,0.119297494,0.6879411
+ Caldas,PorcentajeSi,AfectadoPorElConflictoPares2,0.034334615,0.383965385,0.109470268
+ Tolima,Abstencion,Secuestro,0.005471615,0.633327334,0.209482517
+ Cundinamarca,PorcentajeSi,Homicidio,0.001052193,0.421057554,0.20269279
+ Boyaca,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.540729062,0.162364653,0.659451575
+ Bogota  D.C.,PorcentajeSi,Amenaza,0.166889711,0.505726396,0
+ La  Guajira,Abstencion,Amenaza,-0.003387278,0.754064897,-0.171731224
+ Amazonas,Abstencion,Homicidio,-0.000370324,0.739297458,-0.052474269
+ Narino,PorcentajeSi,VotosParaSenado2014,-1.23E-06,0.687258423,-0.116720161
+ Valle  del  Cauca,PorcentajeNo,IndiceRuralidad2014,0.090180372,0.495687509,0.229970739
+ Putumayo,Abstencion,AbandonoODespojoDeTierras,0.000844295,0.650803847,0.012771211
+ Boyaca,Abstencion,HectareasDeAmapola,0,0.615720325,0
+ Putumayo,PorcentajeSi,Amenaza,0.000797271,0.623829915,0.20013702
+ Boyaca,PorcentajeSi,ParticipacionSegundaVuelta,-0.347825133,0.67985581,-0.162465873
+ Meta,PorcentajeNo,HectareasDeAmapola,0,0.557117241,0
+ Sucre,PorcentajeSi,HectareasDeCoca,0,0.654069231,0
+ Vaupes,Abstencion,Amenaza,-0.000945287,0.78240936,-0.361604975
+ La  Guajira,PorcentajeNo,TotalPrimeraVuelta,2.39E-06,0.353557023,0.236074931
+ Antioquia,PorcentajeNo,Homicidio,-0.000136992,0.58770517,-0.048172471
+ La  Guajira,PorcentajeNo,HectareasDeCoca,0,0.372873333,0
+ Choco,PorcentajeSi,ParticipacionPrimeraVuelta,-0.805182211,1.053784767,-0.463615376
+ Guaviare,PorcentajeSi,VinculacionNinosAdolescentes,0.139545953,0.403462717,0.72196019
+ Caqueta,PorcentajeNo,CensoElectoral2016,4.29E-07,0.49868019,0.07900013
+ Santander,PorcentajeSi,ParticipacionSegundaVuelta,0.116884621,0.415694076,0.048656374
+ Huila,PorcentajeNo,HectareasDeCoca,0,0.626827027,0
+ Arauca,PorcentajeNo,Desplazamiento,0.000122639,0.41883548,0.27264194
+ Tolima,PorcentajeSi,Amenaza,0.000165423,0.410755736,0.097660797
+ Atlantico,Abstencion,HectareasDeAmapola,0,0.764604348,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,MinasAntipersonal,0,0.7529,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,TotalPrimeraVuelta,4.72E-05,0.129992696,1
+ Atlantico,PorcentajeNo,VinculacionNinosAdolescentes,1.819103774,0.302563208,0.212048583
+ Boyaca,Abstencion,TotalPrimeraVuelta,-2.40E-06,0.623815852,-0.28188948
+ Amazonas,PorcentajeSi,TotalPrimeraVuelta,-3.24E-05,0.847766963,-0.899872378
+ Guaviare,PorcentajeSi,HectareasDeAmapola,0,0.660925,0
+ Caldas,Abstencion,CensoElectoral2016,-4.42E-07,0.648073886,-0.539085971
+ Atlantico,Abstencion,Amenaza,-0.000141778,0.764740578,-0.003493767
+ Casanare,PorcentajeSi,TotalSegundaVuelta,-5.05E-06,0.41393018,-0.272002376
+ Caldas,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.044174075,0.614892813,0.106497988
+ Huila,PorcentajeSi,AfectadoPorElConflictoPares2,0.036964256,0.35718843,0.250684793
+ Cordoba,Abstencion,CensoElectoral2016,2.47E-09,0.683184795,0.002655767
+ Cundinamarca,Abstencion,TotalPrimeraVuelta,-2.14E-06,0.604946366,-0.394060058
+ Bolivar,PorcentajeSi,HectareasDeCoca,-0.000655214,0.680495614,-0.350950196
+ Narino,PorcentajeSi,ParticipacionSegundaVuelta,-0.737768203,1.059680829,-0.410395516
+ Narino,PorcentajeNo,HectareasDeCoca,-8.13E-06,0.324394994,-0.123313519
+ Amazonas,PorcentajeNo,ParticipacionSegundaVuelta,0.691955339,-0.014758746,0.591749076
+ Cordoba,PorcentajeSi,AfectadoPorElConflictoPares2,0.004698765,0.665437037,0.046603714
+ Bogota  D.C.,PorcentajeNo,HectareasDeAmapola,0,0.4392,0
+ Guainia,PorcentajeNo,Homicidio,0.075239936,0.179881606,0.439127281
+ Sucre,PorcentajeNo,ParticipacionSegundaVuelta,0.026430183,0.331471934,0.0121576
+ Vichada,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.848197294,0.094390632,0.843080931
+ Narino,PorcentajeSi,TotalSegundaVuelta,-7.34E-07,0.685349716,-0.09777526
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,Desplazamiento,-0.08656,0.9004848,-1
+ Cundinamarca,Abstencion,ParticipacionSegundaVuelta,-0.966142422,1.098172219,-0.787236166
+ Putumayo,Abstencion,HectareasDeCoca,2.53E-05,0.612010761,0.718939394
+ Guaviare,PorcentajeNo,Amenaza,-0.011848333,0.629507267,-0.584304608
+ Risaralda,Abstencion,AbandonoODespojoDeTierras,0,0.626842857,0
+ Risaralda,PorcentajeNo,AbandonoODespojoDeTierras,0,0.566721429,0
+ Vichada,Abstencion,Homicidio,-0.013825129,0.830810443,-0.5371836
+ Amazonas,PorcentajeNo,VotosParaSenado2014,3.06E-05,0.153565012,0.893426026
+ Guaviare,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.538479798,0.798196749,-0.997129435
+ Vaupes,PorcentajeSi,ParticipacionPrimeraVuelta,-0.31212078,0.920265161,-0.363249452
+ Arauca,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.800915208,0.868064312,-0.946780643
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,Homicidio,0.494193548,0.339132258,1
+ Quindio,PorcentajeNo,CensoElectoral2016,-1.74E-07,0.628824873,-0.261300034
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,CensoElectoral2016,-7.69E-06,0.849388368,-1
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,AbandonoODespojoDeTierras,0,0.3347,0
+ Huila,PorcentajeSi,Homicidio,0.002493859,0.329235902,0.339017918
+ Valle  del  Cauca,PorcentajeSi,AfectadoPorElConflictoPares2,0.065167091,0.449017329,0.461883451
+ Boyaca,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.318236228,0.616801975,-0.520852101
+ Choco,PorcentajeNo,Amenaza,-0.000440408,0.194374571,-0.169054949
+ Arauca,PorcentajeSi,Desplazamiento,-0.000122639,0.58116452,-0.27264194
+ Amazonas,PorcentajeSi,VotosParaSenado2014,-3.06E-05,0.846434988,-0.893426026
+ Santander,PorcentajeSi,CensoElectoral2016,-1.78E-07,0.481505711,-0.087998912
+ Guaviare,PorcentajeNo,ActosTerroristas,-0.034016431,0.541387726,-0.88329561
+ Vichada,PorcentajeSi,HectareasDeAmapola,0,0.48185,0
+ Choco,PorcentajeSi,VinculacionNinosAdolescentes,-0.028096756,0.838535516,-0.193304027
+ Cundinamarca,PorcentajeNo,IndiceRuralidad2014,-0.031258207,0.585185846,-0.080639061
+ Atlantico,PorcentajeSi,TotalPrimeraVuelta,-7.17E-07,0.70551635,-0.413021994
+ Meta,PorcentajeNo,Homicidio,-0.000904431,0.602121745,-0.196923234
+ Cauca,Abstencion,ActosTerroristas,-0.000804005,0.628916374,-0.233881251
+ Boyaca,PorcentajeSi,TotalPrimeraVuelta,-2.52E-08,0.497913446,-0.001798056
+ Boyaca,Abstencion,VinculacionNinosAdolescentes,-0.021964007,0.619663132,-0.203083896
+ Guaviare,PorcentajeNo,AbandonoODespojoDeTierras,0,0.339075,0
+ Santander,PorcentajeNo,Secuestro,0.032648769,0.499462688,0.263959215
+ La  Guajira,PorcentajeSi,VotosParaSenado2014,-2.47E-06,0.656309083,-0.338477238
+ Narino,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.660543992,0.193520768,0.691489006
+ Cesar,Abstencion,ParticipacionSegundaVuelta,-1.013146693,1.170399282,-0.769149223
+ Huila,PorcentajeNo,ActosTerroristas,-0.026676981,0.656899915,-0.351344963
+ Putumayo,PorcentajeSi,HectareasDeCoca,2.30E-05,0.614922673,0.351705607
+ Casanare,Abstencion,ParticipacionPrimeraVuelta,-0.530720437,0.771745616,-0.531402896
+ Vaupes,PorcentajeNo,HectareasDeAmapola,0,0.146133333,0
+ Sucre,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.155016574,0.605335708,0.334041674
+ Arauca,Abstencion,ActosTerroristas,0.002689227,0.643315838,0.455225315
+ La  Guajira,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.672296496,0.196346202,0.689636935
+ Guainia,PorcentajeSi,VotosParaSenado2014,-2.43E-05,0.66646532,-0.154168292
+ Antioquia,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.581937209,0.357521345,0.582323617
+ Quindio,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.052756514,0.627140048,-0.100563008
+ Boyaca,PorcentajeSi,Homicidio,-0.001708113,0.512380325,-0.21588299
+ Casanare,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,1.255238444,-0.083939805,0.818294512
+ La  Guajira,PorcentajeNo,ParticipacionPrimeraVuelta,-0.449240496,0.510322955,-0.596225667
+ Caldas,PorcentajeNo,CensoElectoral2016,-2.94E-07,0.623231439,-0.293070705
+ Casanare,PorcentajeNo,HectareasDeAmapola,0,0.622389474,0
+ Casanare,PorcentajeSi,HectareasDeCoca,0,0.377610526,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,VinculacionNinosAdolescentes,0,0.6653,0
+ Meta,Abstencion,Amenaza,0.003317268,0.517391808,0.56356186
+ La  Guajira,PorcentajeSi,ParticipacionPrimeraVuelta,0.449240496,0.489677045,0.596225667
+ Vichada,PorcentajeSi,IndiceRuralidad2014,0.455690332,0.278167814,0.644130652
+ Vichada,PorcentajeNo,Amenaza,-0.043773446,0.866805498,-0.894626833
+ Vichada,PorcentajeSi,Homicidio,0.010708686,0.372567863,0.212062302
+ Cordoba,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.179736951,0.639301102,0.289168861
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,VotosParaSenado2014,3.66E-05,0.132961023,1
+ Cundinamarca,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.117748338,0.480232969,-0.198441547
+ Boyaca,PorcentajeSi,ActosTerroristas,-0.009499605,0.504102057,-0.183900611
+ Arauca,PorcentajeSi,HectareasDeAmapola,0,0.509242857,0
+ Cauca,PorcentajeNo,HectareasDeAmapola,-0.000415167,0.277804937,-0.068542432
+ Guainia,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.343409462,0.175315885,0.253940263
+ Caldas,PorcentajeSi,ParticipacionPrimeraVuelta,0.086841147,0.34619776,0.061806454
+ Quindio,Abstencion,AbandonoODespojoDeTierras,0,0.599116667,0
+ Cesar,Abstencion,AbandonoODespojoDeTierras,-0.001614683,0.674319895,-0.112245228
+ Choco,PorcentajeNo,HectareasDeCoca,0.000144688,0.171179641,0.109799286
+ Choco,PorcentajeNo,AfectadoPorElConflictoPares2,0.016080122,0.144591743,0.161847845
+ Casanare,PorcentajeSi,VinculacionNinosAdolescentes,0.128183265,0.254959381,0.604470174
+ Cordoba,PorcentajeSi,CensoElectoral2016,-8.59E-07,0.701107692,-0.500709528
+ Cauca,Abstencion,AbandonoODespojoDeTierras,-0.009654342,0.619107526,-0.026671093
+ Caqueta,PorcentajeNo,VotosParaSenado2014,2.95E-06,0.492410329,0.186116871
+ Amazonas,Abstencion,TotalPrimeraVuelta,-2.49E-07,0.738147743,-0.018168439
+ Risaralda,PorcentajeSi,ParticipacionSegundaVuelta,-1.138668122,1.016268516,-0.398948387
+ Amazonas,PorcentajeNo,IndiceRuralidad2014,-0.527278701,0.678081683,-0.893729021
+ Choco,Abstencion,ParticipacionPrimeraVuelta,-0.328092021,0.770806638,-0.392143792
+ Huila,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.592375688,0.177305137,0.746993837
+ Bogota  D.C.,PorcentajeNo,Amenaza,0.130702498,0.396068176,0
+ Arauca,Abstencion,VotosParaSenado2014,-1.66E-06,0.677661868,-0.557805441
+ Cesar,PorcentajeNo,ParticipacionPrimeraVuelta,0.715245149,0.200422672,0.355774023
+ Caldas,PorcentajeSi,ActosTerroristas,-4.15E-05,0.385344893,-0.004381155
+ Vaupes,PorcentajeSi,VotosParaSenado2014,-4.16E-05,0.881249658,-0.706104136
+ Vaupes,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.582507306,0.934058506,-0.779072404
+ Huila,PorcentajeSi,Amenaza,0.002216083,0.341362605,0.30931589
+ Cordoba,PorcentajeSi,Desplazamiento,1.27E-05,0.664004412,0.050136962
+ Bolivar,Abstencion,AbandonoODespojoDeTierras,-0.001425704,0.723766414,-0.026321304
+ La  Guajira,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.72396866,0.204603711,0.645665198
+ Casanare,PorcentajeNo,MinasAntipersonal,-0.036386641,0.690892113,-0.810564883
+ Valle  del  Cauca,PorcentajeSi,AbandonoODespojoDeTierras,-0.004615744,0.474276403,-0.194722218
+ Putumayo,PorcentajeSi,MinasAntipersonal,0.016957088,0.629577232,0.183933694
+ Caldas,Abstencion,MinasAntipersonal,-0.001973015,0.636000986,-0.033309964
+ Huila,PorcentajeNo,ParticipacionSegundaVuelta,0.925913652,0.148074615,0.624839416
+ Sucre,PorcentajeNo,Desplazamiento,-2.19E-05,0.358991912,-0.204888207
+ Huila,Abstencion,MinasAntipersonal,0.005396656,0.609428253,0.13201478
+ Vaupes,Abstencion,ParticipacionSegundaVuelta,-0.4563515,0.876629065,-0.826136209
+ Amazonas,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.494323387,0.086852849,0.460832721
+ Arauca,PorcentajeNo,AfectadoPorElConflictoPares2,0.11069,0.28519,0.483002067
+ Huila,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.316333699,0.534713479,-0.492517122
+ Caldas,PorcentajeNo,Desplazamiento,-3.03E-05,0.621233618,-0.193798272
+ Narino,PorcentajeSi,AfectadoPorElConflictoPares2,0.087481759,0.576866689,0.748254079
+ Tolima,PorcentajeNo,Homicidio,-0.000322746,0.594250819,-0.141920158
+ Meta,PorcentajeNo,AfectadoPorElConflictoPares2,-0.082767526,0.628468557,-0.57929516
+ Sucre,Abstencion,Homicidio,-0.000136864,0.659895439,-0.104197986
+ Atlantico,Abstencion,MinasAntipersonal,0,0.764604348,0
+ Magdalena,Abstencion,VinculacionNinosAdolescentes,0.184821779,0.756865647,0.143938544
+ Cundinamarca,PorcentajeNo,TotalPrimeraVuelta,2.83E-08,0.565738492,0.004006755
+ Sucre,Abstencion,AbandonoODespojoDeTierras,-0.001306503,0.660289699,-0.258639005
+ Sucre,Abstencion,ParticipacionSegundaVuelta,-0.675716941,1.025748458,-0.603468809
+ Magdalena,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.695533333,0
+ Huila,PorcentajeSi,Desplazamiento,0.000190865,0.342324781,0.353762023
+ Bogota  D.C.,PorcentajeNo,AbandonoODespojoDeTierras,0,0.4392,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,19.27044025,-7.814657233,1
+ Casanare,PorcentajeSi,Desplazamiento,0.000514076,0.240206301,0.56120158
+ Tolima,Abstencion,HectareasDeAmapola,0.032398777,0.634952042,0.297198027
+ La  Guajira,PorcentajeNo,TotalSegundaVuelta,1.92E-06,0.35128019,0.258814647
+ Antioquia,Abstencion,VotosParaSenado2014,-5.48E-07,0.699897235,-0.257332862
+ Norte  de  Santander,PorcentajeNo,VotosParaSenado2014,6.52E-07,0.574385053,0.100975878
+ Huila,PorcentajeSi,VotosParaSenado2014,5.59E-07,0.369257106,0.081346224
+ Casanare,PorcentajeNo,HectareasDeCoca,0,0.622389474,0
+ Norte  de  Santander,PorcentajeSi,VotosParaSenado2014,-6.52E-07,0.425617662,-0.100978553
+ Putumayo,Abstencion,Amenaza,0.001652216,0.59610153,0.768808466
+ Cordoba,PorcentajeSi,Amenaza,0.000747266,0.658491989,0.195845775
+ Vichada,Abstencion,HectareasDeCoca,0.000227333,0.6509,0.785399417
+ Caldas,PorcentajeNo,ParticipacionPrimeraVuelta,-0.086841147,0.65380224,-0.061806454
+ Sucre,Abstencion,Desplazamiento,-7.70E-08,0.656138147,-0.001396085
+ Cundinamarca,PorcentajeSi,AfectadoPorElConflictoPares2,0.161145536,0.428504464,0.33954538
+ Santander,PorcentajeSi,Homicidio,-0.002230173,0.515686396,-0.32689479
+ Vichada,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.848197294,0.905609368,-0.843080931
+ Vaupes,PorcentajeNo,ParticipacionPrimeraVuelta,0.31212078,0.079734839,0.363249452
+ Cesar,Abstencion,ActosTerroristas,-0.005844009,0.686067134,-0.462353195
+ Valle  del  Cauca,PorcentajeNo,Homicidio,0.001527093,0.488640148,0.29203861
+ Meta,Abstencion,ParticipacionPrimeraVuelta,-0.591240417,0.845598429,-0.833049718
+ Sucre,PorcentajeSi,VotosParaSenado2014,-1.46E-06,0.673316929,-0.260233409
+ Cundinamarca,PorcentajeNo,HectareasDeCoca,0,0.565938793,0
+ Quindio,PorcentajeSi,AbandonoODespojoDeTierras,0,0.377791667,0
+ Cordoba,Abstencion,ActosTerroristas,-0.00323783,0.68813792,-0.299317079
+ Meta,PorcentajeNo,VinculacionNinosAdolescentes,-0.103494422,0.661717983,-0.686183898
+ Meta,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.892513777,0.014404235,0.778819021
+ Narino,PorcentajeNo,TotalPrimeraVuelta,8.64E-07,0.315322068,0.096144726
+ Santander,Abstencion,TotalPrimeraVuelta,-5.64E-07,0.611098945,-0.255279848
+ Boyaca,Abstencion,VotosParaSenado2014,-3.73E-06,0.624665444,-0.26980868
+ Valle  del  Cauca,PorcentajeNo,CensoElectoral2016,-7.46E-08,0.53685519,-0.220859217
+ Guaviare,PorcentajeNo,Homicidio,-0.005271664,0.601551145,-0.374949683
+ Cordoba,Abstencion,ParticipacionSegundaVuelta,-0.512838134,0.952395144,-0.575032356
+ Meta,PorcentajeSi,HectareasDeAmapola,0,0.442882759,0
+ Risaralda,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.491015527,0.27168072,0.77899785
+ Risaralda,PorcentajeNo,ActosTerroristas,-0.005860385,0.591556902,-0.7134576
+ Guainia,Abstencion,TotalPrimeraVuelta,-1.87E-05,0.833935401,-0.229257982
+ Amazonas,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.193972727,0
+ Valle  del  Cauca,Abstencion,IndiceRuralidad2014,0.048479189,0.630263056,0.311809064
+ La  Guajira,PorcentajeNo,ActosTerroristas,-0.025893686,0.40846852,-0.47759349
+ Guaviare,PorcentajeSi,AbandonoODespojoDeTierras,0,0.660925,0
+ Boyaca,PorcentajeSi,IndiceRuralidad2014,0.053703193,0.46148864,0.097453901
+ Quindio,PorcentajeNo,Homicidio,0.000210452,0.61779217,0.122686959
+ La  Guajira,Abstencion,Secuestro,-0.013192532,0.753513514,-0.302573749
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,AbandonoODespojoDeTierras,0,0.7529,0
+ Atlantico,Abstencion,Homicidio,-0.001709953,0.771828526,-0.08520814
+ Huila,Abstencion,Amenaza,0.000193834,0.608798731,0.062762444
+ Santander,Abstencion,CensoElectoral2016,-2.33E-07,0.611000768,-0.24476606
+ Meta,PorcentajeSi,TotalPrimeraVuelta,-1.12E-06,0.454637598,-0.20171579
+ Cundinamarca,Abstencion,Amenaza,0.001381599,0.581628539,0.256672813
+ Choco,Abstencion,TotalPrimeraVuelta,-1.31E-06,0.679874824,-0.110103277
+ Bolivar,PorcentajeSi,HectareasDeAmapola,0,0.665634783,0
+ Bolivar,Abstencion,MinasAntipersonal,-0.053451309,0.744765537,-0.474975377
+ Atlantico,Abstencion,Desplazamiento,-0.000319136,0.769404851,-0.130165094
+ Guaviare,PorcentajeNo,HectareasDeAmapola,0,0.339075,0
+ Caqueta,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-1.040073075,1.09569079,-0.862520643
+ Antioquia,PorcentajeNo,AfectadoPorElConflictoPares2,-0.066063319,0.607620954,-0.475768499
+ La  Guajira,PorcentajeSi,AfectadoPorElConflictoPares2,-0.058106897,0.661990805,-0.653875083
+ Caldas,Abstencion,ParticipacionPrimeraVuelta,-0.716440376,0.957389259,-0.622529822
+ Santander,PorcentajeSi,AfectadoPorElConflictoPares2,0.011592273,0.477360303,0.028620772
+ Norte  de  Santander,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.836346633,0.84362251,-0.864354432
+ Risaralda,PorcentajeNo,Secuestro,-0.065619697,0.616826754,-0.66008128
+ Putumayo,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.892212658,0.197364384,0.725058927
+ Caqueta,PorcentajeSi,VinculacionNinosAdolescentes,0.126168793,0.351926463,0.514746294
+ Narino,PorcentajeNo,Desplazamiento,-0.000319203,0.392127768,-0.630121785
+ Caldas,PorcentajeNo,AbandonoODespojoDeTierras,-0.051632653,0.6157,-0.080664885
+ Arauca,Abstencion,VinculacionNinosAdolescentes,-0.002941019,0.667679679,-0.071780692
+ Amazonas,PorcentajeSi,ParticipacionPrimeraVuelta,-0.541574833,0.95417753,-0.51890888
+ Tolima,Abstencion,IndiceRuralidad2014,0.062900651,0.604507839,0.401983191
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,AfectadoPorElConflictoPares2,0,0.3347,0
+ Casanare,Abstencion,ActosTerroristas,-0.001526752,0.514035024,-0.209487712
+ Arauca,PorcentajeSi,AbandonoODespojoDeTierras,0,0.509242857,0
+ Huila,Abstencion,IndiceRuralidad2014,0.045429265,0.586240268,0.235416033
+ Guaviare,PorcentajeSi,TotalSegundaVuelta,-2.37E-05,0.788723213,-0.87565536
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,ParticipacionPrimeraVuelta,-3.064,1.044016,-1
+ Cundinamarca,PorcentajeNo,HectareasDeAmapola,0,0.565938793,0
+ Bolivar,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.581917424,0.890396593,-0.639046479
+ Narino,PorcentajeSi,AbandonoODespojoDeTierras,-0.005888336,0.683124388,-0.138106617
+ Risaralda,Abstencion,ParticipacionPrimeraVuelta,-0.802633531,0.980815711,-0.760878723
+ Valle  del  Cauca,PorcentajeSi,TotalPrimeraVuelta,2.14E-07,0.463164109,0.212732705
+ La  Guajira,PorcentajeNo,Amenaza,-0.007591427,0.411402355,-0.497654452
+ Sucre,PorcentajeSi,Amenaza,-0.001963541,0.677910397,-0.285661039
+ Bolivar,PorcentajeSi,CensoElectoral2016,-1.97E-07,0.672076392,-0.176815414
+ Norte  de  Santander,Abstencion,Desplazamiento,7.63E-05,0.609048522,0.496690162
+ Guaviare,PorcentajeSi,Homicidio,0.005271664,0.398448855,0.374949683
+ Meta,Abstencion,MinasAntipersonal,0.001132479,0.56967673,0.066055357
+ Arauca,PorcentajeNo,HectareasDeAmapola,0,0.490757143,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,AbandonoODespojoDeTierras,0,0.6653,0
+ Risaralda,Abstencion,HectareasDeCoca,0,0.626842857,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,AfectadoPorElConflictoPares2,0,0.7529,0
+ Vaupes,PorcentajeNo,Homicidio,0.011134128,0.116646451,0.699704077
+ Boyaca,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.073232029,0.588342323,0.197272543
+ Cauca,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.209457732,0.574917785,0.373154357
+ Cauca,Abstencion,VinculacionNinosAdolescentes,0.007556341,0.615579667,0.064413861
+ La  Guajira,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.72396866,0.795396289,-0.645665198
+ Valle  del  Cauca,Abstencion,TotalSegundaVuelta,-4.09E-08,0.650455793,-0.113326923
+ Tolima,PorcentajeNo,TotalPrimeraVuelta,1.95E-07,0.581971368,0.056439273
+ Arauca,PorcentajeSi,Secuestro,-0.045248867,0.63464686,-0.387207135
+ Valle  del  Cauca,Abstencion,MinasAntipersonal,-0.025642852,0.651929319,-0.218251363
+ Cesar,PorcentajeNo,Homicidio,-0.000375508,0.481417407,-0.088681333
+ Antioquia,Abstencion,HectareasDeAmapola,0,0.6944296,0
+ Guainia,Abstencion,ActosTerroristas,-0.108064926,0.838959926,-0.194467826
+ Guainia,PorcentajeNo,VinculacionNinosAdolescentes,-0.155568582,0.314674183,-0.545178282
+ Cesar,PorcentajeSi,AfectadoPorElConflictoPares2,-0.028286441,0.546079661,-0.175695075
+ Vaupes,PorcentajeNo,ActosTerroristas,0.005130652,0.119736129,0.705967222
+ Cundinamarca,PorcentajeNo,Desplazamiento,-0.000108003,0.577078374,-0.24466828
+ Meta,PorcentajeSi,Desplazamiento,0.000164168,0.361819699,0.514933113
+ Cauca,Abstencion,IndiceRuralidad2014,0.092486578,0.549686129,0.316956217
+ Arauca,PorcentajeSi,IndiceRuralidad2014,0.698880228,0.240862866,0.766391757
+ Cesar,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.598842709,0.708471877,-0.430525444
+ La  Guajira,PorcentajeSi,Homicidio,0.002173362,0.581470118,0.436282609
+ Putumayo,Abstencion,ParticipacionPrimeraVuelta,-0.801788631,0.92405352,-0.921478837
+ Vaupes,PorcentajeNo,IndiceRuralidad2014,-0.3223498,0.42227429,-0.862354705
+ Putumayo,Abstencion,TotalPrimeraVuelta,4.43E-06,0.628882782,0.261910195
+ Vichada,PorcentajeSi,Desplazamiento,0.00131254,0.187975465,0.911181449
+ Guainia,PorcentajeNo,TotalSegundaVuelta,4.17E-05,0.203364556,0.501156093
+ Narino,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.603457361,0.128517232,0.836491818
+ Cesar,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.095884784,0.644856954,0.12170867
+ Tolima,PorcentajeNo,CensoElectoral2016,7.95E-08,0.581987078,0.050378733
+ Meta,PorcentajeNo,ParticipacionPrimeraVuelta,1.126433251,0.037571268,0.675598408
+ Vaupes,PorcentajeSi,Homicidio,-0.011134128,0.883353549,-0.699704077
+ Choco,Abstencion,AbandonoODespojoDeTierras,0,0.676213333,0
+ Cauca,Abstencion,Secuestro,0.016530469,0.601869534,0.28912788
+ Quindio,Abstencion,AfectadoPorElConflictoPares2,0,0.599116667,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,Desplazamiento,-0.24512,0.7526296,-1
+ Santander,PorcentajeNo,AbandonoODespojoDeTierras,0.003521401,0.520794333,0.047932564
+ Tolima,PorcentajeNo,AfectadoPorElConflictoPares2,-0.009078104,0.587032506,-0.065464039
+ Cauca,PorcentajeNo,VotosParaSenado2014,3.17E-06,0.256568515,0.296640409
+ Caldas,PorcentajeSi,MinasAntipersonal,0.027122257,0.375804519,0.375057461
+ Amazonas,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.806027273,0
+ Antioquia,PorcentajeSi,Homicidio,0.000136992,0.41229483,0.048172471
+ Cundinamarca,PorcentajeSi,IndiceRuralidad2014,0.031258207,0.414814154,0.080639061
+ Risaralda,PorcentajeNo,TotalSegundaVuelta,-1.02E-07,0.569367818,-0.062331374
+ Cundinamarca,PorcentajeNo,AfectadoPorElConflictoPares2,-0.161145536,0.571495536,-0.33954538
+ Santander,PorcentajeNo,IndiceRuralidad2014,-0.115135216,0.596066315,-0.224793483
+ Vaupes,Abstencion,HectareasDeAmapola,0,0.76515,0
+ Vaupes,PorcentajeSi,MinasAntipersonal,-0.034940885,0.884265236,-0.556702565
+ Valle  del  Cauca,PorcentajeNo,AfectadoPorElConflictoPares2,-0.065167091,0.550982671,-0.461883451
+ Huila,PorcentajeSi,HectareasDeCoca,0,0.373172973,0
+ Tolima,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.364885819,0.576351316,-0.580139979
+ Magdalena,PorcentajeSi,ParticipacionPrimeraVuelta,1.161585283,0.309290739,0.493542875
+ Cordoba,PorcentajeSi,TotalPrimeraVuelta,-2.65E-06,0.703492776,-0.51549238
+ Cauca,PorcentajeSi,Secuestro,-0.022741208,0.748000408,-0.258036589
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,Secuestro,-30.64,0.8185,-1
+ Guaviare,PorcentajeSi,AfectadoPorElConflictoPares2,0.1982775,0.0660925,0
+ Casanare,Abstencion,TotalSegundaVuelta,7.61E-08,0.50686297,0.013918095
+ Valle  del  Cauca,PorcentajeSi,VinculacionNinosAdolescentes,0.039530907,0.466326811,0.05224681
+ Valle  del  Cauca,PorcentajeNo,VinculacionNinosAdolescentes,-0.039530907,0.533673189,-0.05224681
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,VotosParaSenado2014,1.29E-05,0.681659278,1
+ Huila,Abstencion,Secuestro,0.03319477,0.601039499,0.255959308
+ Tolima,Abstencion,TotalSegundaVuelta,-5.72E-07,0.644394876,-0.433179947
+ Antioquia,Abstencion,HectareasDeCoca,0.000178714,0.690994613,0.196299083
+ Tolima,PorcentajeSi,ParticipacionPrimeraVuelta,-0.68287551,0.686416957,-0.324540536
+ Norte  de  Santander,PorcentajeSi,ParticipacionPrimeraVuelta,-1.239232576,0.88615,-0.582954993
+ Risaralda,PorcentajeSi,HectareasDeCoca,0,0.433278571,0
+ Tolima,PorcentajeSi,TotalSegundaVuelta,-1.75E-07,0.418107551,-0.054846056
+ Cordoba,PorcentajeSi,AbandonoODespojoDeTierras,-0.003013749,0.671001622,-0.175543654
+ Tolima,PorcentajeNo,ActosTerroristas,0.000210894,0.583124377,0.010897275
+ La  Guajira,PorcentajeSi,ActosTerroristas,0.025893686,0.59153148,0.47759349
+ Santander,PorcentajeSi,MinasAntipersonal,-0.075610416,0.493412216,-0.287427358
+ Cauca,Abstencion,Amenaza,0.001121737,0.592009575,0.30034141
+ Amazonas,Abstencion,IndiceRuralidad2014,-0.000331001,0.738131174,-0.001475344
+ Narino,PorcentajeSi,ParticipacionPrimeraVuelta,-0.648415556,0.921691189,-0.371429044
+ Amazonas,PorcentajeNo,ParticipacionPrimeraVuelta,0.541574833,0.04582247,0.51890888
+ Guainia,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.026000714,0.231081965,0.029206932
+ Vaupes,Abstencion,ActosTerroristas,-0.000221525,0.766289747,-0.043198742
+ Antioquia,PorcentajeNo,Amenaza,-0.00167575,0.618209823,-0.298823342
+ Antioquia,PorcentajeNo,AbandonoODespojoDeTierras,-0.003948303,0.580569636,-0.074391025
+ Atlantico,PorcentajeNo,TotalSegundaVuelta,4.44E-07,0.293931922,0.424672508
+ Cauca,Abstencion,MinasAntipersonal,-0.005203904,0.622401189,-0.075494321
+ Norte  de  Santander,PorcentajeSi,VinculacionNinosAdolescentes,0.179540098,0.384795916,0.354552312
+ Caldas,PorcentajeNo,IndiceRuralidad2014,-0.023864837,0.626502783,-0.085544629
+ Vichada,PorcentajeSi,VotosParaSenado2014,-3.49E-06,0.49301903,-0.028127401
+ Cundinamarca,PorcentajeNo,Amenaza,-0.001179623,0.572909045,-0.168585105
+ Casanare,PorcentajeSi,ParticipacionSegundaVuelta,-1.137831576,1.015814269,-0.293806351
+ Caldas,Abstencion,TotalPrimeraVuelta,-8.84E-07,0.64719024,-0.541036667
+ Choco,PorcentajeNo,TotalPrimeraVuelta,5.36E-06,0.16340597,0.216627959
+ Valle  del  Cauca,PorcentajeSi,Desplazamiento,2.27E-05,0.466308123,0.03765149
+ Norte  de  Santander,PorcentajeSi,IndiceRuralidad2014,0.218786469,0.288783945,0.301700093
+ Boyaca,PorcentajeNo,TotalPrimeraVuelta,2.52E-08,0.502086554,0.001798056
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,MinasAntipersonal,0,0.6653,0
+ Casanare,PorcentajeNo,Homicidio,-0.005727151,0.869374373,-0.38461086
+ Antioquia,PorcentajeNo,TotalSegundaVuelta,1.35E-07,0.57695673,0.068195601
+ Putumayo,PorcentajeNo,ActosTerroristas,-0.015235008,0.444650345,-0.751487027
+ Bolivar,Abstencion,Secuestro,-0.011714446,0.739869109,-0.296450446
+ Cauca,PorcentajeSi,TotalSegundaVuelta,-1.99E-06,0.745140454,-0.308162824
+ Caqueta,Abstencion,ParticipacionPrimeraVuelta,-0.389925523,0.833108114,-0.702996319
+ Cesar,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.718796123,0.792560022,-0.624955343
+ Cordoba,PorcentajeNo,TotalPrimeraVuelta,2.65E-06,0.296507224,0.51549238
+ Guainia,PorcentajeNo,Desplazamiento,-0.000166358,0.262590724,-0.160401544
+ Vichada,PorcentajeNo,HectareasDeAmapola,0,0.51815,0
+ Magdalena,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.304466667,0
+ Guaviare,PorcentajeSi,Amenaza,0.011848333,0.370492733,0.584304608
+ Caldas,PorcentajeNo,ActosTerroristas,4.15E-05,0.614655107,0.004381155
+ Valle  del  Cauca,PorcentajeNo,TotalSegundaVuelta,-2.05E-07,0.537372048,-0.224915
+ Guainia,PorcentajeSi,HectareasDeCoca,0.027214916,0.538166239,0.655819496
+ Cundinamarca,PorcentajeNo,VotosParaSenado2014,1.88E-07,0.565080812,0.015131469
+ Narino,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.603457361,0.871482768,-0.836491818
+ Magdalena,PorcentajeNo,TotalPrimeraVuelta,2.59E-06,0.281099505,0.349078051
+ Narino,PorcentajeSi,HectareasDeCoca,8.13E-06,0.675605006,0.123313519
+ Bolivar,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.500117397,0.168897028,0.535017539
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-6.805031447,3.747454088,-1
+ Guainia,Abstencion,AfectadoPorElConflictoPares2,0,0.820588889,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,Homicidio,-0.494193548,0.660867742,-1
+ Bogota  D.C.,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.192246591,0.455452714,0
+ Atlantico,PorcentajeNo,Homicidio,0.002674285,0.296010423,0.078091661
+ Cauca,PorcentajeNo,HectareasDeCoca,6.27E-07,0.275142142,0.003510033
+ Atlantico,PorcentajeSi,HectareasDeCoca,0,0.692691304,0
+ Putumayo,PorcentajeSi,TotalPrimeraVuelta,1.39E-06,0.643411569,0.044248262
+ Arauca,Abstencion,MinasAntipersonal,-0.002908179,0.672363088,-0.324489752
+ Cesar,PorcentajeSi,TotalSegundaVuelta,-6.59E-07,0.545746628,-0.148285208
+ Sucre,PorcentajeNo,CensoElectoral2016,6.85E-07,0.328502569,0.259551429
+ Cordoba,Abstencion,ParticipacionPrimeraVuelta,-0.483984889,0.860776725,-0.500957118
+ Choco,PorcentajeSi,ParticipacionSegundaVuelta,-0.229412812,0.896055399,-0.213155639
+ Risaralda,Abstencion,MinasAntipersonal,0.144554423,0.618272845,0.339352352
+ Amazonas,PorcentajeSi,IndiceRuralidad2014,0.527278701,0.321918317,0.893729021
+ Guainia,Abstencion,VotosParaSenado2014,-1.77E-05,0.833114084,-0.223695501
+ Cordoba,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.579012354,0.84136099,-0.591117149
+ Meta,Abstencion,ParticipacionSegundaVuelta,-0.704019083,0.933806886,-0.847622959
+ Putumayo,PorcentajeSi,AbandonoODespojoDeTierras,0.052209291,0.632055818,0.426045191
+ Tolima,PorcentajeSi,Secuestro,0.005764021,0.410981277,0.091280935
+ Boyaca,PorcentajeSi,HectareasDeAmapola,0,0.497828455,0
+ Sucre,PorcentajeSi,CensoElectoral2016,-6.85E-07,0.671497431,-0.259551429
+ Caqueta,PorcentajeSi,VotosParaSenado2014,-2.95E-06,0.507589671,-0.186116871
+ Cauca,Abstencion,ParticipacionSegundaVuelta,-0.700573066,0.960340104,-0.747248784
+ Sucre,PorcentajeSi,IndiceRuralidad2014,0.050695604,0.629997983,0.103264464
+ Atlantico,PorcentajeNo,ParticipacionPrimeraVuelta,-0.833373341,0.54878768,-0.56216324
+ Magdalena,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.737038935,0.880817551,-0.611999011
+ Bolivar,PorcentajeNo,ParticipacionPrimeraVuelta,0.010966212,0.330872288,0.005076563
+ Narino,PorcentajeNo,VinculacionNinosAdolescentes,-0.245696514,0.363958026,-0.515310139
+ Vichada,Abstencion,TotalPrimeraVuelta,4.29E-05,0.561851907,0.669933058
+ Arauca,PorcentajeNo,TotalSegundaVuelta,3.46E-06,0.452941006,0.213514461
+ Putumayo,PorcentajeNo,IndiceRuralidad2014,-0.429011904,0.569736977,-0.659104285
+ Norte  de  Santander,PorcentajeSi,ParticipacionSegundaVuelta,-0.794098749,0.794162844,-0.336941499
+ Cauca,PorcentajeNo,Amenaza,-0.001201006,0.303939734,-0.208608621
+ Choco,Abstencion,Homicidio,0.001135442,0.649715894,0.595351972
+ Quindio,PorcentajeSi,AfectadoPorElConflictoPares2,0,0.377791667,0
+ Choco,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.442536113,0.96752793,-0.663793418
+ La  Guajira,PorcentajeNo,Homicidio,-0.002173362,0.418529882,-0.436282609
+ Magdalena,Abstencion,TotalSegundaVuelta,-1.67E-07,0.763119049,-0.055695985
+ Narino,Abstencion,TotalPrimeraVuelta,1.96E-08,0.620576563,0.004538481
+ Vichada,Abstencion,TotalSegundaVuelta,3.86E-05,0.55496333,0.704540858
+ Bogota  D.C.,PorcentajeNo,VotosParaSenado2014,3.25E-07,2.40E-13,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,HectareasDeAmapola,0,0.6653,0
+ Quindio,PorcentajeSi,ParticipacionSegundaVuelta,0.062870225,0.34499751,0.033970622
+ Cauca,PorcentajeSi,Amenaza,0.001201006,0.696060266,0.208608621
+ Cauca,PorcentajeNo,TotalSegundaVuelta,1.99E-06,0.254859546,0.308162824
+ Amazonas,Abstencion,AbandonoODespojoDeTierras,0,0.737827273,0
+ Choco,PorcentajeSi,MinasAntipersonal,-0.048905497,0.840908766,-0.193001638
+ Sucre,Abstencion,VotosParaSenado2014,-7.83E-08,0.657122373,-0.027039046
+ Antioquia,Abstencion,Secuestro,0.000128036,0.693914293,0.017702721
+ Cauca,PorcentajeSi,HectareasDeCoca,-6.27E-07,0.724857858,-0.003510033
+ La  Guajira,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.672296496,0.803653799,-0.689636935
+ Caldas,PorcentajeNo,Secuestro,-0.001970946,0.616579153,-0.030157441
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,ParticipacionPrimeraVuelta,-1.082,1.003383,-1
+ Santander,Abstencion,AfectadoPorElConflictoPares2,-0.003125455,0.606833939,-0.016387336
+ Huila,Abstencion,ParticipacionPrimeraVuelta,-0.148764699,0.6737209,-0.234146143
+ Santander,Abstencion,HectareasDeCoca,0.010828862,0.604046847,0.170085239
+ Amazonas,Abstencion,ParticipacionSegundaVuelta,-0.332588499,0.838154105,-0.747937558
+ Narino,Abstencion,HectareasDeAmapola,0.000142484,0.619993806,0.035532093
+ Atlantico,PorcentajeSi,VinculacionNinosAdolescentes,-1.819103774,0.697436792,-0.212048583
+ Antioquia,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.02031735,0.6866942,0.031094662
+ Boyaca,Abstencion,Amenaza,-0.001565413,0.621930944,-0.193581537
+ Meta,PorcentajeSi,VinculacionNinosAdolescentes,0.103494422,0.338282017,0.686183898
+ Vaupes,PorcentajeSi,VinculacionNinosAdolescentes,-0.014125597,0.864201895,-0.247033302
+ Bolivar,Abstencion,CensoElectoral2016,1.27E-07,0.719139933,0.183320636
+ Cauca,Abstencion,VotosParaSenado2014,-5.47E-07,0.622013699,-0.078920438
+ Cesar,PorcentajeSi,Homicidio,0.000375508,0.518582593,0.088681333
+ Narino,PorcentajeSi,TotalPrimeraVuelta,-8.64E-07,0.684677932,-0.096144726
+ Caldas,Abstencion,Secuestro,-0.008739386,0.643367997,-0.16325729
+ Caqueta,PorcentajeSi,Desplazamiento,6.57E-06,0.487671908,0.017969101
+ Quindio,PorcentajeNo,IndiceRuralidad2014,-0.030868217,0.631935166,-0.124881822
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,Secuestro,10.82,0.6988,1
+ Cesar,PorcentajeNo,TotalSegundaVuelta,6.59E-07,0.454253372,0.148285208
+ Vichada,PorcentajeNo,IndiceRuralidad2014,-0.455690332,0.721832186,-0.644130652
+ Caqueta,Abstencion,ParticipacionSegundaVuelta,-0.426233423,0.868537775,-0.736766775
+ Caqueta,PorcentajeNo,Desplazamiento,-6.57E-06,0.512328092,-0.017969101
+ Norte  de  Santander,PorcentajeSi,Secuestro,0.026531349,0.348924831,0.621709758
+ Tolima,PorcentajeSi,AfectadoPorElConflictoPares2,0.009078104,0.412967494,0.065464039
+ Guaviare,Abstencion,Desplazamiento,0.000332506,0.410423319,0.741447858
+ Guainia,Abstencion,IndiceRuralidad2014,0.146420739,0.684554261,0.213574222
+ Atlantico,PorcentajeNo,ParticipacionSegundaVuelta,-0.619389366,0.60058956,-0.524025176
+ Quindio,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.476430023,0.369136646,0.531257375
+ Boyaca,Abstencion,AbandonoODespojoDeTierras,0,0.615720325,0
+ Cordoba,PorcentajeNo,HectareasDeAmapola,0,0.333153333,0
+ Bogota  D.C.,PorcentajeSi,VinculacionNinosAdolescentes,0.005607439,0.560743926,0
+ Narino,Abstencion,HectareasDeCoca,8.92E-06,0.616551416,0.280924414
+ Arauca,PorcentajeNo,VotosParaSenado2014,5.89E-06,0.445087353,0.294991238
+ Amazonas,PorcentajeNo,VinculacionNinosAdolescentes,-0.007470618,0.196485572,-0.035593661
+ Risaralda,PorcentajeSi,Homicidio,0.001284476,0.389232039,0.341631719
+ Vichada,Abstencion,Secuestro,0.106722318,0.594475331,0.929350191
+ Cauca,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.613417661,0.853200137,-0.708943071
+ Guaviare,Abstencion,AfectadoPorElConflictoPares2,0.2001675,0.0667225,0
+ Cundinamarca,PorcentajeNo,CensoElectoral2016,-1.53E-08,0.566172349,-0.004483488
+ Antioquia,Abstencion,ParticipacionSegundaVuelta,-0.756937519,1.017594688,-0.702044389
+ Bolivar,Abstencion,VinculacionNinosAdolescentes,-0.099260267,0.73810474,-0.360439208
+ Narino,PorcentajeSi,HectareasDeAmapola,-0.001428478,0.68643302,-0.171515263
+ Cundinamarca,PorcentajeSi,ParticipacionSegundaVuelta,-0.756300274,0.832023151,-0.474063144
+ Magdalena,PorcentajeSi,IndiceRuralidad2014,0.152210909,0.624954657,0.259049495
+ Caqueta,PorcentajeNo,HectareasDeAmapola,0,0.5062125,0
+ Sucre,PorcentajeSi,Secuestro,0.017475867,0.635013814,0.191326968
+ Boyaca,PorcentajeNo,ParticipacionPrimeraVuelta,0.641682133,0.222099727,0.374021563
+ Putumayo,PorcentajeSi,Desplazamiento,0.000126579,0.575802988,0.454982144
+ Guaviare,Abstencion,ActosTerroristas,0.017122332,0.565389928,0.852708093
+ Sucre,PorcentajeSi,AbandonoODespojoDeTierras,0.000982709,0.650912088,0.100199696
+ Caldas,PorcentajeSi,ParticipacionSegundaVuelta,0.172457159,0.297252588,0.091305597
+ Vaupes,Abstencion,IndiceRuralidad2014,0.044237379,0.727254049,0.167719664
+ Cesar,PorcentajeNo,AbandonoODespojoDeTierras,-0.00074143,0.463895821,-0.029192064
+ Cauca,PorcentajeSi,Desplazamiento,0.000115104,0.685487899,0.342060341
+ Santander,PorcentajeNo,ActosTerroristas,0.010666528,0.512231773,0.114138509
+ Tolima,Abstencion,VinculacionNinosAdolescentes,0.003432466,0.635733529,0.234160698
+ Guaviare,Abstencion,HectareasDeCoca,-2.53E-05,0.701535735,-0.181671284
+ Cauca,PorcentajeNo,Homicidio,0.000212143,0.267883634,0.053838366
+ Amazonas,PorcentajeNo,Homicidio,-0.00094359,0.197718778,-0.050845137
+ Meta,PorcentajeSi,AfectadoPorElConflictoPares2,0.082767526,0.371531443,0.57929516
+ Meta,Abstencion,AbandonoODespojoDeTierras,-0.000803255,0.574092417,-0.048298643
+ La  Guajira,PorcentajeNo,Secuestro,-0.010799868,0.386495567,-0.320278328
+ Casanare,PorcentajeSi,IndiceRuralidad2014,-0.018413454,0.385353287,-0.016663422
+ Arauca,PorcentajeSi,ParticipacionPrimeraVuelta,-1.91552931,1.162465717,-0.427039331
+ Santander,PorcentajeNo,TotalSegundaVuelta,3.81E-07,0.518311227,0.090315945
+ Sucre,PorcentajeSi,MinasAntipersonal,-0.005578982,0.654961868,-0.02299865
+ La  Guajira,Abstencion,MinasAntipersonal,-0.161888639,0.760185297,-0.401906721
+ Narino,PorcentajeSi,VinculacionNinosAdolescentes,0.245696514,0.636041974,0.515310139
+ Vaupes,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.634289333,0.999689784,-0.805018497
+ Bogota  D.C.,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,0.200916675,0.475993071,0
+ Cesar,Abstencion,AfectadoPorElConflictoPares2,-0.019975,0.6787,-0.219055338
+ Antioquia,PorcentajeNo,MinasAntipersonal,-0.011813321,0.592717952,-0.245671245
+ Magdalena,PorcentajeSi,Amenaza,0.003710036,0.6304321,0.471739448
+ Sucre,PorcentajeSi,TotalPrimeraVuelta,-2.03E-06,0.673183563,-0.265364881
+ Valle  del  Cauca,PorcentajeSi,ActosTerroristas,0.006503904,0.461067507,0.102872546
+ Santander,PorcentajeNo,ParticipacionSegundaVuelta,-0.116884621,0.584305924,-0.048656374
+ Quindio,PorcentajeNo,TotalSegundaVuelta,-3.69E-07,0.628979289,-0.260186502
+ Bogota  D.C.,Abstencion,IndiceRuralidad2014,0.001126855,0.536597634,0
+ Huila,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.316333699,0.465286521,0.492517122
+ Arauca,PorcentajeSi,Amenaza,-0.000365039,0.516301675,-0.017946937
+ Vaupes,PorcentajeNo,ParticipacionSegundaVuelta,0.394351336,0.049799874,0.503731871
+ Atlantico,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.189856686,0.732522695,0.289956793
+ Bolivar,PorcentajeNo,CensoElectoral2016,1.97E-07,0.327923608,0.176815414
+ Cesar,PorcentajeSi,CensoElectoral2016,-2.41E-07,0.5442189,-0.12739111
+ Caqueta,Abstencion,VinculacionNinosAdolescentes,0.028207499,0.684190443,0.360913834
+ Tolima,Abstencion,ParticipacionPrimeraVuelta,-0.663830706,0.900960988,-0.762715354
+ Narino,PorcentajeNo,ActosTerroristas,-0.00305329,0.340415259,-0.282457678
+ La  Guajira,PorcentajeSi,HectareasDeCoca,0,0.627126667,0
+ Cordoba,PorcentajeNo,AbandonoODespojoDeTierras,0.003013749,0.328998378,0.175543654
+ Meta,Abstencion,VinculacionNinosAdolescentes,0.025486865,0.547140689,0.39697545
+ Arauca,PorcentajeNo,MinasAntipersonal,-0.011993345,0.52188844,-0.199085165
+ Guainia,PorcentajeNo,TotalPrimeraVuelta,5.11E-05,0.203223278,0.497941877
+ Magdalena,PorcentajeNo,MinasAntipersonal,1.558815443,0.279006014,0.383165188
+ Caqueta,Abstencion,IndiceRuralidad2014,0.092395995,0.664063435,0.385804176
+ Sucre,PorcentajeSi,ActosTerroristas,-8.33E-06,0.654122407,-0.002232666
+ Caldas,PorcentajeNo,Homicidio,0.000388588,0.60290297,0.105618774
+ Boyaca,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.540729062,0.837635347,-0.659451575
+ Casanare,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,1.366463345,-0.370820813,0.959874616
+ Caldas,Abstencion,AfectadoPorElConflictoPares2,-0.020576923,0.636076923,-0.080097002
+ Cundinamarca,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.215165265,0.505421118,0.471380848
+ Vaupes,PorcentajeSi,TotalPrimeraVuelta,-3.07E-05,0.880702506,-0.6879411
+ La  Guajira,PorcentajeNo,HectareasDeAmapola,0,0.372873333,0
+ Valle  del  Cauca,PorcentajeSi,IndiceRuralidad2014,-0.090180372,0.504312491,-0.229970739
+ Casanare,PorcentajeSi,Secuestro,0.006902885,0.346187867,0.366530174
+ Tolima,PorcentajeSi,CensoElectoral2016,-7.95E-08,0.418012922,-0.050378733
+ Guaviare,PorcentajeSi,VotosParaSenado2014,-2.66E-05,0.790332704,-0.904225282
+ Guainia,PorcentajeNo,HectareasDeAmapola,0,0.239655556,0
+ Cordoba,PorcentajeNo,TotalSegundaVuelta,1.90E-06,0.295662452,0.51359034
+ Meta,PorcentajeNo,ActosTerroristas,-0.003960245,0.576481474,-0.182260458
+ Amazonas,PorcentajeSi,Amenaza,0.003480638,0.777748669,0.258972661
+ La  Guajira,PorcentajeNo,Desplazamiento,-9.59E-05,0.396798551,-0.291323374
+ Magdalena,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.737038935,0.119182449,0.611999011
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,ParticipacionSegundaVuelta,3.754901961,-0.355657843,1
+ Guainia,PorcentajeSi,IndiceRuralidad2014,0.223684211,0.441415789,0.163443838
+ Risaralda,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.563654584,0.632027204,-0.606527979
+ Sucre,PorcentajeNo,IndiceRuralidad2014,-0.050695604,0.370002017,-0.103264464
+ Bogota  D.C.,PorcentajeNo,CensoElectoral2016,7.92E-08,1.43E-14,0
+ Arauca,Abstencion,Amenaza,0.000876248,0.647870161,0.28957343
+ Santander,PorcentajeSi,TotalPrimeraVuelta,-4.23E-07,0.48151743,-0.090082222
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,Amenaza,-2.188571429,0.8185,-1
+ Boyaca,PorcentajeNo,ActosTerroristas,0.009499605,0.495897943,0.183900611
+ Tolima,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.423492939,0.323173731,0.725668384
+ Huila,PorcentajeSi,HectareasDeAmapola,0.031066132,0.365196534,0.366066017
+ Choco,Abstencion,AfectadoPorElConflictoPares2,0.005298471,0.665086544,0.110701663
+ Norte  de  Santander,Abstencion,HectareasDeAmapola,0,0.633705,0
+ Guaviare,PorcentajeNo,TotalPrimeraVuelta,2.70E-05,0.215439689,0.871065459
+ Santander,Abstencion,VinculacionNinosAdolescentes,0.004527911,0.606047978,0.020984286
+ Amazonas,PorcentajeSi,HectareasDeCoca,0.001370736,0.792174113,0.297610905
+ Magdalena,PorcentajeNo,TotalSegundaVuelta,2.06E-06,0.278146304,0.367919362
+ Santander,PorcentajeSi,Secuestro,-0.032648769,0.500537312,-0.263959215
+ Santander,PorcentajeSi,AbandonoODespojoDeTierras,-0.003521401,0.479205667,-0.047932564
+ Antioquia,PorcentajeSi,Amenaza,0.00167575,0.381790177,0.298823342
+ La  Guajira,Abstencion,AfectadoPorElConflictoPares2,0.059503448,0.701171264,0.517849104
+ Santander,Abstencion,VotosParaSenado2014,-7.80E-07,0.611690773,-0.25686531
+ Quindio,PorcentajeNo,VinculacionNinosAdolescentes,0.068641784,0.616087774,0.281490493
+ Risaralda,PorcentajeNo,HectareasDeAmapola,0,0.566721429,0
+ Choco,PorcentajeNo,Homicidio,0.001416308,0.145308096,0.35775058
+ Choco,PorcentajeNo,MinasAntipersonal,0.048905497,0.159091234,0.193001638
+ Tolima,Abstencion,AbandonoODespojoDeTierras,0.00201327,0.636959907,0.168598477
+ Santander,PorcentajeNo,AfectadoPorElConflictoPares2,-0.011592273,0.522639697,-0.028620772
+ Cordoba,PorcentajeNo,VinculacionNinosAdolescentes,0.228914104,0.324683511,0.196722625
+ Narino,Abstencion,ActosTerroristas,-0.000461957,0.623692519,-0.088758893
+ Guaviare,PorcentajeNo,Desplazamiento,-0.000491112,0.718372215,-0.5710081
+ Vichada,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.453591147,0.916339137,-0.884633127
+ Putumayo,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.702908148,0.126068129,0.91675521
+ Vichada,PorcentajeNo,Desplazamiento,-0.00131254,0.812024535,-0.911181449
+ Cesar,PorcentajeNo,Amenaza,-0.001563527,0.492625234,-0.309625327
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,ParticipacionSegundaVuelta,-3.754901961,1.355657843,-1
+ Choco,PorcentajeSi,AfectadoPorElConflictoPares2,-0.016080122,0.855408257,-0.161847845
+ Boyaca,PorcentajeSi,MinasAntipersonal,-0.009968326,0.500109014,-0.142363552
+ Amazonas,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.679790575,-0.067641585,0.718845851
+ Risaralda,Abstencion,CensoElectoral2016,-2.16E-07,0.6385858,-0.527826716
+ Santander,Abstencion,ParticipacionSegundaVuelta,-0.597599958,0.92598886,-0.528293599
+ Sucre,Abstencion,Amenaza,0.000533327,0.649616694,0.150642245
+ Boyaca,PorcentajeSi,TotalSegundaVuelta,7.09E-08,0.497558269,0.005139696
+ Tolima,Abstencion,TotalPrimeraVuelta,-6.21E-07,0.644003112,-0.43548227
+ Atlantico,PorcentajeNo,Desplazamiento,-0.000973637,0.321954319,-0.232710301
+ Putumayo,PorcentajeNo,TotalSegundaVuelta,-2.84E-06,0.368664602,-0.115955423
+ Magdalena,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.653509947,0.117883042,0.611292879
+ Tolima,PorcentajeSi,AbandonoODespojoDeTierras,-0.00238365,0.41787296,-0.08256888
+ Choco,PorcentajeNo,HectareasDeAmapola,0,0.17836,0
+ Choco,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.127541044,0.652591882,0.171780947
+ Casanare,Abstencion,Homicidio,-0.002253852,0.604608499,-0.51372265
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,ActosTerroristas,10.82,0.6988,1
+ Vaupes,Abstencion,AfectadoPorElConflictoPares2,-0.0109,0.7815,-0.343381388
+ Choco,Abstencion,Secuestro,0.006214525,0.662910107,0.379800546
+ Cauca,Abstencion,Desplazamiento,4.11E-05,0.604772485,0.188296198
+ Magdalena,Abstencion,IndiceRuralidad2014,0.005330407,0.758521677,0.017004164
+ Cordoba,PorcentajeNo,IndiceRuralidad2014,-0.254815697,0.48188331,-0.536997628
+ Meta,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.892513777,0.985595765,-0.778819021
+ Casanare,Abstencion,ParticipacionSegundaVuelta,-0.555830278,0.819172804,-0.487130997
+ Sucre,PorcentajeNo,HectareasDeAmapola,0,0.345930769,0
+ Vaupes,Abstencion,HectareasDeCoca,-0.001388226,0.772701947,-0.334100091
+ Guainia,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.32753564,0.759223267,0.304398285
+ La  Guajira,Abstencion,TotalPrimeraVuelta,2.55E-06,0.716255478,0.194878168
+ Arauca,PorcentajeSi,MinasAntipersonal,0.011993345,0.47811156,0.199085165
+ Cesar,PorcentajeNo,CensoElectoral2016,2.41E-07,0.4557811,0.12739111
+ Risaralda,Abstencion,Secuestro,0.03397679,0.600899151,0.644654651
+ Antioquia,PorcentajeNo,Desplazamiento,-5.92E-05,0.610771,-0.318995482
+ Guainia,PorcentajeNo,Amenaza,0.006417706,0.214605108,0.150899083
+ Caldas,PorcentajeNo,TotalSegundaVuelta,-5.91E-07,0.623288049,-0.297539562
+ Amazonas,PorcentajeNo,HectareasDeCoca,-0.001370736,0.207825887,-0.297610905
+ Huila,PorcentajeSi,Secuestro,0.101802658,0.34084375,0.338380894
+ Sucre,PorcentajeSi,Homicidio,0.000459524,0.641300129,0.180192229
+ Arauca,PorcentajeSi,ActosTerroristas,0.00286824,0.486313327,0.072232598
+ Caqueta,PorcentajeNo,TotalSegundaVuelta,1.81E-06,0.49416321,0.156827932
+ Atlantico,PorcentajeSi,ActosTerroristas,0.07195997,0.687278663,0.13905009
+ Antioquia,PorcentajeNo,ParticipacionPrimeraVuelta,0.597065567,0.365369862,0.422117155
+ Risaralda,PorcentajeNo,IndiceRuralidad2014,-0.088831288,0.609552068,-0.299741605
+ Sucre,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.194062591,0.586401446,0.366022601
+ Bolivar,PorcentajeNo,IndiceRuralidad2014,-0.013436763,0.34032892,-0.028434089
+ Vichada,PorcentajeNo,HectareasDeCoca,-0.000504826,0.604366667,-0.888881962
+ Casanare,PorcentajeSi,AbandonoODespojoDeTierras,0,0.377610526,0
+ Caldas,PorcentajeNo,TotalPrimeraVuelta,-6.02E-07,0.622848536,-0.301728629
+ Cundinamarca,PorcentajeSi,VotosParaSenado2014,-1.88E-07,0.434919188,-0.015131469
+ Antioquia,PorcentajeSi,IndiceRuralidad2014,0.178701166,0.32929388,0.28791816
+ Bogota  D.C.,PorcentajeNo,Secuestro,0.013164152,0.438805075,0
+ Bolivar,PorcentajeNo,VotosParaSenado2014,7.38E-07,0.325894947,0.186820305
+ Antioquia,Abstencion,ParticipacionPrimeraVuelta,-0.762220901,0.96725651,-0.824180495
+ Bolivar,PorcentajeSi,AbandonoODespojoDeTierras,-0.00967168,0.668931564,-0.110699931
+ Antioquia,PorcentajeSi,Secuestro,-0.000413004,0.422580626,-0.037336458
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,HectareasDeCoca,0,0.3347,0
+ Choco,PorcentajeNo,CensoElectoral2016,1.36E-06,0.164920713,0.177743869
+ Caldas,PorcentajeSi,Desplazamiento,3.03E-05,0.378766382,0.193798272
+ La  Guajira,PorcentajeSi,MinasAntipersonal,0.096132675,0.613283561,0.308592905
+ Arauca,PorcentajeSi,ParticipacionSegundaVuelta,1.559588126,-0.220198789,0.243716043
+ Antioquia,PorcentajeSi,HectareasDeAmapola,0,0.4209184,0
+ Vichada,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.409989388,0.912748977,-0.875962902
+ La  Guajira,PorcentajeSi,HectareasDeAmapola,0,0.627126667,0
+ Meta,PorcentajeSi,ParticipacionPrimeraVuelta,-1.126433251,0.962428732,-0.675598408
+ Caqueta,PorcentajeNo,Homicidio,0.002225708,0.326987354,0.498182013
+ Amazonas,PorcentajeNo,TotalPrimeraVuelta,3.24E-05,0.152233037,0.899872378
+ Vaupes,PorcentajeNo,Desplazamiento,0.000201684,0.112736157,0.490257264
+ Risaralda,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.20305661,0.555243646,0.412132159
+ Huila,Abstencion,TotalSegundaVuelta,-8.74E-08,0.612452894,-0.042301721
+ Quindio,PorcentajeSi,HectareasDeAmapola,0,0.377791667,0
+ Antioquia,PorcentajeNo,VotosParaSenado2014,2.24E-07,0.576843462,0.06887349
+ Meta,PorcentajeNo,AbandonoODespojoDeTierras,0.005928324,0.548316746,0.151736498
+ Bogota  D.C.,Abstencion,Amenaza,0.159687979,0.483902967,0
+ Cordoba,PorcentajeNo,Amenaza,-0.000747266,0.341508011,-0.195845775
+ Arauca,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.742661382,0.176696254,0.891608617
+ Bogota  D.C.,PorcentajeSi,AbandonoODespojoDeTierras,0,0.5608,0
+ Caqueta,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.193113691,0.806446397,-0.44159869
+ Bogota  D.C.,PorcentajeNo,ParticipacionSegundaVuelta,0.173453985,0.354276929,0
+ Caldas,PorcentajeNo,MinasAntipersonal,-0.027122257,0.624195481,-0.375057461
+ Tolima,PorcentajeNo,IndiceRuralidad2014,-0.030456744,0.600125657,-0.080511605
+ Amazonas,PorcentajeNo,Secuestro,-0.005000998,0.196345928,-0.038603882
+ Valle  del  Cauca,PorcentajeSi,ParticipacionSegundaVuelta,0.037419877,0.452715153,0.012840622
+ Amazonas,PorcentajeSi,VinculacionNinosAdolescentes,0.007470618,0.803514428,0.035593661
+ Cauca,Abstencion,HectareasDeCoca,1.88E-05,0.614905209,0.162399414
+ La  Guajira,Abstencion,AbandonoODespojoDeTierras,0,0.736873333,0
+ Huila,Abstencion,HectareasDeCoca,0,0.611581081,0
+ Casanare,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.205061256,0.358362292,0.488900522
+ Amazonas,PorcentajeNo,ActosTerroristas,-0.035962397,0.203813347,-0.154876231
+ Atlantico,PorcentajeSi,Secuestro,-0.015819778,0.693509806,-0.016135024
+ Vichada,PorcentajeNo,Homicidio,-0.010708686,0.627432137,-0.212062302
+ Guainia,PorcentajeSi,Secuestro,0.198016389,0.570026778,0.421555176
+ Guaviare,Abstencion,TotalSegundaVuelta,-1.15E-05,0.729551935,-0.819038545
+ Quindio,Abstencion,VotosParaSenado2014,-3.17E-07,0.603615608,-0.287554887
+ Tolima,Abstencion,Desplazamiento,1.60E-05,0.631059977,0.303505427
+ Sucre,PorcentajeSi,ParticipacionPrimeraVuelta,0.334424901,0.518287576,0.152905545
+ Magdalena,PorcentajeSi,AbandonoODespojoDeTierras,-0.007450871,0.700746459,-0.109603116
+ Guainia,Abstencion,AbandonoODespojoDeTierras,0,0.820588889,0
+ Amazonas,PorcentajeNo,TotalSegundaVuelta,2.90E-05,0.152081309,0.899318204
+ Cordoba,PorcentajeSi,ActosTerroristas,0.004472582,0.660140776,0.224200464
+ Choco,Abstencion,TotalSegundaVuelta,-8.32E-07,0.678868335,-0.08100237
+ Guainia,Abstencion,TotalSegundaVuelta,-1.50E-05,0.833630743,-0.226348563
+ Magdalena,PorcentajeNo,Amenaza,-0.003710036,0.3695679,-0.471739448
+ Caldas,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.326462578,0.60309277,-0.54245384
+ Valle  del  Cauca,PorcentajeSi,CensoElectoral2016,7.46E-08,0.46314481,0.220859217
+ Valle  del  Cauca,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.39401128,0.357322172,0.770864179
+ Bolivar,PorcentajeNo,Homicidio,0.000829684,0.32153956,0.093354191
+ Magdalena,Abstencion,Desplazamiento,3.58E-05,0.742743342,0.233663501
+ Cundinamarca,PorcentajeNo,MinasAntipersonal,-0.059503205,0.574423129,-0.275823387
+ Bogota  D.C.,Abstencion,ActosTerroristas,0.088659734,0.521527845,0
+ Valle  del  Cauca,Abstencion,Desplazamiento,9.13E-05,0.637562897,0.38191172
+ Valle  del  Cauca,PorcentajeSi,VotosParaSenado2014,3.30E-07,0.461946319,0.229607044
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,Desplazamiento,0.24512,0.2473704,1
+ Quindio,PorcentajeNo,ParticipacionSegundaVuelta,-0.062870225,0.65500249,-0.033970622
+ Santander,PorcentajeNo,Desplazamiento,0.000218875,0.495417707,0.243479249
+ Cordoba,PorcentajeSi,VinculacionNinosAdolescentes,-0.228914104,0.675316489,-0.196722625
+ Vichada,PorcentajeSi,CensoElectoral2016,1.63E-05,0.290201772,0.662925093
+ Norte  de  Santander,PorcentajeNo,ParticipacionPrimeraVuelta,1.239262654,0.113841169,0.582973566
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,51.93220339,-15.24236441,1
+ Huila,PorcentajeNo,CensoElectoral2016,-1.94E-07,0.631002387,-0.093266777
+ Boyaca,PorcentajeNo,HectareasDeAmapola,0,0.502171545,0
+ Huila,PorcentajeNo,Secuestro,-0.101802658,0.65915625,-0.338380894
+ Valle  del  Cauca,Abstencion,HectareasDeCoca,0.000108158,0.647368415,0.309629937
+ Bogota  D.C.,Abstencion,VinculacionNinosAdolescentes,0.005365463,0.536546345,0
+ Tolima,PorcentajeNo,TotalSegundaVuelta,1.75E-07,0.581892449,0.054846056
+ Vichada,Abstencion,IndiceRuralidad2014,0.19674655,0.601784211,0.545679352
+ Guaviare,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.786830789,0.929037591,-0.971847096
+ Quindio,PorcentajeSi,VotosParaSenado2014,4.73E-07,0.37108559,0.250739398
+ Magdalena,PorcentajeNo,CensoElectoral2016,8.44E-07,0.278885213,0.378678585
+ Bolivar,PorcentajeNo,ActosTerroristas,-0.003255474,0.34184573,-0.159239982
+ Cordoba,Abstencion,HectareasDeCoca,-2.66E-05,0.684491608,-0.086191667
+ Putumayo,PorcentajeNo,AbandonoODespojoDeTierras,-0.052209291,0.367944182,-0.426045191
+ Bogota  D.C.,PorcentajeNo,ActosTerroristas,0.072566819,0.426863641,0
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,HectareasDeCoca,0,0.6653,0
+ Bolivar,Abstencion,ParticipacionSegundaVuelta,-0.768454441,1.0619784,-0.575393666
+ Guaviare,PorcentajeSi,IndiceRuralidad2014,0.760674233,0.279694091,0.873621375
+ Quindio,Abstencion,ParticipacionSegundaVuelta,-0.574867638,0.898977208,-0.530985495
+ Choco,PorcentajeSi,VotosParaSenado2014,-5.32E-06,0.837208239,-0.189048892
+ Sucre,Abstencion,IndiceRuralidad2014,0.050043435,0.632330723,0.197911047
+ Bolivar,PorcentajeSi,VinculacionNinosAdolescentes,-0.046021475,0.67250799,-0.103605887
+ Vaupes,PorcentajeNo,TotalSegundaVuelta,2.86E-05,0.118048449,0.696651839
+ Guaviare,PorcentajeNo,AfectadoPorElConflictoPares2,0.1017225,0.0339075,0
+ Arauca,PorcentajeSi,CensoElectoral2016,-1.41E-06,0.544836978,-0.201137186
+ Tolima,PorcentajeSi,VinculacionNinosAdolescentes,0.004048883,0.413188558,0.114252389
+ Arauca,PorcentajeNo,Homicidio,-0.000766063,0.550947789,-0.154755806
+ Caqueta,PorcentajeSi,Secuestro,-0.009788353,0.536097657,-0.252132613
+ Vichada,Abstencion,ParticipacionSegundaVuelta,-0.794572094,0.978949242,-0.904706813
+ Magdalena,PorcentajeSi,Desplazamiento,8.95E-05,0.649957097,0.311321233
+ Narino,PorcentajeNo,ParticipacionSegundaVuelta,0.737768203,-0.059680829,0.410395516
+ Caqueta,PorcentajeSi,HectareasDeCoca,0.00024022,0.377994578,0.78594116
+ Tolima,PorcentajeNo,VinculacionNinosAdolescentes,-0.004048883,0.586811442,-0.114252389
+ Cordoba,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.579012354,0.15863901,0.591117149
+ Bolivar,PorcentajeSi,ParticipacionPrimeraVuelta,-0.010966212,0.669127712,-0.005076563
+ Choco,Abstencion,MinasAntipersonal,0.056566861,0.65392599,0.463395081
+ Putumayo,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.119890525,0.689231642,-0.289847468
+ Bogota  D.C.,PorcentajeSi,TotalSegundaVuelta,2.20E-07,8.64E-14,0
+ Guainia,PorcentajeNo,AbandonoODespojoDeTierras,0,0.239655556,0
+ Vichada,Abstencion,Desplazamiento,0.000494004,0.579118691,0.672897727
+ Tolima,PorcentajeSi,ParticipacionSegundaVuelta,-0.514100759,0.664513602,-0.24009708
+ Quindio,Abstencion,CensoElectoral2016,-1.10E-07,0.603314763,-0.283411402
+ Cundinamarca,PorcentajeNo,AbandonoODespojoDeTierras,-0.037329891,0.567483478,-0.191287866
+ Guainia,PorcentajeSi,TotalPrimeraVuelta,-2.44E-05,0.666654118,-0.149903362
+ Valle  del  Cauca,Abstencion,HectareasDeAmapola,0,0.649145238,0
+ Atlantico,PorcentajeNo,MinasAntipersonal,0,0.307308696,0
+ Vaupes,Abstencion,VotosParaSenado2014,-1.31E-06,0.766016203,-0.031655077
+ Risaralda,PorcentajeSi,MinasAntipersonal,0.086365303,0.428158343,0.107492262
+ Cesar,PorcentajeSi,ParticipacionSegundaVuelta,-0.696389506,0.87939258,-0.299436492
+ Putumayo,Abstencion,VotosParaSenado2014,1.88E-06,0.641980478,0.105330545
+ Risaralda,PorcentajeNo,CensoElectoral2016,-5.11E-08,0.569497462,-0.066154218
+ Huila,Abstencion,CensoElectoral2016,-4.19E-08,0.612480687,-0.046616538
+ Magdalena,Abstencion,TotalPrimeraVuelta,-3.14E-07,0.763822455,-0.07921842
+ Amazonas,PorcentajeSi,AbandonoODespojoDeTierras,0,0.806027273,0
+ Amazonas,Abstencion,Amenaza,-0.000980703,0.745795039,-0.191880637
+ Cesar,PorcentajeSi,Desplazamiento,0.000116292,0.476067357,0.411704531
+ Putumayo,PorcentajeNo,Secuestro,-0.036398428,0.437658968,-0.557632289
+ Santander,PorcentajeSi,HectareasDeAmapola,0,0.47815977,0
+ Vaupes,PorcentajeSi,ActosTerroristas,-0.005130652,0.880263871,-0.705967222
+ Caldas,PorcentajeSi,VotosParaSenado2014,8.87E-07,0.375982508,0.296233348
+ La  Guajira,PorcentajeNo,CensoElectoral2016,1.08E-06,0.332421545,0.533727385
+ Sucre,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.7630893,0.071893662,0.741308722
+ Sucre,PorcentajeNo,VotosParaSenado2014,1.46E-06,0.326683071,0.260233409
+ Huila,Abstencion,AfectadoPorElConflictoPares2,0.011918182,0.606427273,0.187504017
+ Cesar,PorcentajeSi,VinculacionNinosAdolescentes,0.230646329,0.51128787,0.298902075
+ Risaralda,PorcentajeNo,MinasAntipersonal,-0.086365303,0.571841657,-0.107492262
+ Amazonas,PorcentajeSi,HectareasDeAmapola,0,0.806027273,0
+ Cauca,PorcentajeSi,VotosParaSenado2014,-3.17E-06,0.743431485,-0.296640409
+ Caqueta,Abstencion,HectareasDeAmapola,0,0.71590625,0
+ Caqueta,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.973852531,0.950372173,-0.710084844
+ Casanare,Abstencion,Amenaza,-0.00179287,0.543415138,-0.415269954
+ Cauca,PorcentajeNo,IndiceRuralidad2014,-0.092199145,0.344156263,-0.204979496
+ Choco,Abstencion,VinculacionNinosAdolescentes,0.02177396,0.663119925,0.310962599
+ Risaralda,Abstencion,HectareasDeAmapola,0,0.626842857,0
+ Cesar,PorcentajeNo,IndiceRuralidad2014,-0.081227301,0.494952813,-0.173295038
+ Bolivar,PorcentajeNo,AfectadoPorElConflictoPares2,0.026358559,0.321185938,0.245455644
+ Narino,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.10966166,0.655605437,-0.315715092
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,VotosParaSenado2014,-3.66E-05,0.867038977,-1
+ Atlantico,PorcentajeNo,AfectadoPorElConflictoPares2,0,0.307308696,0
+ Cauca,PorcentajeSi,Homicidio,-0.000212143,0.732116366,-0.053838366
+ Putumayo,PorcentajeSi,ParticipacionSegundaVuelta,-0.236403382,0.757730917,-0.150514545
+ Caqueta,Abstencion,TotalPrimeraVuelta,-1.30E-06,0.723440279,-0.322390053
+ Atlantico,Abstencion,VotosParaSenado2014,-3.25E-08,0.765641159,-0.053253924
+ Guaviare,PorcentajeNo,MinasAntipersonal,-0.124890034,0.603841873,-0.781507308
+ Risaralda,Abstencion,IndiceRuralidad2014,0.096463516,0.580332284,0.613939724
+ Putumayo,Abstencion,HectareasDeAmapola,-0.114833333,0.654633333,-0.203963061
+ Guaviare,PorcentajeSi,ParticipacionPrimeraVuelta,-1.778018739,1.223712381,-0.848490844
+ Cauca,PorcentajeSi,AbandonoODespojoDeTierras,-0.126332213,0.728939645,-0.226409781
+ Quindio,PorcentajeSi,MinasAntipersonal,-0.013206336,0.380454944,-0.164088324
+ Guainia,Abstencion,Homicidio,-0.012838959,0.830788728,-0.09417511
+ Cauca,PorcentajeNo,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.930633891,0.145880081,0.711206545
+ Santander,Abstencion,Secuestro,-0.003333277,0.608903027,-0.057230018
+ Valle  del  Cauca,PorcentajeSi,MinasAntipersonal,0.081506118,0.46033886,0.275047695
+ Caldas,PorcentajeNo,HectareasDeCoca,0,0.614762963,0
+ Meta,PorcentajeSi,ParticipacionSegundaVuelta,-1.147894099,1.031336815,-0.588296756
+ Antioquia,PorcentajeNo,IndiceRuralidad2014,-0.178701166,0.67070612,-0.28791816
+ Antioquia,PorcentajeNo,VinculacionNinosAdolescentes,-0.071381898,0.603134444,-0.319896271
+ Santander,PorcentajeSi,PorcentajeOscarIvanZuluagaSegundaVuelta,-0.498998749,0.746911319,-0.536463172
+ Cauca,PorcentajeNo,AbandonoODespojoDeTierras,0.126332213,0.271060355,0.226409781
+ Cordoba,PorcentajeNo,VotosParaSenado2014,2.11E-06,0.293134568,0.519922885
+ Guaviare,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.786830789,0.070962409,0.971847096
+ Magdalena,PorcentajeSi,HectareasDeCoca,0.008060316,0.693703642,0.058192107
+ Boyaca,PorcentajeNo,Amenaza,0.001907286,0.49460458,0.143301249
+ Antioquia,Abstencion,IndiceRuralidad2014,0.151044416,0.616985382,0.372200411
+ Atlantico,PorcentajeSi,VotosParaSenado2014,-4.48E-07,0.70700137,-0.430718648
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-51.93220339,16.24236441,-1
+ Amazonas,PorcentajeNo,MinasAntipersonal,-0.041286168,0.196937825,-0.070567769
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,VinculacionNinosAdolescentes,0,0.3347,0
+ Putumayo,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.088611932,0.635977351,0.13348331
+ Narino,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.660543992,0.806479232,-0.691489006
+ Cordoba,PorcentajeNo,AfectadoPorElConflictoPares2,-0.004698765,0.334562963,-0.046603714
+ Arauca,PorcentajeSi,Homicidio,0.000766063,0.449052211,0.154755806
+ Guaviare,PorcentajeNo,HectareasDeCoca,2.11E-06,0.336216149,0.007892736
+ Boyaca,PorcentajeNo,CensoElectoral2016,-2.57E-08,0.502365275,-0.003668727
+ Atlantico,PorcentajeSi,CensoElectoral2016,-1.55E-07,0.704710083,-0.421487216
+ Huila,PorcentajeSi,AbandonoODespojoDeTierras,0,0.373172973,0
+ Meta,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.763803337,0.797809,-0.559480922
+ Caldas,Abstencion,Homicidio,0.000212462,0.62883032,0.070502523
+ Norte  de  Santander,PorcentajeNo,Homicidio,-0.003468599,0.692755238,-0.490167198
+ Bolivar,Abstencion,Desplazamiento,-6.41E-05,0.757253346,-0.475414493
+ Antioquia,PorcentajeSi,ActosTerroristas,0.003092023,0.410356296,0.137265684
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,HectareasDeAmapola,0,0.7529,0
+ Cesar,PorcentajeSi,VotosParaSenado2014,-8.57E-07,0.545835394,-0.142183739
+ Huila,PorcentajeSi,IndiceRuralidad2014,-0.148565511,0.45604402,-0.331866775
+ Magdalena,Abstencion,ParticipacionPrimeraVuelta,-0.748766776,1.00996827,-0.596318497
+ Tolima,PorcentajeSi,VotosParaSenado2014,-3.09E-07,0.418530914,-0.062278557
+ Narino,PorcentajeNo,AfectadoPorElConflictoPares2,-0.087481759,0.423133311,-0.748254079
+ Quindio,PorcentajeNo,ActosTerroristas,0.004099439,0.616564773,0.221939544
+ Valle  del  Cauca,Abstencion,Amenaza,0.000843478,0.639953533,0.3239965
+ Atlantico,Abstencion,ParticipacionSegundaVuelta,-0.4463526,0.975952304,-0.644416274
+ Cordoba,Abstencion,MinasAntipersonal,-0.026163686,0.687722439,-0.32120132
+ Boyaca,PorcentajeSi,CensoElectoral2016,2.57E-08,0.497634725,0.003668727
+ Bogota  D.C.,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.157351291,0.37278202,0
+ Risaralda,PorcentajeNo,VinculacionNinosAdolescentes,-0.177720081,0.611024506,-0.819561842
+ Guainia,Abstencion,PorcentajeOscarIvanZuluagaSegundaVuelta,0.275096772,0.729877257,0.388374311
+ Amazonas,Abstencion,CensoElectoral2016,2.85E-08,0.737711268,0.006469648
+ Cundinamarca,PorcentajeSi,AbandonoODespojoDeTierras,0.037329891,0.432516522,0.191287866
+ Vichada,PorcentajeSi,TotalSegundaVuelta,1.59E-05,0.426425598,0.147677581
+ Quindio,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-0.432692319,0.512189507,-0.545074526
+ Norte  de  Santander,Abstencion,TotalPrimeraVuelta,-4.60E-07,0.638215918,-0.192516153
+ Quindio,Abstencion,ParticipacionPrimeraVuelta,-0.734232515,0.939372251,-0.542815725
+ Cundinamarca,Abstencion,VinculacionNinosAdolescentes,0.082550283,0.578477159,0.327770952
+ Cundinamarca,PorcentajeSi,VinculacionNinosAdolescentes,0.093740264,0.421212326,0.286322921
+ Casanare,PorcentajeSi,PorcentajeOscarIvanZuluagaPrimeraVuelta,-1.255238444,1.083939805,-0.818294512
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",Abstencion,Homicidio,-0.174516129,0.868080645,-1
+ Vichada,PorcentajeSi,MinasAntipersonal,1.682746365,0.334609693,0.623011742
+ Atlantico,Abstencion,AfectadoPorElConflictoPares2,0,0.764604348,0
+ Choco,Abstencion,Desplazamiento,2.97E-05,0.647308685,0.538824434
+ Atlantico,PorcentajeNo,HectareasDeCoca,0,0.307308696,0
+ Norte  de  Santander,PorcentajeNo,Amenaza,-0.025047992,0.716331141,-0.667695879
+ Caqueta,Abstencion,TotalSegundaVuelta,-1.18E-06,0.723734674,-0.319546418
+ Atlantico,PorcentajeNo,TotalPrimeraVuelta,7.17E-07,0.29448365,0.413021994
+ Valle  del  Cauca,Abstencion,PorcentajeOscarIvanZuluagaPrimeraVuelta,0.162761781,0.613076452,0.382088227
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeSi,TotalSegundaVuelta,-3.63E-05,0.862499621,-1
+ Valle  del  Cauca,Abstencion,AfectadoPorElConflictoPares2,0.009101908,0.646327981,0.162708161
+" Archipielago  de  San  Andres, Providencia y Santa Catalina",PorcentajeNo,Amenaza,2.188571429,0.1815,1
+ Cesar,Abstencion,CensoElectoral2016,2.49E-08,0.671562703,0.023311543
+ Caqueta,PorcentajeNo,TotalPrimeraVuelta,2.20E-06,0.493425526,0.174471486
+ Casanare,PorcentajeNo,Amenaza,-0.00784171,0.779867523,-0.535145689
+ Magdalena,PorcentajeSi,MinasAntipersonal,-1.558815443,0.720993986,-0.383165188
+ Meta,PorcentajeNo,VotosParaSenado2014,1.48E-06,0.544955195,0.20822955
+ Cordoba,Abstencion,HectareasDeAmapola,0,0.683283333,0
+ Guainia,Abstencion,HectareasDeCoca,0.001514851,0.814406612,0.072871946
+ Norte  de  Santander,PorcentajeNo,VinculacionNinosAdolescentes,-0.17954344,0.615207226,-0.354561602
+ Cesar,PorcentajeNo,HectareasDeCoca,0.006557809,0.454244867,0.284531379
+ Vaupes,PorcentajeSi,HectareasDeCoca,-0.000978057,0.859187299,-0.166090511
+ Santander,Abstencion,ParticipacionPrimeraVuelta,-0.975431438,1.017453295,-0.752237405
+ Quindio,PorcentajeNo,VotosParaSenado2014,-4.73E-07,0.62891441,-0.250739398
+ Meta,PorcentajeSi,Homicidio,0.000904431,0.397878255,0.196923234
+ Vaupes,Abstencion,TotalSegundaVuelta,-1.86E-06,0.766972386,-0.064064807
+ Choco,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.442536113,0.03247207,0.663793418
+ Narino,PorcentajeNo,CensoElectoral2016,3.32E-07,0.314977992,0.08873178
+ Atlantico,PorcentajeSi,Desplazamiento,0.000973637,0.678045681,0.232710301
+ Guaviare,PorcentajeSi,CensoElectoral2016,-8.77E-06,0.78471433,-0.835143831
+ Valle  del  Cauca,Abstencion,VinculacionNinosAdolescentes,0.048716075,0.645619122,0.162393306
+ Boyaca,PorcentajeNo,AbandonoODespojoDeTierras,0,0.502171545,0
+ Norte  de  Santander,PorcentajeNo,IndiceRuralidad2014,-0.218789083,0.711220114,-0.301705986
+ Bolivar,PorcentajeSi,MinasAntipersonal,-0.019402233,0.673433637,-0.106888694
+ Norte  de  Santander,PorcentajeNo,HectareasDeAmapola,0,0.58069,0
+ Magdalena,PorcentajeSi,HectareasDeAmapola,0,0.695533333,0
+ Choco,Abstencion,HectareasDeAmapola,0,0.676213333,0
+ Valle  del  Cauca,Abstencion,ParticipacionSegundaVuelta,-0.707167745,0.960453949,-0.612038838
+ Casanare,Abstencion,VotosParaSenado2014,1.43E-07,0.506721227,0.017273893
+ Santander,PorcentajeNo,PorcentajeOscarIvanZuluagaSegundaVuelta,0.498998749,0.253088681,0.536463172
+ Valle  del  Cauca,Abstencion,CensoElectoral2016,-1.35E-08,0.650238622,-0.100783166
+ La  Guajira,Abstencion,VinculacionNinosAdolescentes,-0.424572632,0.754988432,-0.276365698
+ Sucre,PorcentajeNo,HectareasDeCoca,0,0.345930769,0
+ Cundinamarca,PorcentajeNo,TotalSegundaVuelta,4.36E-08,0.565603735,0.006315584
+ Amazonas,Abstencion,ParticipacionPrimeraVuelta,-0.35236128,0.834217302,-0.887808705
+ Cesar,Abstencion,MinasAntipersonal,-0.139166795,0.689119349,-0.320834085
+ Quindio,PorcentajeSi,CensoElectoral2016,1.74E-07,0.371175127,0.261300034
+ Quindio,PorcentajeNo,Desplazamiento,1.14E-05,0.621100687,0.034294879
+ Bolivar,Abstencion,AfectadoPorElConflictoPares2,-0.030687387,0.738624128,-0.460939538
+ Narino,PorcentajeSi,Amenaza,0.002848006,0.644528338,0.368596368
+ Tolima,PorcentajeSi,IndiceRuralidad2014,0.030456744,0.399874343,0.080511605
+ Guaviare,Abstencion,Amenaza,0.007955078,0.472226161,0.752396228
+ Arauca,Abstencion,TotalPrimeraVuelta,-1.50E-06,0.677452675,-0.531937418

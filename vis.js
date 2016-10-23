@@ -25,6 +25,7 @@ var variables = [];
 var correlation = [];
 var scatterplot = [];
 var departamentos = [];
+var departamentos_results = [];
 
 function createMatrix(data, svg, x, y, z) {
 
@@ -51,9 +52,13 @@ function createMatrix(data, svg, x, y, z) {
       .attr('y', function (d) {return y(fnAccY(d));})
       .text(function (d) { return d.Variable2;});
 
-	svg.selectAll(".bars")
-	  	.data(data)
-		.enter().append("rect")
+	var rects = svg.selectAll(".bars")
+	  	.data(data);
+
+	var rectsEnter = rects.enter()
+		.append("rect");
+
+	rects.merge(rectsEnter)	
 		.attr("class", "bars")
 		.attr("x", function (d) {return x(fnAccX(d));})
 	  	.attr("y", function (d) {return y(fnAccY(d));})
@@ -241,6 +246,31 @@ d3.csv("/docs/departamentos.csv", function(err, data) {
 	departamentos = data;
 });
 
+d3.csv("/docs/departamentos_results.csv", function(err, data) {
+	if(err) {
+		console.err(err);    
+	return;
+	}
+	data.forEach(function (item) {
+		for (var key in item) {
+			if (key !== "Variable1" && key !== "Variable2" && key !== "Departamento") item[key] = + item[key];
+			else item[key] = item[key].trim();
+		}		
+		for (var i = 0; i < comparadores.length; i++) {
+			if (comparadores[i] === item.Variable1) {
+				item.posY = i;				
+			}
+		}
+		for (var i = 0; i < variables.length; i++) {
+			if (variables[i] === item.Variable2) {
+				item.posX = i;
+			}
+		}
+	});
+
+	departamentos_results = data;
+});
+
 $.getJSON("/docs/colombia.json",function(colombia){
 	colombia.features.forEach(function(d){
 	    departamentos.forEach(function (e){
@@ -271,7 +301,13 @@ $.getJSON("/docs/colombia.json",function(colombia){
 		    },
 			onEachFeature: function (feature, layer) {
 				layer.on({
-					click: function(e) { console.log(e);},
+					click: function(e) { 
+						var depto = e.target.feature.properties.indicators.Departamento;
+						var dataMatrix = departamentos_results.filter(function (d) {
+							if (d.Departamento === depto) return d;
+						});
+						createMatrix(dataMatrix, svg1, x1, y1, z1);
+						console.log(e);},
 					mouseover: function (e) { 
 						var indicators = e.target.feature.properties.indicators;
 						var ganador = (indicators["Resultado plebiscito"] > 0)? "Sí": "No";

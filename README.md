@@ -1,6 +1,8 @@
 # Plebiscito Colombia 2016
 Visualización de la correlación de variables de resultados electorales y características de los municipios con los resultados del plebiscito del 2016 en Colombia.
 
+Disponible [acá](http://bl.ocks.org/mvanegas10/raw/3bd6d116da4ed96d212e783060720c5d/).
+
 ## Caracterización de los datos
 
 Características de los municipios y sus resultados electorales en las últimas elecciones (**Table**). Cada uno de los items tiene:

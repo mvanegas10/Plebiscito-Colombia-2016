@@ -15,7 +15,11 @@ body {
 }
 
 li {
-display:inline-block;
+  display:inline-block;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .axis path,

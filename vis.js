@@ -280,7 +280,7 @@ d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/results.csv",
 	createMatrix(undefined, correlation, svg1, x1, y1, z1);
 });
 
-d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/Plebiscito.csv", function(err, data) {
+d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/plebiscito.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;

@@ -241,7 +241,7 @@ function createScatterplot(data, attrX, attrY, x, y, z) {
 	  .attr("d", line);
 }
 
-d3.csv("/docs/results.csv", function(err, data) {
+d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/results.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;
@@ -280,7 +280,7 @@ d3.csv("/docs/results.csv", function(err, data) {
 	createMatrix(undefined, correlation, svg1, x1, y1, z1);
 });
 
-d3.csv("/docs/Plebiscito.csv", function(err, data) {
+d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/Plebiscito.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;
@@ -299,7 +299,7 @@ d3.csv("/docs/Plebiscito.csv", function(err, data) {
 
 });
 
-d3.csv("/docs/departamentos.csv", function(err, data) {
+d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/departamentos.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;
@@ -307,7 +307,7 @@ d3.csv("/docs/departamentos.csv", function(err, data) {
 	departamentos = data;
 });
 
-d3.csv("/docs/departamentos_results.csv", function(err, data) {
+d3.csv("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/departamentos_results.csv", function(err, data) {
 	if(err) {
 		console.err(err);    
 	return;
@@ -332,7 +332,7 @@ d3.csv("/docs/departamentos_results.csv", function(err, data) {
 	departamentos_results = data;
 });
 
-$.getJSON("/docs/colombia.json",function(colombia){
+$.getJSON("https://mvanegas10.github.io/Plebiscito-Colombia-2016/docs/colombia.json",function(colombia){
 	colombia.features.forEach(function(d){
 	    departamentos.forEach(function (e){
 	        if(e.Departamento.toUpperCase().indexOf(d.properties.NOMBRE_DPT) !== -1){
